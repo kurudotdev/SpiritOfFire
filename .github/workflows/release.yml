@@ -1,0 +1,158 @@
+name: Trigger Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_type:
+        description: 'What should be bumped?'
+        required: true
+        default: 'patch'
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code with full history and tags
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0      
+          fetch-tags: true     
+
+      - name: Calculate next semantic version
+        id: version
+        run: |
+          bump="${{ github.event.inputs.release_type }}"
+
+          latest=$(git tag --sort=-v:refname | grep -E '^[0-9]+\.[0-9]+\.[0-9]+$' | head -n1)
+          if [ -z "$latest" ]; then
+            latest="0.0.0"
+          fi
+          echo "Latest tag: $latest"
+
+          IFS='.' read -r major minor patch <<< "$latest"
+
+          case "$bump" in
+            major)
+              major=$((major + 1))
+              minor=0
+              patch=0
+              ;;
+            minor)
+              minor=$((minor + 1))
+              patch=0
+              ;;
+            patch)
+              patch=$((patch + 1))
+              ;;
+          esac
+
+          new_version="$major.$minor.$patch"
+          echo "version=$new_version" >> $GITHUB_OUTPUT
+          echo "xml_version=$new_version" >> $GITHUB_OUTPUT
+
+      - name: Delete tag & release if it already exists
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          tag="${{ steps.version.outputs.version }}"
+
+          if git ls-remote --tags origin | grep -q "refs/tags/$tag"; then
+            echo "Tag $tag exists. Deleting release and tag..."
+
+            release_id=$(gh release view "$tag" --json id -q .id || echo "")
+            if [[ -n "$release_id" ]]; then
+              gh release delete "$tag" -y
+            fi
+
+            git push origin :refs/tags/"$tag"
+            git tag -d "$tag" || true
+          else
+            echo "No existing tag found."
+          fi
+
+      - name: Update version in XML
+        run: |
+          file="ModData/data/stringtable-en.xml"
+          sed -i 's|\(<String _locID="26003"[^>]*>\)[^<]*\(</String>\)|\1${{ steps.version.outputs.xml_version }}\2|' "$file"
+
+      - name: Commit updated XML
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add ModData/data/stringtable-en.xml
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit (version may already be up to date)."
+          else
+            git commit -m "Update version string to ${{ steps.version.outputs.xml_version }}"
+            git push
+          fi
+
+      - name: Create ZIP of ModData (excluding dot folders)
+        run: |
+          mkdir -p dist
+          zip_name="SpiritOfFire-${{ steps.version.outputs.version }}.zip"
+          zip -r "dist/$zip_name" ModData -x 'ModData/.*/*' -x 'ModData/.*'
+
+      - name: Create new tag
+        run: |
+          git tag ${{ steps.version.outputs.version }}
+          git push origin ${{ steps.version.outputs.version }}
+
+      - name: Generate Changelog from Merged PR Titles
+        id: changelog
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          version="${{ steps.version.outputs.version }}"
+          repo="${{ github.repository }}"
+
+          previous_tag=$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null || echo "")
+          if [ -n "$previous_tag" ]; then
+            range="$previous_tag..HEAD"
+          else
+            echo "No previous tag found. Including all history."
+            range=""
+          fi
+
+          echo "Collecting merged PRs in range: $range"
+
+          pr_numbers=$(git log $range --merges --pretty=format:"%s" | grep -Eo 'Merge pull request #[0-9]+' | grep -Eo '[0-9]+' || true)
+
+          if [ -z "$pr_numbers" ]; then
+            echo "No merged PRs found."
+            echo "changelog<<EOF" >> $GITHUB_OUTPUT
+            echo "No pull requests found since last release." >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          changelog=""
+          for pr in $pr_numbers; do
+            title=$(curl -s -H "Authorization: token $GH_TOKEN" https://api.github.com/repos/$repo/pulls/$pr | jq -r '.title')
+            if [ "$title" != "null" ]; then
+              changelog="${changelog}- ${title} (#${pr})"$'\n'
+            fi
+          done
+
+          echo "changelog<<EOF" >> $GITHUB_OUTPUT
+          echo "$changelog" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.version.outputs.version }}
+          name: SpiritOfFire ${{ steps.version.outputs.version }}
+          files: dist/SpiritOfFire-${{ steps.version.outputs.version }}.zip
+          body: ${{ steps.changelog.outputs.changelog }}
+          prerelease: false
