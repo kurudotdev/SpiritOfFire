@@ -2834,7 +2834,7 @@
 		<Flag>Obscurable</Flag>
 		<Flag>Noncollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
-		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>Immoveable</Flag>
 		<Flag>DieAtZeroResources</Flag>
