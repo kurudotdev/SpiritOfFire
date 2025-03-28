@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<CameraEffects>
+	<CameraEffect>
+		<Name>PowerMenu</Name>
+		<BlurFactor>
+			<Value time="0">0</Value>
+			<Value time="0.25">1</Value>
+		</BlurFactor>
+		<BlurXY>
+			<Value time="0">0</Value>
+			<Value time="0.25">1</Value>
+		</BlurXY>
+		<RadialBlurFactor use3DPos="false">
+			<Value time="0">0</Value>
+			<Value time="0.25">0.1</Value>
+		</RadialBlurFactor>
+	</CameraEffect>
+	<CameraEffect>
+		<Name>PowerMenuToNormal</Name>
+		<BlurFactor>
+			<Value time="0">1</Value>
+			<Value time="0.25">0</Value>
+		</BlurFactor>
+		<BlurXY>
+			<Value time="0">2.0,2.0</Value>
+			<Value time="0.25">0,0</Value>
+		</BlurXY>
+		<RadialBlurFactor use3DPos="false">
+			<Value time="0">0.3,0.4</Value>
+			<Value time="0.25">0,0</Value>
+		</RadialBlurFactor>
+	</CameraEffect>
+	<CameraEffect>
+		<Name>OrbitalPower</Name>
+		<ColorTransformFactor>
+			<Value time="0">0.5</Value>
+			<Value time="0.3">0.5</Value>
+		</ColorTransformFactor>
+		<ColorTransformR>
+			<Value time="0">0.213,0.715,0.072</Value>
+			<Value time="0.3">0.213,0.715,0.072</Value>
+		</ColorTransformR>
+		<ColorTransformG>
+			<Value time="0">0.213,0.715,0.072</Value>
+			<Value time="0.3">0.213,0.715,0.072</Value>
+		</ColorTransformG>
+		<ColorTransformB>
+			<Value time="0">0.213,0.715,0.072</Value>
+			<Value time="0.3">0.213,0.715,0.072</Value>
+		</ColorTransformB>
+		<BlurFactor>
+			<Value time="0">0</Value>
+			<Value time="0.1">0</Value>
+		</BlurFactor>
+		<BlurXY>
+			<Value time="0">0.5,0.5</Value>
+		</BlurXY>
+		<RadialBlurFactor use3DPos="false">
+			<Value time="0">0,0</Value>
+			<Value time="0.1">0,0</Value>
+		</RadialBlurFactor>
+	</CameraEffect>
+	<CameraEffect>
+		<Name>OrbitalPowerToNormal</Name>
+		<ColorTransformFactor>
+			<Value time="0">0.5</Value>
+			<Value time="0.2">0</Value>
+		</ColorTransformFactor>
+		<BlurFactor>
+			<Value time="0">0</Value>
+			<Value time="0.05">1</Value>
+			<Value time="0.2">1</Value>
+			<Value time="0.3">0</Value>
+		</BlurFactor>
+		<BlurXY>
+			<Value time="0">0.5,0.5</Value>
+		</BlurXY>
+		<RadialBlurFactor use3DPos="false">
+			<Value time="0">0.1,0.2</Value>
+			<Value time="0.05">0.1,0.2</Value>
+			<Value time="0.2">0.1,0.2</Value>
+			<Value time="0.3">0,0</Value>
+		</RadialBlurFactor>
+	</CameraEffect>
+	<CameraEffect>
+		<Name>RagePower</Name>
+		<ColorTransformFactor>
+			<Value time="0">0</Value>
+			<Value time="0.3">0.75</Value>
+		</ColorTransformFactor>
+		<ColorTransformR>
+			<Value time="0">1,0,0</Value>
+		</ColorTransformR>
+		<ColorTransformG>
+			<Value time="0">0,1,0</Value>
+		</ColorTransformG>
+		<ColorTransformB>
+			<Value time="0">0,0,1</Value>
+		</ColorTransformB>
+		<BlurFactor>
+			<Value time="0">0</Value>
+			<Value time="0.3">0</Value>
+		</BlurFactor>
+		<BlurXY>
+			<Value time="0">0,0</Value>
+		</BlurXY>
+		<RadialBlurFactor use3DPos="true" useHoverPointAs3DPos="true">
+			<Value time="0">0,0</Value>
+			<Value time="0.3">0,0</Value>
+		</RadialBlurFactor>
+		<Zoom>
+			<Value time="0">150</Value>
+			<Value time="0.3">60</Value>
+		</Zoom>
+		<Pitch>
+			<Value time="0">55</Value>
+			<Value time="0.3">35</Value>
+		</Pitch>
+		<FOV />
+	</CameraEffect>
+	<CameraEffect>
+		<Name>RagePowerToNormal</Name>
+		<ColorTransformFactor>
+			<Value time="0">0.5</Value>
+			<Value time="0.3">0</Value>
+		</ColorTransformFactor>
+		<BlurFactor>
+			<Value time="0">0</Value>
+		</BlurFactor>
+		<BlurXY>
+			<Value time="0">0,0</Value>
+		</BlurXY>
+		<RadialBlurFactor use3DPos="true" useHoverPointAs3DPos="true">
+			<Value time="0">0,0</Value>
+			<Value time="0.3">0,0</Value>
+		</RadialBlurFactor>
+		<Zoom>
+			<Value time="0">60</Value>
+			<Value time="0.3">150</Value>
+		</Zoom>
+		<Pitch>
+			<Value time="0">35</Value>
+			<Value time="0.3">55</Value>
+		</Pitch>
+	</CameraEffect>
+	<CameraEffect>
+		<Name>WavePower</Name>
+	</CameraEffect>
+	<CameraEffect>
+		<Name>WavePowerToNormal</Name>
+		<Zoom>
+			<Value time="0">60</Value>
+			<Value time="0.3">150</Value>
+		</Zoom>
+		<Pitch>
+			<Value time="0">35</Value>
+			<Value time="0.3">55</Value>
+		</Pitch>
+	</CameraEffect>
+	<CameraEffect>
+		<Name>CircleMenu</Name>
+		<BlurFactor>
+			<Value time="0">0</Value>
+			<Value time="0.25">1</Value>
+		</BlurFactor>
+		<BlurXY>
+			<Value time="0">0</Value>
+			<Value time="0.25">1</Value>
+		</BlurXY>
+	</CameraEffect>
+	<CameraEffect>
+		<Name>CircleMenuToNormal</Name>
+		<BlurFactor>
+			<Value time="0">1</Value>
+			<Value time="0.25">0</Value>
+		</BlurFactor>
+		<BlurXY>
+			<Value time="0">2.0,2.0</Value>
+			<Value time="0.25">0,0</Value>
+		</BlurXY>
+	</CameraEffect>
+	<CameraEffect>
+		<Name>ScreenBlur</Name>
+		<ColorTransformFactor>
+			<Value time="0">0</Value>
+			<Value time="0.3">1</Value>
+		</ColorTransformFactor>
+		<ColorTransformR>
+			<Value time="0">0.213,0.215,0.072</Value>
+		</ColorTransformR>
+		<ColorTransformG>
+			<Value time="0">0.213,0.215,0.072</Value>
+		</ColorTransformG>
+		<ColorTransformB>
+			<Value time="0">0.213,0.215,0.072</Value>
+		</ColorTransformB>
+		<BlurFactor>
+			<Value time="0">0</Value>
+			<Value time="0.3">0.4</Value>
+		</BlurFactor>
+		<BlurXY>
+			<Value time="0">0,0</Value>
+		</BlurXY>
+		<RadialBlurFactor use3DPos="false">
+			<Value time="0">0,0</Value>
+		</RadialBlurFactor>
+	</CameraEffect>
+	<CameraEffect>
+		<Name>ScreenBlurToNormal</Name>
+		<ColorTransformFactor>
+			<Value time="0">1</Value>
+			<Value time="0.3">0</Value>
+		</ColorTransformFactor>
+		<ColorTransformR />
+		<ColorTransformG />
+		<ColorTransformB />
+		<BlurFactor>
+			<Value time="0">0.4</Value>
+			<Value time="0.3">0</Value>
+		</BlurFactor>
+		<BlurXY>
+			<Value time="0">0,0</Value>
+		</BlurXY>
+		<RadialBlurFactor use3DPos="false">
+			<Value time="0">0,0</Value>
+		</RadialBlurFactor>
+	</CameraEffect>
+</CameraEffects>
