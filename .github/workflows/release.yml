@@ -16,7 +16,6 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
@@ -64,15 +63,12 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           tag="${{ steps.version.outputs.version }}"
-
           if git ls-remote --tags origin | grep -q "refs/tags/$tag"; then
             echo "Tag $tag exists. Deleting release and tag..."
-
             release_id=$(gh release view "$tag" --json id -q .id || echo "")
             if [[ -n "$release_id" ]]; then
               gh release delete "$tag" -y
             fi
-
             git push origin :refs/tags/"$tag"
             git tag -d "$tag" || true
           else
@@ -101,7 +97,10 @@ jobs:
         run: |
           mkdir -p dist
           zip_name="SpiritOfFire-${{ steps.version.outputs.version }}.zip"
-          zip -r "dist/$zip_name" ModData -x 'ModData/.*/*' -x 'ModData/.*'
+          cd ModData
+          find . -type f ! -path './.*/*' ! -path './.*' -print |
+            zip "../dist/$zip_name" -@
+          cd ..
 
       - name: Create new tag
         run: |
