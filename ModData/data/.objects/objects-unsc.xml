@@ -3359,16 +3359,4 @@
 		<Flag>GrayMapDoppled</Flag>
 		<Flag>Immoveable</Flag>
 	</Object>
-	<Object name="unsc_TEST_MERGING_AM_I_MERGED_YET" id="0" dbid="173">
-		<ObjectClass>Object</ObjectClass>
-		<SurfaceType>Metal</SurfaceType>
-		<Visual>unsc\prop\crashedpelican_01\crashedpelican_01.vis</Visual>
-		<PortraitIcon>ui\ingame\resource_solids</PortraitIcon>
-		<Sound Type="Exist">play_scn_01_pelican_fire_01</Sound>
-		<Sound Type="StopExist">stop_scn_01_pelican_fire_01</Sound>
-		<Flag>SoundBehindFOW</Flag>
-		<Flag>Doppled</Flag>
-		<Flag>GrayMapDoppled</Flag>
-		<Flag>Immoveable</Flag>
-	</Object>
 </Objects>
