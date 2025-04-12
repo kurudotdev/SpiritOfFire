@@ -1,0 +1,1321 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Objects><Object name="sys_creepWorld_Harvest_01" is="0" dbid="4298">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\creepWorld\Harvest_01\Harvest_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_creepWorld_Arcadia_01" is="0" dbid="4299">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\creepWorld\Arcadia_01\Arcadia_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_creepWorld_ShieldWorld_01" is="0" dbid="4300">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\creepWorld\ShieldWorld_01\ShieldWorld_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_creepWorld_flood_01" is="0" dbid="4303">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\creepWorld\ShieldWorld_01\ShieldWorld_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_creepDifficulty_hard_01" is="0" dbid="3800">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\creepDifficulty\hard_01\hard_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepDifficultyMarker</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_creepDifficulty_medium_01" is="0" dbid="3801">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\creepDifficulty\medium_01\medium_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepDifficultyMarker</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_creepDifficulty_easy_01" is="0" dbid="3802">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\creepDifficulty\easy_01\easy_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepDifficultyMarker</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_creepReward_small_01" is="0" dbid="3803">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\creepReward\small_01\small_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepRewardMarker</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_creepReward_medium_01" is="0" dbid="3804">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\creepReward\medium_01\medium_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepRewardMarker</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_creepReward_large_01" is="0" dbid="3805">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\creepReward\large_01\large_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepRewardMarker</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_floodMarker_marine_01" is="0" dbid="3768">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\floodMarker\marine_01\marine_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerFlood</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_floodMarker_spewer_01" is="0" dbid="3769">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\floodMarker\spewer_01\spewer_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerFlood</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_floodMarker_flameMarine_01" is="0" dbid="3770">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\floodMarker\flameMarine_01\flameMarine_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerFlood</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_floodMarker_carrier_01" is="0" dbid="3771">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\floodMarker\carrier_01\carrier_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerFlood</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_floodMarker_infectionForm_01" is="0" dbid="3772">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\floodMarker\infectionForm_01\infectionForm_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerFlood</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_floodMarker_bomber_01" is="0" dbid="3773">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\floodMarker\bomber_01\bomber_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerFlood</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_floodMarker_SporeCloud_01" is="0" dbid="3774">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\floodMarker\sporeCloud_01\sporeCloud_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerFlood</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_floodMarker_elite_01" is="0" dbid="3775">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\floodMarker\elite_01\elite_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerFlood</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_floodMarker_tentacle_01" is="0" dbid="3776">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\floodMarker\tentacle_01\tentacle_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerFlood</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_floodMarker_swarm_01" is="0" dbid="3777">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\floodMarker\swarm_01\swarm_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerFlood</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_floodMarker_howitzer_01" is="0" dbid="3778">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\floodMarker\howitzer_01\howitzer_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerFlood</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_floodMarker_rhinodillo_01" is="0" dbid="3779">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\floodMarker\rhinodillo_01\rhinodillo_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerFlood</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_floodMarker_grunt_01" is="0" dbid="3780">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\floodMarker\grunt_01\grunt_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerFlood</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_floodMarker_brute_01" is="0" dbid="3781">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\floodMarker\brute_01\brute_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerFlood</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_floodMarker_jackal_01" is="0" dbid="3782">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\floodMarker\jackal_01\jackal_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerFlood</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_foreRunnerMarker_sentinel_01" is="0" dbid="3783">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\foreRunnerMarker\sentinel_01\sentinel_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerForerunner</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_foreRunnerMarker_superSentinel_01" is="0" dbid="3784">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\foreRunnerMarker\superSentinel_01\superSentinel_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerForerunner</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_rebelMarker_turretRailgun_01" is="0" dbid="3785">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\rebelMarker\turretRailgun_01\turretRailgun_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerRebel</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_rebelMarker_turretFlak_01" is="0" dbid="3786">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\rebelMarker\turretFlak_01\turretFlak_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerRebel</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_rebelMarker_sniper_01" is="0" dbid="3791">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\rebelMarker\sniper_01\sniper_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerRebel</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_rebelMarker_infantry_01" is="0" dbid="3792">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\rebelMarker\infantry_01\infantry_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<ObjectType>CreepMarker</ObjectType>
+		<ObjectType>CreepMarkerRebel</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_marker_flood_01" is="0" dbid="3471">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\marker\flood_01\flood_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_marker_crate3A_01" is="0" dbid="3523">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\marker\crate3A_01\crate3A_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_marker_crate3B_01" is="0" dbid="3524">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\marker\crate3B_01\crate3B_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_marker_crate3C_01" is="0" dbid="3525">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\marker\crate3C_01\crate3C_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_marker_crate5_01" is="0" dbid="3526">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\marker\crate5_01\crate5_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_marker_crate12_01" is="0" dbid="3527">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>system\marker\crate12_01\crate12_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Hitpoints>1</Hitpoints>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoRender</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_marker_baseObstruction_01" is="0" id="1760" dbid="2840">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>system\marker\baseObstruction_01\baseObstruction_01.vis</Visual>
+		<Flag>NoRender</Flag>
+	</Object>
+	<Object name="sys_marker_command_01" is="0" dbid="11">
+		<Visual>system\marker\command_01\command_01.vis</Visual>
+		<Flag>VisibleForOwnerOnly</Flag>
+	</Object>
+	<Object name="sys_marker_rally_01" is="0" dbid="12">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>system\marker\globalRally_01\globalRally_01.vis</Visual>
+		<DisplayNameID>10004</DisplayNameID>
+		<RolloverTextID>10005</RolloverTextID>
+		<Hitpoints>1</Hitpoints>
+		<SelectedRadiusX>3</SelectedRadiusX>
+		<SelectedRadiusZ>3</SelectedRadiusZ>
+		<PickRadius>4.5</PickRadius>
+		<PickOffset>1.2</PickOffset>
+		<PickPriority>Rally</PickPriority>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+	</Object>
+	<Object name="sys_marker_localRally_01" is="0" dbid="3245">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>system\marker\localRally_01\localRally_01.vis</Visual>
+		<DisplayNameID>23958</DisplayNameID>
+		<RolloverTextID>23959</RolloverTextID>
+		<Hitpoints>1</Hitpoints>
+		<SelectedRadiusX>3</SelectedRadiusX>
+		<SelectedRadiusZ>3</SelectedRadiusZ>
+		<PickRadius>4.5</PickRadius>
+		<PickOffset>1.2</PickOffset>
+		<PickPriority>Rally</PickPriority>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+	</Object>
+	<Object name="sys_revealer" id="0" dbid="13">
+		<ObjectClass>Unit</ObjectClass>
+		<MovementType>Air</MovementType>
+		<LOS>1</LOS>
+		<Hitpoints>1</Hitpoints>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonCollideable</Flag>
+	</Object>
+	<Object name="sys_blocker" id="0" dbid="14">
+		<ObjectClass>Unit</ObjectClass>
+		<MovementType>Air</MovementType>
+		<LOS>1</LOS>
+		<Hitpoints>1</Hitpoints>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>NonCollideable</Flag>
+	</Object>
+	<Object name="sys_thrownObject" dbid="2236">
+		<ObjectClass>Unit</ObjectClass>
+		<Flag>NonCollideable</Flag>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>NoTieToGround</Flag>
+	</Object>
+	<Object name="sys_leaderPowerCaster" dbid="4024">
+		<ObjectClass>Squad</ObjectClass>
+		<ObjectType>Military</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+	</Object>
+	<Object name="sys_unitstart_01" dbid="2293">
+		<Visual>system\unitstart_01\unitstart_01.vis</Visual>
+	</Object>
+	<Object name="sys_rallystart_01" dbid="2493">
+		<Visual>system\rallystart_01\rallystart_01.vis</Visual>
+	</Object>
+	<Object name="sys_obstructionAreaBox_01" id="0" dbid="2888">
+		<ObjectClass>Unit</ObjectClass>
+		<Hitpoints>1</Hitpoints>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusY>0.1</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="sys_quickview" is="0" dbid="667">
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>system\quickview.vis</Visual>
+		<Hitpoints>605</Hitpoints>
+	</Object>
+	<Object name="sys_icon_1_01" is="0" id="1026" dbid="1161">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>capture point :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_2_01" is="0" id="1027" dbid="1162">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>capture point :anim</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_3_01" is="0" id="1028" dbid="1163">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>capture point bottom layer :anim</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_4_01" is="0" id="1029" dbid="1164">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Building</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>unsc base lvl1 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_5_01" is="0" id="1030" dbid="1165">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Building</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>unsc base lvl2 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_6_01" is="0" id="1031" dbid="1166">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Building</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>unsc base lvl3 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_7_01" is="0" id="1032" dbid="1167">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Building</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>unsc base lvl4 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_8_01" is="0" id="1033" dbid="1168">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>mini reticule  :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_9_01" is="0" id="1034" dbid="1169">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>arbiter :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_10_01" is="0" id="1035" dbid="1170">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>spartan :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_11_01" is="0" id="1036" dbid="1171">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Command</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>starburst 1 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_12_01" is="0" id="1037" dbid="1172">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Building</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>cov base lvl1 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_13_01" is="0" id="1038" dbid="1173">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Building</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>cov base lvl2 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_14_01" is="0" id="1039" dbid="1174">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Building</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>cov base lvl3 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_15_01" is="0" id="1040" dbid="1175">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Building</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>cov base lvl4 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_16_01" is="0" id="1041" dbid="1176">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>blank</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_17_01" is="0" id="1042" dbid="1177">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Command</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>starburst 2 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_18_01" is="0" id="1043" dbid="1178">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>number 1 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_19_01" is="0" id="1044" dbid="1179">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>number 2 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_20_01" is="0" id="1045" dbid="1180">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>number 3 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_21_01" is="0" id="1046" dbid="1181">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>number 4 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_22_01" is="0" id="1047" dbid="1182">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>number 5 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_23_01" is="0" id="1048" dbid="1183">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>number 6 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_24_01" is="0" id="1049" dbid="1184">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>number 7 :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_25_01" is="0" id="1050" dbid="1185">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>unit indicator :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_26_01" is="0" id="1051" dbid="1186">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>star :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_27_01" is="0" id="1052" dbid="1187">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Command</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>reactor core :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_28_01" is="0" id="1053" dbid="1188">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Command</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>pelican down :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_29_01" is="0" id="1054" dbid="1189">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Command</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>alpha base :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_30_01" is="0" id="1055" dbid="1190">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>pedestrians :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_31_01" is="0" id="1055" dbid="2318">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>indicator :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_32_01" is="0" id="1055" dbid="2319">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Command</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>position marker :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_33_01" is="0" id="1055" dbid="2320">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Building</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>transport location :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_34_01" is="0" id="1055" dbid="2321">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Building</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>blank</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_35_01" is="0" id="1055" dbid="2322">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Building</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>blank</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_36_01" is="0" id="1055" dbid="2323">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Building</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>blank</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_37_01" is="0" id="1055" dbid="2324">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>blank</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_38_01" is="0" id="1055" dbid="2325">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Command</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>blank</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_39_01" is="0" id="1055" dbid="2326">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>blank</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_40_01" is="0" id="1055" dbid="2327">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>blank</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_41_01" is="0" id="1055" dbid="2328">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>blank</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_42_01" is="0" id="1055" dbid="2329">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>blank</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_43_01" is="0" id="1055" dbid="2330">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>blank</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_44_01" is="0" id="1055" dbid="2331">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>blank</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_45_01" is="0" id="1055" dbid="2332">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Flag</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>blank</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_46_01" is="0" id="1055" dbid="2333">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>blank</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_47_01" is="0" id="1055" dbid="2334">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>blank</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_48_01" is="0" id="1055" dbid="2335">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Command</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>blank</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_49_01" is="0" id="1055" dbid="2336">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Command</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>capture point :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_50_01" is="0" id="1055" dbid="2337">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Command</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>flare :anim</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_51_01" is="0" id="1055" dbid="2338">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>attack alert :anim</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_52_01" is="0" id="1055" dbid="2339">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Command</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>army mass :stat</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_icon_53_01" is="0" id="" dbid="4361" update="true">
+		<ObjectClass>Object</ObjectClass>
+		<Visual />
+		<MinimapIcon size="8">Command</MinimapIcon>
+		<MinimapColor Red="1" Green="1" Blue="1" />
+		<MinimapIconName>ctf star</MinimapIconName>
+		<MovementType>Air</MovementType>
+		<Flag>NonCollideable</Flag>
+		<Flag>VisibleForOwnerOnly</Flag>
+		<ObjectType>Icon</ObjectType>
+		<ObjectType>_Icon</ObjectType>
+	</Object>
+	<Object name="sys_bubbleshield_small" is="0" dbid="3566">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\air\monitor_04\monitorshieldsmall_04.vis</Visual>
+		<DamageType direction="Full">Shielded</DamageType>
+		<ShieldPoints>5000</ShieldPoints>
+		<Hitpoints>0.1</Hitpoints>
+		<Flag>NonCollideable</Flag>
+		<Flag>NonSolid</Flag>
+	</Object>
+	<Object name="sys_bubbleshield_med" is="0" dbid="3935">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\air\monitor_04\monitorshieldmed_04.vis</Visual>
+		<DamageType direction="Full">Shielded</DamageType>
+		<ShieldPoints>5000</ShieldPoints>
+		<Hitpoints>0.1</Hitpoints>
+		<Flag>NonCollideable</Flag>
+		<Flag>NonSolid</Flag>
+	</Object>
+	<Object name="sys_bubbleshield_large" is="0" dbid="3936">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\air\monitor_04\monitorshieldlarge_04.vis</Visual>
+		<DamageType direction="Full">Shielded</DamageType>
+		<ShieldPoints>5000</ShieldPoints>
+		<Hitpoints>0.1</Hitpoints>
+		<Flag>NonCollideable</Flag>
+		<Flag>NonSolid</Flag>
+	</Object>
+	</Objects>

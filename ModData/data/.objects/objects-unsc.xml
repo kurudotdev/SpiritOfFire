@@ -1,0 +1,3359 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Objects><Object name="unsc_bldg_command_01" id="0" dbid="128">
+		<ObjectClass>Building</ObjectClass>
+		<TrainerType>0</TrainerType>
+		<Visual>unsc\building\command_01\command_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_command_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_command1</PortraitIcon>
+		<MinimapIcon size="15">Command</MinimapIcon>
+		<DisplayNameID>10000</DisplayNameID>
+		<RolloverTextID>10001</RolloverTextID>
+		<StatsNameID>25741</StatsNameID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>10000</Hitpoints>
+		<CombatValue>20</CombatValue>
+		<LOS>85</LOS>
+		<BuildPoints>30</BuildPoints>
+		<PopCapAddition Type="Unit">0</PopCapAddition>
+		<Cost ResourceType="Supplies">500</Cost>
+		<Bounty>14</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<ObstructionRadiusX>38</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>22.5</ObstructionRadiusZ>
+		<SelectedRadiusX>17.4</SelectedRadiusX>
+		<SelectedRadiusZ>15.6</SelectedRadiusZ>
+		<PickRadius>23.3</PickRadius>
+		<PickOffset>-1</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<GotoType>Base</GotoType>
+		<ExitFromDirection>1</ExitFromDirection>
+		<Command Type="Research" Position="0">unsc_base_upgrade1</Command>
+		<Command Type="Research" Position="7">unsc_warthog_upgrade1</Command>
+		<Command Type="Research" Position="7">unsc_warthog_upgrade2</Command>
+		<Command Type="Research" Position="7">unsc_warthog_upgrade3</Command>
+		<Command Type="Research" Position="6">unsc_cyclops_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_cyclops_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_cyclops_upgrade3</Command>
+		<Command Type="Research" Position="6">unsc_gremlin_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_gremlin_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_gremlin_upgrade3</Command>
+		<Command Type="Research" Position="6">unsc_elephant_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_elephant_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_elephant_upgrade3</Command>
+		<Command Type="TrainSquad" Position="1">unsc_veh_warthog_01</Command>
+		<Command Type="TrainSquad" Position="2">unsc_inf_cyclops_01</Command>
+		<Command Type="TrainSquad" Position="2">unsc_veh_gremlin_01</Command>
+		<Command Type="TrainSquad" Position="2">unsc_veh_elephant_01</Command>
+		<Command Type="DestroyBase" Position="4" />
+		<Command Type="TrainLock" Position="3" />
+		<Command Type="RallyPoint" Position="5" />
+		<ChildObjects>
+			<Object Type="Rally" Offset="80,0,0" Rotation="0">sys_rallystart_01</Object>
+			<Object Type="Foundation" Offset="0,0,0" Rotation="0">unsc_bldg_command_foundation_01</Object>
+			<Object Type="Socket" Offset="-46.477,0,0" Rotation="90">unsc_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11,0,30.912" Rotation="180">unsc_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11,0,-30.912" Rotation="0">unsc_bldg_socket_01</Object>
+		</ChildObjects>
+		<Sound Type="Create">play_vog_basebuilt_unsc</Sound>
+		<Sound Type="Death">play_death_command_center</Sound>
+		<Sound Type="Exist">play_unsc_cc_exist</Sound>
+		<Sound Type="StopExist">stop_unsc_cc_exist</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>_Base</ObjectType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>MainBaseBuilding</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>ProductionBuiilding</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Any">PowerSocketBase</Socket>
+		<ChildObjectDamageTakenScalar>1</ChildObjectDamageTakenScalar>
+		<BuildingStrengthDisplay>UNSC_Base</BuildingStrengthDisplay>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ObstructsAir</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>KillGarrisoned</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>SelfParkingLot</Flag>
+		<Flag>KillChildObjectsOnDeath</Flag>
+		<Flag>PassiveGarrisoned</Flag>
+		<Flag>TriggersBattleMusicWhenAttacked</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar offset="0,23,0">UNSC_Bldg_HealthCommand</HPBar>
+		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+	</Object>
+	<Object name="unsc_bldg_command_foundation_01" id="0" dbid="4311">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\command_01\command_foundation_01.vis</Visual>
+		<Hitpoints>10</Hitpoints>
+		<LOS>0</LOS>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
+	</Object>
+	<Object name="unsc_bldg_command_02" id="0" dbid="2907">
+		<ObjectClass>Building</ObjectClass>
+		<TrainerType>0</TrainerType>
+		<Visual>unsc\building\command_02\command_02.vis</Visual>
+		<PhysicsInfo>unsc_bldg_command_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_command1</PortraitIcon>
+		<MinimapIcon size="15">Command</MinimapIcon>
+		<DisplayNameID>23946</DisplayNameID>
+		<RolloverTextID>23947</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>15000</Hitpoints>
+		<CombatValue>20</CombatValue>
+		<LOS>85</LOS>
+		<BuildPoints>30</BuildPoints>
+		<PopCapAddition Type="Unit">0</PopCapAddition>
+		<Cost ResourceType="Supplies">500</Cost>
+		<Bounty>14</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<ObstructionRadiusX>38</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>22.5</ObstructionRadiusZ>
+		<SelectedRadiusX>17.4</SelectedRadiusX>
+		<SelectedRadiusZ>15.6</SelectedRadiusZ>
+		<PickRadius>23.3</PickRadius>
+		<PickOffset>-1</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<GotoType>Base</GotoType>
+		<ExitFromDirection>1</ExitFromDirection>
+		<Command Type="Research" Position="0">unsc_base_upgrade2</Command>
+		<Command Type="Research" Position="7">unsc_warthog_upgrade1</Command>
+		<Command Type="Research" Position="7">unsc_warthog_upgrade2</Command>
+		<Command Type="Research" Position="7">unsc_warthog_upgrade3</Command>
+		<Command Type="Research" Position="6">unsc_cyclops_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_cyclops_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_cyclops_upgrade3</Command>
+		<Command Type="Research" Position="6">unsc_gremlin_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_gremlin_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_gremlin_upgrade3</Command>
+		<Command Type="Research" Position="6">unsc_elephant_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_elephant_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_elephant_upgrade3</Command>
+		<Command Type="TrainSquad" Position="1">unsc_veh_warthog_01</Command>
+		<Command Type="TrainSquad" Position="2">unsc_inf_cyclops_01</Command>
+		<Command Type="TrainSquad" Position="2">unsc_veh_gremlin_01</Command>
+		<Command Type="TrainSquad" Position="2">unsc_veh_elephant_01</Command>
+		<Command Type="DestroyBase" Position="4" />
+		<Command Type="TrainLock" Position="3" />
+		<Command Type="RallyPoint" Position="5" />
+		<ChildObjects>
+			<Object Type="Rally" Offset="80,0,0" Rotation="0">sys_rallystart_01</Object>
+			<Object Type="Foundation" Offset="0,0,0" Rotation="0">unsc_bldg_command_foundation_02</Object>
+			<Object Type="Socket" Offset="-46.477,0,0" Rotation="90">unsc_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11,0,30.912" Rotation="180">unsc_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11,0,-30.912" Rotation="0">unsc_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="17.576,0,35.022" Rotation="180">unsc_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="17.576,0,-35.022" Rotation="0">unsc_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="38.64,0,44.096" Rotation="90">unsc_bldg_turretSocket_01</Object>
+			<Object Type="Socket" Offset="38.64,0,-44.096" Rotation="90">unsc_bldg_turretSocket_01</Object>
+			<Object Type="Socket" Offset="-62.402,0,44.34" Rotation="-90">unsc_bldg_turretSocket_01</Object>
+			<Object Type="Socket" Offset="-62.402,0,-44.34" Rotation="-90">unsc_bldg_turretSocket_01</Object>
+		</ChildObjects>
+		<Sound Type="Create">play_vog_building_station</Sound>
+		<Sound Type="Death">play_death_command_center</Sound>
+		<Sound Type="Exist">play_unsc_cc_exist</Sound>
+		<Sound Type="StopExist">stop_unsc_cc_exist</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>_Base</ObjectType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>MainBaseBuilding</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>ProductionBuiilding</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Any">PowerSocketBase</Socket>
+		<ChildObjectDamageTakenScalar>1</ChildObjectDamageTakenScalar>
+		<BuildingStrengthDisplay>UNSC_Base</BuildingStrengthDisplay>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ObstructsAir</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>KillGarrisoned</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>SelfParkingLot</Flag>
+		<Flag>KillChildObjectsOnDeath</Flag>
+		<Flag>PassiveGarrisoned</Flag>
+		<Flag>TriggersBattleMusicWhenAttacked</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>.</FlashUI>
+		<HPBar offset="0,23,0">UNSC_Bldg_HealthCommand</HPBar>
+		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+	</Object>
+	<Object name="unsc_bldg_command_foundation_02" id="0" dbid="4312">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\command_02\command_foundation_02.vis</Visual>
+		<Hitpoints>10</Hitpoints>
+		<LOS>0</LOS>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
+	</Object>
+	<Object name="unsc_bldg_command_03" id="0" dbid="2770">
+		<ObjectClass>Building</ObjectClass>
+		<TrainerType>0</TrainerType>
+		<Visual>unsc\building\command_03\command_03.vis</Visual>
+		<PhysicsInfo>unsc_bldg_command_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_command1</PortraitIcon>
+		<MinimapIcon size="15">Command</MinimapIcon>
+		<DisplayNameID>23948</DisplayNameID>
+		<RolloverTextID>23949</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>20000</Hitpoints>
+		<CombatValue>20</CombatValue>
+		<LOS>85</LOS>
+		<BuildPoints>30</BuildPoints>
+		<PopCapAddition Type="Unit">0</PopCapAddition>
+		<Cost ResourceType="Supplies">500</Cost>
+		<Bounty>14</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<ObstructionRadiusX>38</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>22.5</ObstructionRadiusZ>
+		<SelectedRadiusX>17.4</SelectedRadiusX>
+		<SelectedRadiusZ>15.6</SelectedRadiusZ>
+		<PickRadius>23.3</PickRadius>
+		<PickOffset>-1</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<GotoType>Base</GotoType>
+		<ExitFromDirection>1</ExitFromDirection>
+		<Command Type="Research" Position="7">unsc_warthog_upgrade1</Command>
+		<Command Type="Research" Position="7">unsc_warthog_upgrade2</Command>
+		<Command Type="Research" Position="7">unsc_warthog_upgrade3</Command>
+		<Command Type="Research" Position="6">unsc_cyclops_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_cyclops_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_cyclops_upgrade3</Command>
+		<Command Type="Research" Position="6">unsc_gremlin_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_gremlin_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_gremlin_upgrade3</Command>
+		<Command Type="Research" Position="6">unsc_elephant_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_elephant_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_elephant_upgrade3</Command>
+		<Command Type="TrainSquad" Position="1">unsc_veh_warthog_01</Command>
+		<Command Type="TrainSquad" Position="2">unsc_inf_cyclops_01</Command>
+		<Command Type="TrainSquad" Position="2">unsc_veh_gremlin_01</Command>
+		<Command Type="TrainSquad" Position="2">unsc_veh_elephant_01</Command>
+		<Command Type="DestroyBase" Position="4" />
+		<Command Type="TrainLock" Position="3" />
+		<Command Type="RallyPoint" Position="5" />
+		<ChildObjects>
+			<Object Type="Rally" Offset="80,0,0" Rotation="0">sys_rallystart_01</Object>
+			<Object Type="Foundation" Offset="0,0,0" Rotation="0">unsc_bldg_command_foundation_03</Object>
+			<Object Type="Socket" Offset="-46.477,0,0" Rotation="90">unsc_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11,0,30.912" Rotation="180">unsc_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-17.11,0,-30.912" Rotation="0">unsc_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="17.576,0,35.022" Rotation="180">unsc_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="17.576,0,-35.022" Rotation="0">unsc_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-46.477,0,30.08" Rotation="90">unsc_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="-46.477,0,-30.08" Rotation="90">unsc_bldg_socket_01</Object>
+			<Object Type="Socket" Offset="38.64,0,44.096" Rotation="90">unsc_bldg_turretSocket_01</Object>
+			<Object Type="Socket" Offset="38.64,0,-44.096" Rotation="90">unsc_bldg_turretSocket_01</Object>
+			<Object Type="Socket" Offset="-62.402,0,44.34" Rotation="-90">unsc_bldg_turretSocket_01</Object>
+			<Object Type="Socket" Offset="-62.402,0,-44.34" Rotation="-90">unsc_bldg_turretSocket_01</Object>
+		</ChildObjects>
+		<Sound Type="Death">play_death_command_center</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>_Base</ObjectType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>MainBaseBuilding</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>ProductionBuiilding</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<Sound Type="Exist">play_unsc_cc_exist</Sound>
+		<Sound Type="StopExist">stop_unsc_cc_exist</Sound>
+		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Any">PowerSocketBase</Socket>
+		<ChildObjectDamageTakenScalar>1</ChildObjectDamageTakenScalar>
+		<BuildingStrengthDisplay>UNSC_Base</BuildingStrengthDisplay>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ObstructsAir</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>KillGarrisoned</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>SelfParkingLot</Flag>
+		<Flag>KillChildObjectsOnDeath</Flag>
+		<Flag>PassiveGarrisoned</Flag>
+		<Flag>TriggersBattleMusicWhenAttacked</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>.</FlashUI>
+		<HPBar offset="0,23,0">UNSC_Bldg_HealthCommand</HPBar>
+		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+	</Object>
+	<Object name="unsc_bldg_command_foundation_03" id="0" dbid="4313">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\command_03\command_foundation_03.vis</Visual>
+		<Hitpoints>10</Hitpoints>
+		<LOS>0</LOS>
+		<DeathFadeTime>2</DeathFadeTime>
+		<Flag>FadeOnDeath</Flag>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
+	</Object>
+	<Object name="unsc_bldg_socket_01" id="0" dbid="2719">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\Building\socket_01\socket_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<DisplayNameID>23629</DisplayNameID>
+		<RolloverTextID>23629</RolloverTextID>
+		<Hitpoints>10</Hitpoints>
+		<LOS>0</LOS>
+		<MovementType>Land</MovementType>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<PickRadius>9.8</PickRadius>
+		<PickOffset>0.7</PickOffset>
+		<GathererLimit>1</GathererLimit>
+		<Command Type="BuildOther" Position="1" AutoClose="true">unsc_bldg_supplypad_01</Command>
+		<Command Type="BuildOther" Position="2" AutoClose="true">unsc_bldg_reactor_01</Command>
+		<Command Type="BuildOther" Position="3" AutoClose="true">unsc_bldg_fieldArmory_01</Command>
+		<Command Type="BuildOther" Position="7" AutoClose="true">unsc_bldg_barracks_01</Command>
+		<Command Type="BuildOther" Position="6" AutoClose="true">unsc_bldg_vehicledepot_01</Command>
+		<Command Type="BuildOther" Position="5" AutoClose="true">unsc_bldg_airpad_01</Command>
+		<ObjectType>BuildingSocket</ObjectType>
+		<ObjectType>_BuildingSocket</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<DeathFadeTime>2</DeathFadeTime>
+		<Flag>FadeOnDeath</Flag>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>SingleSocketBuilding</Flag>
+		<Flag>ForceCreateObstruction</Flag>
+		<Flag>MustOwnToSelect</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<Flag>AppearsBelowDecals</Flag>
+	</Object>
+	<Object name="unsc_bldg_turretSocket_01" id="0" dbid="3092">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\Building\turretSocket_01\turretSocket_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<DisplayNameID>23624</DisplayNameID>
+		<RolloverTextID>23625</RolloverTextID>
+		<Hitpoints>10</Hitpoints>
+		<LOS>0</LOS>
+		<MovementType>Land</MovementType>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<PickRadius>6.2</PickRadius>
+		<PickOffset>0.7</PickOffset>
+		<GathererLimit>1</GathererLimit>
+		<Command Type="BuildOther" Position="0" AutoClose="true">unsc_bldg_turret_01</Command>
+		<ObjectType>TurretSocket</ObjectType>
+		<ObjectType>_TurretSocket</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<DeathFadeTime>2</DeathFadeTime>
+		<Flag>FadeOnDeath</Flag>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>SecondaryBuildingQueue</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>SingleSocketBuilding</Flag>
+		<Flag>ForceCreateObstruction</Flag>
+		<Flag>MustOwnToSelect</Flag>
+		<Flag>SecondaryBuildingQueue</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<Flag>AppearsBelowDecals</Flag>
+	</Object>
+	<Object name="unsc_bldg_reactor_01" id="0" dbid="2730">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\reactor_01\reactor_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_reactor_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_pwrextractor</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10006</DisplayNameID>
+		<RolloverTextID>10007</RolloverTextID>
+		<RoleTextID>515</RoleTextID>
+		<MovementType>Land</MovementType>
+		<AIAssetValueAdjust>4000</AIAssetValueAdjust>
+		<Hitpoints>25000</Hitpoints>
+		<CombatValue>10</CombatValue>
+		<LOS>55</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">250</Cost>
+		<CostEscalation>250</CostEscalation>
+		<CostEscalationObject>unsc_bldg_reactor_01</CostEscalationObject>
+		<CostEscalationObject>unsc_bldg_reactor_02</CostEscalationObject>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<AddResource Amount="1">Power</AddResource>
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<Command Type="Research" Position="0">unsc_reactor_upgrade1</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Create">play_vog_building_reactor</Sound>
+		<Sound Type="Death">play_unsc_bldg_reactor_01_death</Sound>
+		<Sound Type="Exist">play_unsc_reactor_exist</Sound>
+		<Sound Type="StopExist">stop_unsc_reactor_exist</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<PickRadius>11</PickRadius>
+		<PickOffset>4</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>5.9</SelectedRadiusX>
+		<SelectedRadiusZ>5.6</SelectedRadiusZ>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_PowerLevelBuilding</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Rate Rate="Power">5</Rate>
+		<Socket Player="Player">BuildingSocket</Socket>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>LinearCostEscalation</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>DamageGarrisoned</Flag>
+		<Flag>ChildForDamageTakenScalar</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal />
+			<CircleMenuFrameIDHighlight />
+		</FlashUI>
+		<HPBar offset="0,20,0">UNSC_Bldg_Health</HPBar>
+		<AutoParkingLot Offset="-23.75,0,0" Rotation="180">hook_bldg_parkingLotUNSC_01</AutoParkingLot>
+		<BuildRotation>180</BuildRotation>
+		<BuildOffset>-10,0,0</BuildOffset>
+	</Object>
+	<Object name="unsc_bldg_reactor_02" id="0" dbid="3034">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\reactor_02\reactor_02.vis</Visual>
+		<PhysicsInfo>unsc_bldg_reactor_02</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_pwrextractor</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10014</DisplayNameID>
+		<RolloverTextID>10015</RolloverTextID>
+		<RoleTextID>515</RoleTextID>
+		<MovementType>Land</MovementType>
+		<AIAssetValueAdjust>4000</AIAssetValueAdjust>
+		<Hitpoints>40000</Hitpoints>
+		<CombatValue>10</CombatValue>
+		<LOS>55</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">250</Cost>
+		<CostEscalation>250</CostEscalation>
+		<CostEscalationObject>unsc_bldg_reactor_01</CostEscalationObject>
+		<CostEscalationObject>unsc_bldg_reactor_02</CostEscalationObject>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<AddResource Amount="2">Power</AddResource>
+		<ObstructionRadiusX>12</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>12</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Create">play_vog_building_reactor</Sound>
+		<Sound Type="Death">play_unsc_bldg_reactor_01_death</Sound>
+		<Sound Type="Exist">play_unsc_reactor_02_exist</Sound>
+		<Sound Type="StopExist">stop_unsc_reactor_02_exist</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<PickRadius>11</PickRadius>
+		<PickOffset>4</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>5.9</SelectedRadiusX>
+		<SelectedRadiusZ>5.6</SelectedRadiusZ>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_PowerLevelBuilding</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Player">BuildingSocket</Socket>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>LinearCostEscalation</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>DamageGarrisoned</Flag>
+		<Flag>ChildForDamageTakenScalar</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal />
+			<CircleMenuFrameIDHighlight />
+		</FlashUI>
+		<HPBar offset="0,20,0">UNSC_Bldg_Health</HPBar>
+		<AutoParkingLot Offset="-23.75,0,0" Rotation="180">hook_bldg_parkingLotUNSC_01</AutoParkingLot>
+		<BuildRotation>180</BuildRotation>
+		<BuildOffset>-10,0,0</BuildOffset>
+	</Object>
+	<Object name="unsc_bldg_supplypad_01" id="0" dbid="132">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\supplypad_01\supplypad_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_supplypad_01</PhysicsInfo>
+		<UIVisual>unsc\building\supplypad_01\ui\supplypad_ui_01.vis</UIVisual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_supply1</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10010</DisplayNameID>
+		<RolloverTextID>10011</RolloverTextID>
+		<RoleTextID>510</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>10000</Hitpoints>
+		<CombatValue>10</CombatValue>
+		<LOS>55</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">100</Cost>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>unsc_bldg_supplypad_01.tactics</Tactics>
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>9.6</SelectedRadiusX>
+		<SelectedRadiusZ>10.4</SelectedRadiusZ>
+		<PickRadius>12</PickRadius>
+		<PickOffset>4</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<Command Type="Research" Position="0">unsc_supplyPad_upgrade1</Command>
+		<Command Type="Tribute" Position="4" />
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Create">play_vog_building_supplypad</Sound>
+		<Sound Type="Death">play_fx_vehicle_death_generic</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>_UnscSupplyPad</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_SupplyGeneratorBuilding</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Rate Rate="Supplies">5</Rate>
+		<Socket Player="Player">BuildingSocket</Socket>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ChildForDamageTakenScalar</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>10</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>11</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar offset="0,20,0">UNSC_Bldg_Health</HPBar>
+		<AutoParkingLot Offset="-23.75,0,0" Rotation="180">hook_bldg_parkingLotUNSC_01</AutoParkingLot>
+		<BuildRotation>180</BuildRotation>
+		<BuildOffset>-10,0,0</BuildOffset>
+	</Object>
+	<Object name="unsc_bldg_supplypad_02" id="0" dbid="133">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\supplypad_02\supplypad_02.vis</Visual>
+		<PhysicsInfo>unsc_bldg_supplypad_02</PhysicsInfo>
+		<UIVisual>unsc\building\supplypad_01\ui\supplypad_ui_01.vis</UIVisual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_supply1</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10012</DisplayNameID>
+		<RolloverTextID>10013</RolloverTextID>
+		<RoleTextID>510</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>15000</Hitpoints>
+		<CombatValue>10</CombatValue>
+		<LOS>55</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">225</Cost>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>unsc_bldg_supplypad_02.tactics</Tactics>
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>9.6</SelectedRadiusX>
+		<SelectedRadiusZ>10.4</SelectedRadiusZ>
+		<PickRadius>12</PickRadius>
+		<PickOffset>4</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<Command Type="Tribute" Position="4" />
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Create">play_vog_building_supplypad</Sound>
+		<Sound Type="Death">play_fx_vehicle_death_generic</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>_UnscSupplyPad</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_SupplyGeneratorBuilding</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Rate Rate="Supplies">5</Rate>
+		<Socket Player="Player">BuildingSocket</Socket>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ChildForDamageTakenScalar</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>10</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>11</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar offset="0,20,0">UNSC_Bldg_Health</HPBar>
+		<AutoParkingLot Offset="-23.75,0,0" Rotation="180">hook_bldg_parkingLotUNSC_01</AutoParkingLot>
+		<BuildRotation>180</BuildRotation>
+		<BuildOffset>-10,0,0</BuildOffset>
+	</Object>
+	<Object name="unsc_bldg_barracks_01" id="0" dbid="137">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\barracks_01\barracks_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_barracks_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_barracks</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10028</DisplayNameID>
+		<RolloverTextID>10029</RolloverTextID>
+		<RoleTextID>511</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>15000</Hitpoints>
+		<CombatValue>10</CombatValue>
+		<LOS>55</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">150</Cost>
+		<Bounty>4</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="1.17" Velocity="1" Accuracy="1.5" WorkRate="1.2" WeaponRange="1" DamageTaken="0.82" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>12.3</SelectedRadiusX>
+		<SelectedRadiusZ>12.7</SelectedRadiusZ>
+		<PickRadius>12</PickRadius>
+		<PickOffset>3</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<Command Type="TrainSquad" Position="1">unsc_inf_marine_01</Command>
+		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01</Command>
+		<Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
+		<Command Type="TrainSquad" Position="3">unsc_inf_spartan_01</Command>
+		<Command Type="Research" Position="7">unsc_marine_upgrade1</Command>
+		<Command Type="Research" Position="7">unsc_marine_upgrade2</Command>
+		<Command Type="Research" Position="7">unsc_marine_upgrade3</Command>
+		<Command Type="Research" Position="7">unsc_odst_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_flameMarine_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_flameMarine_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_flameMarine_upgrade3</Command>
+		<Command Type="Research" Position="5">unsc_spartan_upgrade1</Command>
+		<Command Type="Research" Position="5">unsc_spartan_upgrade2</Command>
+		<Command Type="Research" Position="5">unsc_spartan_upgrade3</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Death">play_fx_vehicle_death_generic</Sound>
+		<Sound Type="Create">play_vog_building_barracks</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>ProductionBuiilding</ObjectType>
+		<ObjectType>_ProductionBuildingNotBase</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Socket Player="Player">BuildingSocket</Socket>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ChildForDamageTakenScalar</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar offset="0,17,0">UNSC_Bldg_Health</HPBar>
+		<AutoParkingLot Offset="-23.75,0,0" Rotation="180">hook_bldg_parkingLotUNSC_01</AutoParkingLot>
+		<BuildRotation>180</BuildRotation>
+		<BuildOffset>-10,0,0</BuildOffset>
+	</Object>
+	<Object name="unsc_bldg_vehicledepot_01" id="0" dbid="138">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\vehicledepot_01\vehicledepot_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_vehicledepot_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_vehicledep</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10030</DisplayNameID>
+		<RolloverTextID>10031</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<RoleTextID>512</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>15000</Hitpoints>
+		<CombatValue>10</CombatValue>
+		<LOS>55</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">150</Cost>
+		<Cost ResourceType="Power">2</Cost>
+		<Bounty>6</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>12</PickRadius>
+		<PickOffset>2</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>12.3</SelectedRadiusX>
+		<SelectedRadiusZ>15.5</SelectedRadiusZ>
+		<Command Type="TrainSquad" Position="1">unsc_veh_scorpion_01</Command>
+		<Command Type="TrainSquad" Position="1">unsc_veh_grizzly_01</Command>
+		<Command Type="TrainSquad" Position="2">unsc_veh_cobra_01</Command>
+		<Command Type="TrainSquad" Position="3">unsc_veh_wolverine_01</Command>
+		<Command Type="Research" Position="7">unsc_scorpion_upgrade1</Command>
+		<Command Type="Research" Position="7">unsc_scorpion_upgrade2</Command>
+		<Command Type="Research" Position="7">unsc_scorpion_upgrade3</Command>
+		<Command Type="Research" Position="7">unsc_grizzly_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_cobra_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_cobra_upgrade2</Command>
+		<Command Type="Research" Position="6">unsc_cobra_upgrade3</Command>
+		<Command Type="Research" Position="5">unsc_wolverine_upgrade1</Command>
+		<Command Type="Research" Position="5">unsc_wolverine_upgrade2</Command>
+		<Command Type="Research" Position="5">unsc_wolverine_upgrade3</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Create">play_vog_building_vehicledepot</Sound>
+		<Sound Type="Death">play_cov_banshee_death</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>ProductionBuiilding</ObjectType>
+		<ObjectType>_ProductionBuildingNotBase</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Socket Player="Player">BuildingSocket</Socket>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ChildForDamageTakenScalar</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar offset="0,17,0">UNSC_Bldg_Health</HPBar>
+		<AutoParkingLot Offset="-23.75,0,0" Rotation="180">hook_bldg_parkingLotUNSC_01</AutoParkingLot>
+		<BuildRotation>180</BuildRotation>
+		<BuildOffset>-10,0,0</BuildOffset>
+	</Object>
+	<Object name="unsc_bldg_airPad_01" id="0" dbid="139">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\airpad_01\airpad_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_airpad</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_airpad</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10032</DisplayNameID>
+		<RolloverTextID>10033</RolloverTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<RoleTextID>513</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>15000</Hitpoints>
+		<CombatValue>10</CombatValue>
+		<LOS>55</LOS>
+		<BuildPoints>45</BuildPoints>
+		<Cost ResourceType="Supplies">150</Cost>
+		<Cost ResourceType="Power">2</Cost>
+		<Bounty>7</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>unsc_bldg_airPad_01.tactics</Tactics>
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>14</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>12</PickRadius>
+		<PickOffset>3</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>10.8</SelectedRadiusX>
+		<SelectedRadiusZ>9.9</SelectedRadiusZ>
+		<Command Type="TrainSquad" Position="1">unsc_air_hornet_01</Command>
+		<Command Type="TrainSquad" Position="1">unsc_air_hawk_01</Command>
+		<Command Type="TrainSquad" Position="2">unsc_air_vulture_01</Command>
+		<Command Type="Research" Position="7">unsc_hornet_upgrade1</Command>
+		<Command Type="Research" Position="7">unsc_hornet_upgrade2</Command>
+		<Command Type="Research" Position="7">unsc_hornet_upgrade3</Command>
+		<Command Type="Research" Position="7">unsc_hawk_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_vulture_upgrade1</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Create">play_vog_building_airpad</Sound>
+		<Sound Type="Death">play_unsc_air_pad_death</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>ProductionBuiilding</ObjectType>
+		<ObjectType>_ProductionBuildingNotBase</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Socket Player="Player">BuildingSocket</Socket>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ObstructsAir</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ChildForDamageTakenScalar</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>8</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>9</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar offset="0,28,0">UNSC_Bldg_Health</HPBar>
+		<AutoParkingLot Offset="-23.75,0,0" Rotation="180">hook_bldg_parkingLotUNSC_01</AutoParkingLot>
+		<BuildRotation>180</BuildRotation>
+		<BuildOffset>-10,0,0</BuildOffset>
+	</Object>
+	<Object name="unsc_bldg_fieldArmory_01" id="0" dbid="3042">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\fieldArmory_01\fieldArmory_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_fieldarmory_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_barracks</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10024</DisplayNameID>
+		<RolloverTextID>10025</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<RoleTextID>514</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>15000</Hitpoints>
+		<CombatValue>10</CombatValue>
+		<LOS>55</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">150</Cost>
+		<Cost ResourceType="Power">1</Cost>
+		<Bounty>4</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="1.17" Velocity="1" Accuracy="1.5" WorkRate="1.2" WeaponRange="1" DamageTaken="0.82" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>9</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>12.3</SelectedRadiusX>
+		<SelectedRadiusZ>12.7</SelectedRadiusZ>
+		<PickRadius>10.8</PickRadius>
+		<PickOffset>1.8</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<Command Type="Research" Position="6">unsc_turret_upgrade1</Command>
+		<Command Type="Research" Position="6">unsc_turret_upgrade2</Command>
+		<Command Type="Research" Position="1">unsc_tech_adrenaline</Command>
+		<Command Type="Research" Position="2">unsc_MAC_upgrade1</Command>
+		<Command Type="Research" Position="2">unsc_MAC_upgrade2</Command>
+		<Command Type="Research" Position="2">unsc_MAC_upgrade3</Command>
+		<Command Type="Research" Position="2">unsc_carpetBomb_upgrade1</Command>
+		<Command Type="Research" Position="2">unsc_carpetBomb_upgrade2</Command>
+		<Command Type="Research" Position="2">unsc_carpetBomb_upgrade3</Command>
+		<Command Type="Research" Position="2">unsc_cryo_upgrade1</Command>
+		<Command Type="Research" Position="2">unsc_cryo_upgrade2</Command>
+		<Command Type="Research" Position="2">unsc_cryo_upgrade3</Command>
+		<Command Type="Research" Position="7">unsc_tech_recruitTraining</Command>
+		<Command Type="Research" Position="5">unsc_tech_reinforcements</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Create">play_vog_building_fieldarmory</Sound>
+		<Sound Type="Death">play_fx_vehicle_death_generic</Sound>
+		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>_LOSObstructable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Socket Player="Player">BuildingSocket</Socket>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ChildForDamageTakenScalar</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar offset="0,18,0">UNSC_Bldg_Health</HPBar>
+		<AutoParkingLot Offset="-23.75,0,0" Rotation="180">hook_bldg_parkingLotUNSC_01</AutoParkingLot>
+		<BuildRotation>180</BuildRotation>
+		<BuildOffset>-10,0,0</BuildOffset>
+	</Object>
+	<Object name="unsc_bldg_turret_01" id="0" dbid="3093">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\turret_01\turret_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_turret_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>23632</DisplayNameID>
+		<RolloverTextID>23633</RolloverTextID>
+		<RoleTextID>516</RoleTextID>
+		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
+		<MovementType>Land</MovementType>
+		<Hitpoints>6218</Hitpoints>
+		<AttackGradeDPS>187</AttackGradeDPS>
+		<CombatValue>12</CombatValue>
+		<LOS>80</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">250</Cost>
+		<Bounty>12</Bounty>
+		<Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="162" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>unsc_bldg_turret_01.tactics</Tactics>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>6.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>5</PickRadius>
+		<PickOffset>5</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>5.9</SelectedRadiusX>
+		<SelectedRadiusZ>5.6</SelectedRadiusZ>
+		<Command Type="Research" Position="1">unsc_turret_upgradeAI</Command>
+		<Command Type="Research" Position="2">unsc_turret_upgradeAV</Command>
+		<Command Type="Research" Position="3">unsc_turret_upgradeAA</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Create">play_vog_building_turret</Sound>
+		<Sound Type="Death">play_turret_01_death</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<DazeResist>0.25</DazeResist>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>TurretBuilding</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Player">TurretSocket</Socket>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonRotatable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>DamageGarrisoned</Flag>
+		<Flag>DamagedDeathReplacement</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<Flag>CheckLOSAgainstBase</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal />
+			<CircleMenuFrameIDHighlight />
+		</FlashUI>
+		<HPBar offset="0,16,0">UNSC_Bldg_Health</HPBar>
+		<TrueLOSHeight>10</TrueLOSHeight>
+	</Object>
+	<Object name="unsc_bldg_turretAI_01" id="0" dbid="958">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\turretAI_01\turretAI_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_turret_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10022</DisplayNameID>
+		<RolloverTextID>10023</RolloverTextID>
+		<RoleTextID>516</RoleTextID>
+		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
+		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
+		<MovementType>Land</MovementType>
+		<Hitpoints>6218</Hitpoints>
+		<AttackGradeDPS>262</AttackGradeDPS>
+		<CombatValue>14</CombatValue>
+		<LOS>80</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">250</Cost>
+		<Bounty>12</Bounty>
+		<Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="162" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>unsc_bldg_turretAI_01.tactics</Tactics>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>6.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>5</PickRadius>
+		<PickOffset>5</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>5.9</SelectedRadiusX>
+		<SelectedRadiusZ>5.6</SelectedRadiusZ>
+		<Command Type="Research" Position="2">unsc_turret_upgradeAV</Command>
+		<Command Type="Research" Position="3">unsc_turret_upgradeAA</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Create">play_vog_building_turret</Sound>
+		<Sound Type="Death">play_turret_01_death</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>TurretBuilding</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Player">TurretSocket</Socket>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonRotatable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>DamageGarrisoned</Flag>
+		<Flag>DamagedDeathReplacement</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<Flag>CheckLOSAgainstBase</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal />
+			<CircleMenuFrameIDHighlight />
+		</FlashUI>
+		<HPBar offset="0,16,0">UNSC_Bldg_Health</HPBar>
+		<TrueLOSHeight>10</TrueLOSHeight>
+	</Object>
+	<Object name="unsc_bldg_turretAV_01" id="0" dbid="144">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\turretAV_01\turretAV_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_turret_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10042</DisplayNameID>
+		<RolloverTextID>10043</RolloverTextID>
+		<RoleTextID>516</RoleTextID>
+		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
+		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
+		<MovementType>Land</MovementType>
+		<Hitpoints>6218</Hitpoints>
+		<AttackGradeDPS>262</AttackGradeDPS>
+		<CombatValue>14</CombatValue>
+		<LOS>80</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">250</Cost>
+		<Bounty>14</Bounty>
+		<Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="162" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>unsc_bldg_turretAV_01.tactics</Tactics>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>6.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>5</PickRadius>
+		<PickOffset>5</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>5.9</SelectedRadiusX>
+		<SelectedRadiusZ>5.6</SelectedRadiusZ>
+		<Command Type="Research" Position="1">unsc_turret_upgradeAI</Command>
+		<Command Type="Research" Position="3">unsc_turret_upgradeAA</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Create">play_vog_building_turret</Sound>
+		<Sound Type="Death">play_turret_01_death</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>TurretBuilding</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Player">TurretSocket</Socket>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonRotatable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>DamageGarrisoned</Flag>
+		<Flag>DamagedDeathReplacement</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<Flag>CheckLOSAgainstBase</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal />
+			<CircleMenuFrameIDHighlight />
+		</FlashUI>
+		<HPBar offset="0,16,0">UNSC_Bldg_Health</HPBar>
+		<TrueLOSHeight>10</TrueLOSHeight>
+	</Object>
+	<Object name="unsc_bldg_turretAA_01" id="0" dbid="145">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\turretAA_01\turretAA_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_turret_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10044</DisplayNameID>
+		<RolloverTextID>10045</RolloverTextID>
+		<RoleTextID>516</RoleTextID>
+		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
+		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
+		<MovementType>Land</MovementType>
+		<Hitpoints>6218</Hitpoints>
+		<AttackGradeDPS>262</AttackGradeDPS>
+		<CombatValue>14</CombatValue>
+		<LOS>80</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">250</Cost>
+		<Bounty>12</Bounty>
+		<Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="162" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>unsc_bldg_turretAA_01.tactics</Tactics>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>6.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>5</PickRadius>
+		<PickOffset>5</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>5.9</SelectedRadiusX>
+		<SelectedRadiusZ>5.6</SelectedRadiusZ>
+		<Command Type="Research" Position="1">unsc_turret_upgradeAI</Command>
+		<Command Type="Research" Position="2">unsc_turret_upgradeAV</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Create">play_vog_building_turret</Sound>
+		<Sound Type="Death">play_turret_01_death</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>TurretBuilding</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Player">TurretSocket</Socket>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonRotatable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>DamageGarrisoned</Flag>
+		<Flag>DamagedDeathReplacement</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<Flag>CheckLOSAgainstBase</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal />
+			<CircleMenuFrameIDHighlight />
+		</FlashUI>
+		<HPBar offset="0,16,0">UNSC_Bldg_Health</HPBar>
+		<TrueLOSHeight>10</TrueLOSHeight>
+	</Object>
+	<Object name="unsc_inf_flameMarine_01" id="0" dbid="147">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\infantry\flameMarine_01\flameMarine_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_flamemarine</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10048</DisplayNameID>
+		<RolloverTextID>10049</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>12</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>1292</Hitpoints>
+		<AttackGradeDPS>30</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">0.5</Pop>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="180" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<Bounty>2</Bounty>
+		<RamDodgeFactor>0.5</RamDodgeFactor>
+		<Veterancy Level="1" XP="4" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="10" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="18" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>unsc_inf_flameMarine_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>1</ObstructionRadiusX>
+		<ObstructionRadiusY>2</ObstructionRadiusY>
+		<ObstructionRadiusZ>1</ObstructionRadiusZ>
+		<PickRadius>2</PickRadius>
+		<PickOffset>2</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>3100</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
+		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
+		<Sound Type="Create">play_unsc_flame_marine_birth</Sound>
+		<Sound Type="Death">play_unsc_flame_marine_vo_death</Sound>
+		<Sound Type="Select">play_unsc_flame_marine_select</Sound>
+		<Sound Type="Work">play_unsc_flame_marine_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_flame_marine_attack</Sound>
+		<Sound Type="Ability">play_unsc_flame_marine_ability</Sound>
+		<Sound Type="Pain">play_unsc_flame_marine_vo_hit</Sound>
+		<ExtendedSoundBank>xtnd_ui_flame_ma.bnk</ExtendedSoundBank>
+		<DamageType direction="Full" mode="Normal">LightArmored</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>HardInfection</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscFlashBang</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>UseRelaxedSpeedGroup</Flag>
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>8</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>9</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_inf_cyclops_01" id="0" dbid="2823">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\infantry\mark1Suit_01\mark1Suit_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>23522</DisplayNameID>
+		<RolloverTextID>23523</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>3171</Hitpoints>
+		<AttackGradeDPS>90</AttackGradeDPS>
+		<CombatValue>5</CombatValue>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="45" yawattachment="Bone Spine01" />
+		<SingleBoneIK>Bone Spine01</SingleBoneIK>
+		<LOS>55</LOS>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>5</Bounty>
+		<Veterancy Level="1" XP="10" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="25" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="45" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>0</AmmoMax>
+		<AmmoRegenRate>0</AmmoRegenRate>
+		<Tactics>unsc_inf_cyclops_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>2.5</ObstructionRadiusX>
+		<ObstructionRadiusY>3.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>2.5</ObstructionRadiusZ>
+		<PickRadius>3</PickRadius>
+		<PickOffset>2</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>3200</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
+		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
+		<Sound Type="Create">play_unsc_cyclops_birth</Sound>
+		<Sound Type="Select">play_unsc_cyclops_select</Sound>
+		<Sound Type="Work">play_unsc_cyclops_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_cyclops_attack</Sound>
+		<Sound Type="Ability">play_unsc_cyclops_ability</Sound>
+		<Sound Type="Pain">play_unsc_cyclops_vo_hit</Sound>
+		<ExtendedSoundBank>xtnd_ui_cyclops.bnk</ExtendedSoundBank>
+		<DamageType direction="Full" mode="Normal">LightArmored</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>Infantry</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>HardInfection</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscCyclopsThrow</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>HasTrackMask</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>RegularAttacksMeleeOnly</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar offset="0,5,0">UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_inf_marine_01" id="0" dbid="148">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\infantry\marine_01\marine_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10048</DisplayNameID>
+		<RolloverTextID>10049</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>720</Hitpoints>
+		<AttackGradeDPS>15</AttackGradeDPS>
+		<CombatValue>1</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">0.25</Pop>
+		<Bounty>1</Bounty>
+		<RamDodgeFactor>0.5</RamDodgeFactor>
+		<Veterancy Level="1" XP="1" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="3" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="6" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>200</AmmoMax>
+		<AmmoRegenRate>9</AmmoRegenRate>
+		<Tactics>unsc_inf_marine_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>1</ObstructionRadiusX>
+		<ObstructionRadiusY>2</ObstructionRadiusY>
+		<ObstructionRadiusZ>1</ObstructionRadiusZ>
+		<PickRadius>2</PickRadius>
+		<PickOffset>1.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>3000</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
+		<Sound Type="Create">play_unsc_marine_birth</Sound>
+		<Sound Type="Death">play_unsc_marine_vo_death</Sound>
+		<Sound Type="Select">play_unsc_marine_select</Sound>
+		<Sound Type="Work">play_unsc_marine_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_marine_attack</Sound>
+		<Sound Type="Ability">play_unsc_marine_ability</Sound>
+		<Sound Type="Ability" Action="RocketAttackAction">play_unsc_marine_ability2</Sound>
+		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
+		<ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscMarineRockets</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>HasTrackMask</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<FlashUI>
+			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_inf_marine_02" id="0" dbid="3081">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\infantry\marine_01\marine_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10048</DisplayNameID>
+		<RolloverTextID>10049</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>720</Hitpoints>
+		<AttackGradeDPS>15</AttackGradeDPS>
+		<CombatValue>0.01</CombatValue>
+		<LOS>55</LOS>
+		<Bounty>0</Bounty>
+		<RamDodgeFactor>0.5</RamDodgeFactor>
+		<Veterancy Level="1" XP="1" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="3" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="6" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>200</AmmoMax>
+		<AmmoRegenRate>9</AmmoRegenRate>
+		<Tactics>unsc_inf_marine_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>1</ObstructionRadiusX>
+		<ObstructionRadiusY>2</ObstructionRadiusY>
+		<ObstructionRadiusZ>1</ObstructionRadiusZ>
+		<PickRadius>2</PickRadius>
+		<PickOffset>1.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>3000</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
+		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
+		<Sound Type="Create">play_unsc_marine_birth</Sound>
+		<Sound Type="Death">play_unsc_marine_vo_death</Sound>
+		<Sound Type="Select">play_unsc_marine_select</Sound>
+		<Sound Type="Work">play_unsc_marine_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_marine_attack</Sound>
+		<Sound Type="Ability">play_unsc_marine_ability</Sound>
+		<Sound Type="Ability" Action="RocketAttackAction">play_unsc_marine_ability2</Sound>
+		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
+		<ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscMarineRockets</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>HasTrackMask</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<FlashUI>
+			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_inf_medic_01" id="0" dbid="3224">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\infantry\medic_01\medic_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10048</DisplayNameID>
+		<RolloverTextID>10049</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>720</Hitpoints>
+		<AttackGradeDPS>15</AttackGradeDPS>
+		<CombatValue>0.01</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">0</Pop>
+		<Bounty>0</Bounty>
+		<RamDodgeFactor>0.5</RamDodgeFactor>
+		<Veterancy Level="1" XP="1" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="3" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="6" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>200</AmmoMax>
+		<AmmoRegenRate>9</AmmoRegenRate>
+		<Tactics>unsc_inf_medic_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>1</ObstructionRadiusX>
+		<ObstructionRadiusY>2</ObstructionRadiusY>
+		<ObstructionRadiusZ>1</ObstructionRadiusZ>
+		<PickRadius>2</PickRadius>
+		<PickOffset>1.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>3000</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
+		<Sound Type="Create">play_unsc_marine_birth</Sound>
+		<Sound Type="Death">play_unsc_marine_vo_death</Sound>
+		<Sound Type="Select">play_unsc_marine_select</Sound>
+		<Sound Type="Work">play_unsc_marine_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_marine_attack</Sound>
+		<Sound Type="Ability">play_unsc_marine_ability</Sound>
+		<Sound Type="Ability" Action="RocketAttackAction">play_unsc_marine_ability2</Sound>
+		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
+		<ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscMarineRockets</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>HasTrackMask</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>DieLast</Flag>
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<FlashUI>
+			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_inf_odst_01" id="0" dbid="154">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\infantry\odst_01\odst_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10060</DisplayNameID>
+		<RolloverTextID>10061</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>720</Hitpoints>
+		<AttackGradeDPS>15</AttackGradeDPS>
+		<CombatValue>0.8</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">0.2</Pop>
+		<Bounty>0.8</Bounty>
+		<RamDodgeFactor>0.5</RamDodgeFactor>
+		<Veterancy Level="1" XP="1" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="3" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="6" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>340</AmmoMax>
+		<AmmoRegenRate>15</AmmoRegenRate>
+		<Tactics>unsc_inf_odst_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>1</ObstructionRadiusX>
+		<ObstructionRadiusY>2</ObstructionRadiusY>
+		<ObstructionRadiusZ>1</ObstructionRadiusZ>
+		<PickRadius>1</PickRadius>
+		<PickOffset>1</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>3000</SubSelectSort>
+		<SelectedRadiusX>0.8</SelectedRadiusX>
+		<SelectedRadiusZ>0.8</SelectedRadiusZ>
+		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
+		<Sound Type="Create">play_unsc_odst_birth</Sound>
+		<Sound Type="Death">play_unsc_marine_vo_death</Sound>
+		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
+		<Sound Type="Select">play_unsc_odst_select</Sound>
+		<Sound Type="Work">play_unsc_odst_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_odst_attack</Sound>
+		<Sound Type="Ability">play_unsc_odst_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_odst.bnk</ExtendedSoundBank>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscMarineRockets</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasTrackMask</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<FlashUI>
+			<CircleMenuFrameIDNormal>10</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>11</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_inf_odstMedic_01" id="0" dbid="3297">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\infantry\medic_01\medic_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10048</DisplayNameID>
+		<RolloverTextID>10049</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>720</Hitpoints>
+		<AttackGradeDPS>15</AttackGradeDPS>
+		<CombatValue>0.01</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">0</Pop>
+		<Bounty>0</Bounty>
+		<RamDodgeFactor>0.5</RamDodgeFactor>
+		<Veterancy Level="1" XP="1" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="3" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="6" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>200</AmmoMax>
+		<AmmoRegenRate>9</AmmoRegenRate>
+		<Tactics>unsc_inf_medic_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>1</ObstructionRadiusX>
+		<ObstructionRadiusY>2</ObstructionRadiusY>
+		<ObstructionRadiusZ>1</ObstructionRadiusZ>
+		<PickRadius>2</PickRadius>
+		<PickOffset>1.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>3000</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
+		<Sound Type="Create">play_unsc_odst_birth</Sound>
+		<Sound Type="Death">play_unsc_marine_vo_death</Sound>
+		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
+		<Sound Type="Select">play_unsc_odst_select</Sound>
+		<Sound Type="Work">play_unsc_odst_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_odst_attack</Sound>
+		<Sound Type="Ability">play_unsc_odst_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_odst.bnk</ExtendedSoundBank>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>EasyInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscMarineRockets</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>HasTrackMask</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>DieLast</Flag>
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<FlashUI>
+			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_inf_spartan_01" id="0" dbid="155">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\infantry\spartan_01\spartan_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10062</DisplayNameID>
+		<RolloverTextID>10063</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>12</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>1740</Hitpoints>
+		<Shieldpoints>5000</Shieldpoints>
+		<AttackGradeDPS>180</AttackGradeDPS>
+		<CombatValue>8</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Spartan">1</Pop>
+		<Bounty>12</Bounty>
+		<RamDodgeFactor>1</RamDodgeFactor>
+		<Veterancy Level="1" XP="24" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="60" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="108" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>unsc_inf_spartan_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>2</ObstructionRadiusX>
+		<ObstructionRadiusY>2.6</ObstructionRadiusY>
+		<ObstructionRadiusZ>2</ObstructionRadiusZ>
+		<PickRadius>3.7</PickRadius>
+		<PickOffset>2.6</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Hero</GotoType>
+		<SubSelectSort>1000</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
+		<AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
+		<Sound Type="Create">play_unsc_spartan_birth</Sound>
+		<Sound Type="Select">play_unsc_spartan_select</Sound>
+		<Sound Type="Death">play_unsc_spartan_vo_death</Sound>
+		<Sound Type="Work">play_unsc_spartan_acknowledge</Sound>
+		<Sound Type="Ability">play_unsc_spartan_ability</Sound>
+		<Sound Type="AbilityJacked" Squad="cov_veh_bruteChopper_01">play_unsc_spartan_ability_chopper</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_elephant_01">play_unsc_spartan_ability_elephant</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_cobra_01">play_unsc_spartan_ability_elephant</Sound>
+		<Sound Type="AbilityJacked" Squad="cov_veh_ghost_01">play_unsc_spartan_ability_ghost</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_gremlin_01">play_unsc_spartan_ability_gremlin</Sound>
+		<Sound Type="AbilityJacked" Squad="cov_veh_locust_01">play_unsc_spartan_ability_locust</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_scorpion_01">play_unsc_spartan_ability_scorpion</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_warthog_01">play_unsc_spartan_ability_warthog</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_wolverine_01">play_unsc_spartan_ability_wolverine</Sound>
+		<Sound Type="AbilityJacked" Squad="cov_air_banshee_01">play_unsc_spartan_acknowledge</Sound>
+		<Sound Type="AbilityJacked" Squad="cov_air_vampire_01">play_unsc_spartan_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_spartan_attack</Sound>
+		<Sound Type="Pain">play_unsc_spartan_vo_hit</Sound>
+		<Sound Type="StopExist">stop_exist_spartan_01</Sound>
+		<Sound Type="ShieldDepleted">play_pfx_shield_depleted</Sound>
+		<Sound Type="ShieldRegen">play_pfx_shield_charge</Sound>
+		<Sound Type="ShieldLow">play_pfx_shield_low</Sound>
+		<ExtendedSoundBank>xtnd_ui_spartan.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>Hero</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>HardInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>_Hero</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>DieLast</Flag>
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<FlashUI>
+			<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_HealthShield</HPBar>
+	</Object>
+	<Object name="unsc_inf_spartan_02" id="0" dbid="3638">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\infantry\spartan_02\spartan_02.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10062</DisplayNameID>
+		<RolloverTextID>10063</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>12</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>1740</Hitpoints>
+		<Shieldpoints>5000</Shieldpoints>
+		<AttackGradeDPS>180</AttackGradeDPS>
+		<CombatValue>8</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Spartan">1</Pop>
+		<Bounty>12</Bounty>
+		<RamDodgeFactor>1</RamDodgeFactor>
+		<Veterancy Level="1" XP="24" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="60" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="108" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>unsc_inf_spartan_02.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>2</ObstructionRadiusX>
+		<ObstructionRadiusY>2.6</ObstructionRadiusY>
+		<ObstructionRadiusZ>2</ObstructionRadiusZ>
+		<PickRadius>3.7</PickRadius>
+		<PickOffset>2.6</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Hero</GotoType>
+		<SubSelectSort>1000</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
+		<AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
+		<Sound Type="Create">play_unsc_spartan_birth</Sound>
+		<Sound Type="Select">play_unsc_spartan_select</Sound>
+		<Sound Type="Death">play_unsc_marine_vo_death</Sound>
+		<Sound Type="Work">play_unsc_spartan_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_spartan_attack</Sound>
+		<Sound Type="Ability">play_unsc_spartan_ability</Sound>
+		<Sound Type="AbilityJacked" Squad="cov_veh_bruteChopper_01">play_unsc_spartan_ability_chopper</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_elephant_01">play_unsc_spartan_ability_elephant</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_cobra_01">play_unsc_spartan_ability_elephant</Sound>
+		<Sound Type="AbilityJacked" Squad="cov_veh_ghost_01">play_unsc_spartan_ability_ghost</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_gremlin_01">play_unsc_spartan_ability_gremlin</Sound>
+		<Sound Type="AbilityJacked" Squad="cov_veh_locust_01">play_unsc_spartan_ability_locust</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_scorpion_01">play_unsc_spartan_ability_scorpion</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_warthog_01">play_unsc_spartan_ability_warthog</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_wolverine_01">play_unsc_spartan_ability_wolverine</Sound>
+		<Sound Type="AbilityJacked" Squad="cov_air_banshee_01">play_unsc_spartan_acknowledge</Sound>
+		<Sound Type="AbilityJacked" Squad="cov_air_vampire_01">play_unsc_spartan_acknowledge</Sound>
+		<Sound Type="Pain">play_unsc_spartan_vo_hit</Sound>
+		<Sound Type="StopExist">stop_exist_spartan_01</Sound>
+		<Sound Type="ShieldDepleted">play_pfx_shield_depleted</Sound>
+		<Sound Type="ShieldRegen">play_pfx_shield_charge</Sound>
+		<ExtendedSoundBank>xtnd_ui_spartan.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>Hero</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>HardInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>_Hero</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>DieLast</Flag>
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<FlashUI>
+			<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_HealthShield</HPBar>
+	</Object>
+	<Object name="unsc_inf_spartan_03" id="0" dbid="3639">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\infantry\spartan_03\spartan_03.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10062</DisplayNameID>
+		<RolloverTextID>10063</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>12</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>1740</Hitpoints>
+		<Shieldpoints>5000</Shieldpoints>
+		<AttackGradeDPS>180</AttackGradeDPS>
+		<CombatValue>8</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Spartan">1</Pop>
+		<Bounty>12</Bounty>
+		<RamDodgeFactor>1</RamDodgeFactor>
+		<Veterancy Level="1" XP="24" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="60" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="108" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>unsc_inf_spartan_03.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>2</ObstructionRadiusX>
+		<ObstructionRadiusY>2.6</ObstructionRadiusY>
+		<ObstructionRadiusZ>2</ObstructionRadiusZ>
+		<PickRadius>3.7</PickRadius>
+		<PickOffset>2.6</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Hero</GotoType>
+		<SubSelectSort>1000</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
+		<AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
+		<Sound Type="Create">play_unsc_spartan_birth</Sound>
+		<Sound Type="Select">play_unsc_spartan_select</Sound>
+		<Sound Type="Death">play_unsc_marine_vo_death</Sound>
+		<Sound Type="Work">play_unsc_spartan_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_spartan_attack</Sound>
+		<Sound Type="Ability">play_unsc_spartan_ability</Sound>
+		<Sound Type="AbilityJacked" Squad="cov_veh_bruteChopper_01">play_unsc_spartan_ability_chopper</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_elephant_01">play_unsc_spartan_ability_elephant</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_cobra_01">play_unsc_spartan_ability_elephant</Sound>
+		<Sound Type="AbilityJacked" Squad="cov_veh_ghost_01">play_unsc_spartan_ability_ghost</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_gremlin_01">play_unsc_spartan_ability_gremlin</Sound>
+		<Sound Type="AbilityJacked" Squad="cov_veh_locust_01">play_unsc_spartan_ability_locust</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_scorpion_01">play_unsc_spartan_ability_scorpion</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_warthog_01">play_unsc_spartan_ability_warthog</Sound>
+		<Sound Type="AbilityJacked" Squad="unsc_veh_wolverine_01">play_unsc_spartan_ability_wolverine</Sound>
+		<Sound Type="AbilityJacked" Squad="cov_air_banshee_01">play_unsc_spartan_acknowledge</Sound>
+		<Sound Type="AbilityJacked" Squad="cov_air_vampire_01">play_unsc_spartan_acknowledge</Sound>
+		<Sound Type="Pain">play_unsc_spartan_vo_hit</Sound>
+		<Sound Type="StopExist">stop_exist_spartan_01</Sound>
+		<Sound Type="ShieldDepleted">play_pfx_shield_depleted</Sound>
+		<Sound Type="ShieldRegen">play_pfx_shield_charge</Sound>
+		<ExtendedSoundBank>xtnd_ui_spartan.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Hero</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>HardInfection</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>_Hero</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>DieLast</Flag>
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<FlashUI>
+			<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_HealthShield</HPBar>
+	</Object>
+	<Object name="unsc_veh_cobra_01" id="0" dbid="153">
+		<PhysicsInfo>cobra</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\vehicle\cobra_01\cobra_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_fox</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10058</DisplayNameID>
+		<RolloverTextID>10059</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hardpoint name="Turret" autocenter="true" yawrate="45" pitchrate="60" pitchMinAngle="-5" pitchMaxAngle="90" yawattachment="turret" pitchattachment="cannon" />
+		<Hardpoint name="LockdownTurret" autocenter="true" yawrate="45" pitchrate="60" pitchMinAngle="-5" pitchMaxAngle="90" yawattachment="LockdownTurret" pitchattachment="LockdownCannon" />
+		<Velocity>13</Velocity>
+		<TurnRate>180</TurnRate>
+		<Hitpoints>8550</Hitpoints>
+		<AttackGradeDPS>190.9.0</AttackGradeDPS>
+		<CombatValue>14</CombatValue>
+		<LOS>80</LOS>
+		<Pop Type="Unit">2</Pop>
+		<Bounty>14</Bounty>
+		<Veterancy Level="1" XP="28" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="70" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="126" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<Tactics>unsc_veh_cobra_01.tactics</Tactics>
+		<RepairPoints>50</RepairPoints>
+		<ObstructionRadiusX>8</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>8</ObstructionRadiusZ>
+		<PickRadius>3</PickRadius>
+		<PickOffset>0.9</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>5075</SubSelectSort>
+		<SelectedRadiusX>3.1</SelectedRadiusX>
+		<SelectedRadiusZ>3.1</SelectedRadiusZ>
+		<Sound Type="Create">play_unsc_cobra_birth</Sound>
+		<Sound Type="Death">play_unsc_cobra_death</Sound>
+		<Sound Type="Select">play_unsc_cobra_select</Sound>
+		<Sound Type="Work">play_unsc_cobra_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_cobra_attack</Sound>
+		<Sound Type="Ability">play_unsc_cobra_ability</Sound>
+		<Sound Type="Exist">start_exist_cobra</Sound>
+		<Sound Type="StopExist">stop_exist_cobra</Sound>
+		<Sound Type="StartMove">start_move_cobra</Sound>
+		<Sound Type="StopMove">stop_move_cobra</Sound>
+		<Sound Type="PieceThrownOff">play_scorpion_damage</Sound>
+		<ExtendedSoundBank>xtnd_ui_cobra.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscCobraLockdown</AbilityCommand>
+		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>16</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>17</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_veh_warthog_01" id="0" dbid="156">
+		<PhysicsInfo>warthog</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\vehicle\warthog_01\warthog_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>10064</DisplayNameID>
+		<RolloverTextID>10065</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="60" yawattachment="turret" pitchattachment="turretgun" />
+		<Hardpoint name="PassengerTurret" autocenter="true" yawrate="180" pitchrate="180" pitchMaxAngle="60" pitchMinAngle="0" yawattachment="PassengerTop" pitchattachment="PassengerTop" />
+		<Velocity>40</Velocity>
+		<TurnRate>450</TurnRate>
+		<Hitpoints>2369</Hitpoints>
+		<AttackGradeDPS>138.5</AttackGradeDPS>
+		<CombatValue>6</CombatValue>
+		<Veterancy Level="1" XP="12" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="30" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="54" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<LOS>75</LOS>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>6</Bounty>
+		<AmmoMax>800</AmmoMax>
+		<AmmoRegenRate>40</AmmoRegenRate>
+		<Tactics>unsc_veh_warthog_01.tactics</Tactics>
+		<RepairPoints>150</RepairPoints>
+		<ObstructionRadiusX>5</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>5</ObstructionRadiusZ>
+		<PickRadius>3.9</PickRadius>
+		<PickOffset>0.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>500</SubSelectSort>
+		<SelectedRadiusX>2.7</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_unsc_warthog_birth</Sound>
+		<Sound Type="Death">play_unsc_warthog_death</Sound>
+		<Sound Type="Select">play_unsc_warthog_select</Sound>
+		<Sound Type="Work">play_unsc_warthog_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_warthog_attack</Sound>
+		<Sound Type="Ability">play_unsc_warthog_ability</Sound>
+		<Sound Type="StartMove">start_move_warthog</Sound>
+		<Sound Type="StopMove">stop_move_warthog</Sound>
+		<Sound Type="Exist">start_exist_warthog</Sound>
+		<Sound Type="StopExist">stop_exist_warthog</Sound>
+		<Sound Type="PieceThrownOff">play_warthog_damage</Sound>
+		<Sound Type="SkidOn">start_skid_warthog</Sound>
+		<Sound Type="SkidOff">stop_skid_warthog</Sound>
+		<Sound Type="Jump">play_warthog_fly</Sound>
+		<Sound Type="Land">stop_warthog_fly</Sound>
+		<Sound Type="LandHard">play_warthog_land</Sound>
+		<ExtendedSoundBank>xtnd_ui_warthog.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscRam</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>StartAtMaxAmmo</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+		<TrueLOSHeight>6</TrueLOSHeight>
+	</Object>
+	<Object name="unsc_veh_warthogLCE_01" id="0" dbid="4290">
+		<PhysicsInfo>warthog</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\vehicle\warthog_01\warthogLCE_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>10064</DisplayNameID>
+		<RolloverTextID>10065</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="60" yawattachment="turret" pitchattachment="turretgun" />
+		<Hardpoint name="PassengerTurret" autocenter="true" yawrate="180" pitchrate="180" pitchMaxAngle="60" pitchMinAngle="0" yawattachment="PassengerTop" pitchattachment="PassengerTop" />
+		<Velocity>40</Velocity>
+		<TurnRate>450</TurnRate>
+		<Hitpoints>2369</Hitpoints>
+		<AttackGradeDPS>138.5</AttackGradeDPS>
+		<CombatValue>6</CombatValue>
+		<Veterancy Level="1" XP="12" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="30" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="54" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<LOS>75</LOS>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>6</Bounty>
+		<AmmoMax>800</AmmoMax>
+		<AmmoRegenRate>40</AmmoRegenRate>
+		<Tactics>unsc_veh_warthog_01.tactics</Tactics>
+		<RepairPoints>150</RepairPoints>
+		<ObstructionRadiusX>5</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>5</ObstructionRadiusZ>
+		<PickRadius>3.9</PickRadius>
+		<PickOffset>0.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>500</SubSelectSort>
+		<SelectedRadiusX>2.7</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_unsc_warthog_birth</Sound>
+		<Sound Type="Death">play_unsc_warthog_death</Sound>
+		<Sound Type="Select">play_unsc_warthog_select</Sound>
+		<Sound Type="Work">play_unsc_warthog_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_warthog_attack</Sound>
+		<Sound Type="Ability">play_unsc_warthog_ability</Sound>
+		<Sound Type="StartMove">start_move_warthog</Sound>
+		<Sound Type="StopMove">stop_move_warthog</Sound>
+		<Sound Type="Exist">start_exist_warthog</Sound>
+		<Sound Type="StopExist">stop_exist_warthog</Sound>
+		<Sound Type="PieceThrownOff">play_warthog_damage</Sound>
+		<Sound Type="SkidOn">start_skid_warthog</Sound>
+		<Sound Type="SkidOff">stop_skid_warthog</Sound>
+		<Sound Type="Jump">play_warthog_fly</Sound>
+		<Sound Type="Land">stop_warthog_fly</Sound>
+		<Sound Type="LandHard">play_warthog_land</Sound>
+		<ExtendedSoundBank>xtnd_ui_warthog.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscRam</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>StartAtMaxAmmo</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+		<TrueLOSHeight>6</TrueLOSHeight>
+	</Object>
+	<Object name="unsc_veh_gremlin_01" id="0" dbid="3007">
+		<PhysicsInfo>gremlin</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\vehicle\gremlin_01\gremlin_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>23664</DisplayNameID>
+		<RolloverTextID>23665</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="60" yawattachment="empgun" pitchattachment="empgun" />
+		<Velocity>18</Velocity>
+		<TurnRate>120</TurnRate>
+		<Hitpoints>3450</Hitpoints>
+		<AttackGradeDPS>136.8</AttackGradeDPS>
+		<CombatValue>8</CombatValue>
+		<Veterancy Level="1" XP="16" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="40" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="72" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
+		<LOS>75</LOS>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>8</Bounty>
+		<AmmoMax>800</AmmoMax>
+		<AmmoRegenRate>40</AmmoRegenRate>
+		<Tactics>unsc_veh_gremlin_01.tactics</Tactics>
+		<RepairPoints>150</RepairPoints>
+		<ObstructionRadiusX>5.5</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>5.5</ObstructionRadiusZ>
+		<PickRadius>3.9</PickRadius>
+		<PickOffset>0.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>5000</SubSelectSort>
+		<SelectedRadiusX>2.7</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>SpartanBoard</ObjectType>
+		<Sound Type="Create">play_unsc_gremlin_birth</Sound>
+		<Sound Type="Death">play_unsc_gremlin_death</Sound>
+		<Sound Type="Select">play_unsc_gremlin_select</Sound>
+		<Sound Type="Work">play_unsc_gremlin_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_gremlin_attack</Sound>
+		<Sound Type="Ability">play_unsc_gremlin_ability</Sound>
+		<Sound Type="Exist">start_exist_gremlin</Sound>
+		<Sound Type="StopExist">stop_exist_gremlin</Sound>
+		<Sound Type="StartMove">start_move_gremlin</Sound>
+		<Sound Type="StopMove">stop_move_gremlin</Sound>
+		<ExtendedSoundBank>xtnd_ui_gremlin.bnk</ExtendedSoundBank>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscGremlinSpecial</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>StartAtMaxAmmo</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_veh_elephant_01" id="0" dbid="3008">
+		<PhysicsInfo>elephant</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<TrainerType>3</TrainerType>
+		<Visual>unsc\vehicle\elephant_01\elephant_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>23668</DisplayNameID>
+		<RolloverTextID>23669</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hardpoint name="frontMGTurret" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawMaxAngle="120" yawattachment="frontMG" />
+		<Hardpoint name="leftMGTurret" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawMaxAngle="120" yawattachment="leftMG" />
+		<Hardpoint name="rightMGTurret" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawMaxAngle="120" yawattachment="rightMG" />
+		<Velocity>9</Velocity>
+		<TurnRate>60</TurnRate>
+		<Hitpoints>10000</Hitpoints>
+		<LOS>55</LOS>
+		<Pop Type="Unit">2</Pop>
+		<CombatValue>16</CombatValue>
+		<Bounty>12</Bounty>
+		<Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="80" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="144" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
+		<Tactics>unsc_veh_elephant_01.tactics</Tactics>
+		<RepairPoints>300</RepairPoints>
+		<ObstructionRadiusX>8</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>8</ObstructionRadiusZ>
+		<PickRadius>7</PickRadius>
+		<PickOffset>3</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SelectedRadiusX>9</SelectedRadiusX>
+		<SelectedRadiusZ>9</SelectedRadiusZ>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscLockdown</AbilityCommand>
+		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+		<ExitFromDirection>2</ExitFromDirection>
+		<Command Type="TrainSquad" Position="1">unsc_inf_marine_01</Command>
+		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01</Command>
+		<Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
+		<Command Type="TrainSquad" Position="3">unsc_inf_spartan_01</Command>
+		<Command Type="ChangeMode" Position="6">Normal</Command>
+		<Command Type="RallyPoint" Position="5" />
+		<Sound Type="Create">play_unsc_elephant_birth</Sound>
+		<Sound Type="Select">play_unsc_elephant_select</Sound>
+		<Sound Type="Work">play_unsc_elephant_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_elephant_attack</Sound>
+		<Sound Type="Ability">play_unsc_elephant_ability</Sound>
+		<Sound Type="Death">play_unsc_tiger_death</Sound>
+		<Sound Type="Exist">start_exist_rhino</Sound>
+		<Sound Type="StopExist">stop_exist_rhino</Sound>
+		<Sound Type="StartMove">start_move_rhino</Sound>
+		<Sound Type="StopMove">stop_move_rhino</Sound>
+		<Sound Type="PieceThrownOff">play_scorpion_damage</Sound>
+		<ExtendedSoundBank>xtnd_ui_elephant.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>TowTruck</ObjectType>
+		<Flag>KBAware</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ShowRange</Flag>
+		<Flag>LockdownMenu</Flag>
+		<Flag>NonRotatable</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>24</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>25</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_veh_elephant_02" id="0" dbid="3187">
+		<PhysicsInfo>elephant</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<TrainerType>3</TrainerType>
+		<Visual>unsc\vehicle\elephant_02\elephant_02.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>23668</DisplayNameID>
+		<RolloverTextID>23669</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hardpoint name="frontMGTurret" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawMaxAngle="120" yawattachment="frontMG" />
+		<Hardpoint name="leftMGTurret" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawMaxAngle="120" yawattachment="LeftMG" />
+		<Hardpoint name="rightMGTurret" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawMaxAngle="120" yawattachment="RightMG" />
+		<Hardpoint name="LockdownTurret" autocenter="true" yawrate="180" pitchrate="30" pitchMinAngle="-35" pitchMaxAngle="90" yawattachment="LockdownTurret" pitchattachment="LockdownCannon" />
+		<Velocity>9</Velocity>
+		<TurnRate>60</TurnRate>
+		<Hitpoints>10000</Hitpoints>
+		<LOS>55</LOS>
+		<Pop Type="Unit">2</Pop>
+		<CombatValue>16</CombatValue>
+		<Bounty>12</Bounty>
+		<Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="80" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="144" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
+		<Tactics>unsc_veh_elephant_02.tactics</Tactics>
+		<RepairPoints>300</RepairPoints>
+		<ObstructionRadiusX>8</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>8</ObstructionRadiusZ>
+		<PickRadius>7</PickRadius>
+		<PickOffset>3</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SelectedRadiusX>9</SelectedRadiusX>
+		<SelectedRadiusZ>9</SelectedRadiusZ>
+		<DamageType direction="Full">Heavy</DamageType>
+		<Sound Type="Create">play_unsc_elephant_birth</Sound>
+		<Sound Type="Select">play_unsc_elephant_select</Sound>
+		<Sound Type="Work">play_unsc_elephant_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_elephant_attack</Sound>
+		<Sound Type="Death">play_unsc_tiger_death</Sound>
+		<Sound Type="Exist">start_exist_rhino</Sound>
+		<Sound Type="StopExist">stop_exist_rhino</Sound>
+		<Sound Type="StartMove">start_move_rhino</Sound>
+		<Sound Type="StopMove">stop_move_rhino</Sound>
+		<Sound Type="PieceThrownOff">play_scorpion_damage</Sound>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>TowTruck</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscLockdown</AbilityCommand>
+		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+		<ExitFromDirection>2</ExitFromDirection>
+		<Command Type="TrainSquad" Position="1">unsc_inf_marine_01</Command>
+		<Command Type="TrainSquad" Position="1">unsc_inf_odst_01</Command>
+		<Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
+		<Command Type="TrainSquad" Position="3">unsc_inf_spartan_01</Command>
+		<Command Type="ChangeMode" Position="6">Normal</Command>
+		<Command Type="RallyPoint" Position="5" />
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ShowRange</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>LockdownMenu</Flag>
+		<Flag>NonRotatable</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>24</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>25</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_veh_scorpion_01" id="0" dbid="158">
+		<PhysicsInfo>scorpion</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\vehicle\scorpion_01\scorpion_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_scorpion</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>10068</DisplayNameID>
+		<RolloverTextID>10069</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hardpoint name="CannonTurret" autocenter="true" yawrate="60" pitchrate="90" pitchMinAngle="-15" pitchMaxAngle="30" yawattachment="turret" pitchattachment="cannon" />
+		<Hardpoint name="MGTurret" autocenter="true" infiniteRateWhenHasTarget="true" yawrate="60" pitchrate="90" pitchMinAngle="-15" pitchMaxAngle="30" yawattachment="turret" pitchattachment="MG" StartYawSound="play_turret_01_yaw_start" StopYawSound="stop_turret_01_yaw" />
+		<Velocity>20</Velocity>
+		<TurnRate>120</TurnRate>
+		<Hitpoints>11807</Hitpoints>
+		<AttackGradeDPS>272.7</AttackGradeDPS>
+		<CombatValue>20</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">3</Pop>
+		<Bounty>20</Bounty>
+		<Veterancy Level="1" XP="40" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="100" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="180" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
+		<Tactics>unsc_veh_scorpion_01.tactics</Tactics>
+		<RepairPoints>300</RepairPoints>
+		<ObstructionRadiusX>8</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>8</ObstructionRadiusZ>
+		<PickRadius>5.9</PickRadius>
+		<PickOffset>1.4</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>5200</SubSelectSort>
+		<SelectedRadiusX>5.3</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<Sound Type="Create">play_unsc_scorpion_birth</Sound>
+		<Sound Type="Death">play_unsc_scorpion_death</Sound>
+		<Sound Type="Select">play_unsc_scorpion_select</Sound>
+		<Sound Type="Work">play_unsc_scorpion_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_scorpion_attack</Sound>
+		<Sound Type="Ability">play_unsc_scorpion_ability</Sound>
+		<Sound Type="Exist">start_exist_scorpion</Sound>
+		<Sound Type="StopExist">stop_exist_scorpion</Sound>
+		<Sound Type="StartMove">start_move_scorpion</Sound>
+		<Sound Type="StopMove">stop_move_scorpion</Sound>
+		<Sound Type="PieceThrownOff">play_scorpion_damage</Sound>
+		<ExtendedSoundBank>xtnd_ui_scorpion.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>SpartanBoard</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscScorpionSpecial</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>22</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>23</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_veh_grizzly_01" id="0" dbid="160">
+		<PhysicsInfo>grizzly</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\vehicle\grizzly_01\grizzly_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_tiger</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>10186</DisplayNameID>
+		<RolloverTextID>10187</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hardpoint name="CannonTurret" autocenter="true" yawrate="0" pitchrate="90" yawMaxAngle="0" pitchMinAngle="-15" pitchMaxAngle="30" yawattachment="turret" pitchattachment="cannon" />
+		<Hardpoint name="MGTurret" autocenter="true" yawrate="120" pitchrate="90" pitchMinAngle="-15" pitchMaxAngle="30" yawattachment="turret" pitchattachment="MG" />
+		<Velocity>20</Velocity>
+		<TurnRate>120</TurnRate>
+		<Hitpoints>11807</Hitpoints>
+		<AttackGradeDPS>272.7</AttackGradeDPS>
+		<CombatValue>20</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">3</Pop>
+		<Bounty>20</Bounty>
+		<Veterancy Level="1" XP="40" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="100" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="180" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
+		<Tactics>unsc_veh_grizzly_01.tactics</Tactics>
+		<RepairPoints>300</RepairPoints>
+		<ObstructionRadiusX>8</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>8</ObstructionRadiusZ>
+		<PickRadius>5.1</PickRadius>
+		<PickOffset>1.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>5250</SubSelectSort>
+		<SelectedRadiusX>7.4</SelectedRadiusX>
+		<SelectedRadiusZ>7.4</SelectedRadiusZ>
+		<Sound Type="Create">play_unsc_grizzly_birth</Sound>
+		<Sound Type="Death">play_unsc_tiger_death</Sound>
+		<Sound Type="Select">play_unsc_grizzly_select</Sound>
+		<Sound Type="Work">play_unsc_grizzly_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_grizzly_attack</Sound>
+		<Sound Type="Ability">play_unsc_grizzly_ability</Sound>
+		<Sound Type="Exist">start_exist_grizzly</Sound>
+		<Sound Type="StopExist">stop_exist_grizzly</Sound>
+		<Sound Type="StartMove">start_move_grizzly</Sound>
+		<Sound Type="StopMove">stop_move_grizzly</Sound>
+		<Sound Type="PieceThrownOff">play_scorpion_damage</Sound>
+		<ExtendedSoundBank>xtnd_ui_grizzly.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>SpartanBoard</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscScorpionSpecial</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>22</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>23</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_veh_wolverine_01" id="0" dbid="161">
+		<PhysicsInfo>wolverine</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\vehicle\wolverine_01\wolverine_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_wolverine</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>10070</DisplayNameID>
+		<RolloverTextID>10071</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="90" pitchMinAngle="-30" pitchMaxAngle="90" yawattachment="turret" pitchattachment="MissileHousing" />
+		<Hardpoint name="GrenadeLauncherTurret" autocenter="true" yawrate="360" pitchrate="180" yawattachment="GrenadeLauncher" pitchattachment="GrenadeLauncherTurret" />
+		<Velocity>25</Velocity>
+		<TurnRate>180</TurnRate>
+		<Hitpoints>8323</Hitpoints>
+		<AttackGradeDPS>138.5</AttackGradeDPS>
+		<CombatValue>12</CombatValue>
+		<AbilityCommand>UnscWolverineBarrage</AbilityCommand>
+		<LOS>55</LOS>
+		<Pop Type="Unit">2</Pop>
+		<Bounty>12</Bounty>
+		<Veterancy Level="1" XP="24" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="60" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="108" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>120</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>unsc_veh_wolverine_01.tactics</Tactics>
+		<RepairPoints>150</RepairPoints>
+		<ObstructionRadiusX>6</ObstructionRadiusX>
+		<ObstructionRadiusY>3.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>6</ObstructionRadiusZ>
+		<PickRadius>4.4</PickRadius>
+		<PickOffset>1.9</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>5100</SubSelectSort>
+		<SelectedRadiusX>3.2</SelectedRadiusX>
+		<SelectedRadiusZ>1.5</SelectedRadiusZ>
+		<Sound Type="Create">play_unsc_wolverine_birth</Sound>
+		<Sound Type="Death">play_unsc_wolverine_death</Sound>
+		<Sound Type="Select">play_unsc_wolverine_select</Sound>
+		<Sound Type="Work">play_unsc_wolverine_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_wolverine_attack</Sound>
+		<Sound Type="Ability">play_unsc_wolverine_ability</Sound>
+		<Sound Type="Exist">start_exist_wolverine</Sound>
+		<Sound Type="StopExist">stop_exist_wolverine</Sound>
+		<Sound Type="StartMove">start_move_wolverine</Sound>
+		<Sound Type="StopMove">stop_move_wolverine</Sound>
+		<Sound Type="PieceThrownOff">play_scorpion_damage</Sound>
+		<ExtendedSoundBank>xtnd_ui_wolve.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>SpartanBoard</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>20</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>21</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_air_hawk_01" id="0" dbid="164">
+		<PhysicsInfo>hawk</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\air\hawk_01\hawk_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_hawk</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>10076</DisplayNameID>
+		<RolloverTextID>10077</RolloverTextID>
+		<Hardpoint name="TurbineRL" autocenter="true" yawrate="0" yawmaxangle="0" pitchrate="60" pitchMaxAngle="30" pitchMinAngle="-30" pitchattachment="TurbineL" />
+		<Hardpoint name="TurbineRR" autocenter="true" yawrate="0" yawmaxangle="0" pitchrate="60" pitchMaxAngle="30" pitchMinAngle="-30" pitchattachment="Turbine R" />
+		<Hardpoint name="LaserTurret" autocenter="true" yawmaxangle="60" pitchmaxangle="60" yawattachment="Laser" pitchattachment="Laser" useYawAndPitchAsTolerance="true" />
+		<Hardpoint name="MGTurretR" autocenter="true" yawrate="360" pitchrate="180" yawmaxangle="60" pitchmaxangle="20" pitchminangle="-60" yawattachment="MachineGunR" pitchattachment="MachineGunR" />
+		<Hardpoint name="MGTurretL" autocenter="true" yawrate="360" pitchrate="180" yawmaxangle="60" pitchmaxangle="20" pitchminangle="-60" yawattachment="MachineGunL" pitchattachment="MachineGunL" />
+		<Hardpoint name="ChaffTurret" autocenter="true" yawrate="0" yawmaxangle="0" pitchrate="60" pitchMaxAngle="30" pitchMinAngle="-30" pitchattachment="ChaffPod" yawattachment="ChaffPod" />
+		<MovementType>Air</MovementType>
+		<Velocity>35</Velocity>
+		<ReverseSpeed>20.0f</ReverseSpeed>
+		<TurnRate>120</TurnRate>
+		<Hitpoints>4391</Hitpoints>
+		<AttackGradeDPS>165</AttackGradeDPS>
+		<CombatValue>10</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">2</Pop>
+		<Bounty>10</Bounty>
+		<Veterancy Level="1" XP="20" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="50" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="90" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>60</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>unsc_air_hawk_01.tactics</Tactics>
+		<RepairPoints>150</RepairPoints>
+		<ObstructionRadiusX>4.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2</ObstructionRadiusY>
+		<ObstructionRadiusZ>4.5</ObstructionRadiusZ>
+		<PickRadius>2.6</PickRadius>
+		<PickOffset>0.6</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Air</GotoType>
+		<SubSelectSort>7100</SubSelectSort>
+		<SelectedRadiusX>4.3</SelectedRadiusX>
+		<SelectedRadiusZ>4.3</SelectedRadiusZ>
+		<Sound Type="Create">play_unsc_hawk_birth</Sound>
+		<Sound Type="Death">play_unsc_hawk_death</Sound>
+		<Sound Type="Select">play_unsc_hawk_select</Sound>
+		<Sound Type="Work">play_unsc_hawk_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_hawk_attack</Sound>
+		<Sound Type="Ability">play_unsc_hawk_ability</Sound>
+		<Sound Type="Exist">start_exist_hawk</Sound>
+		<Sound Type="StopExist">stop_exist_hawk</Sound>
+		<Sound Type="StartMove">start_move_hawk</Sound>
+		<Sound Type="StopMove">stop_move_hawk</Sound>
+		<Sound Type="ImpactDeath">play_impact_death_pelican</Sound>
+		<Sound Type="PieceThrownOff">play_hornet_damage</Sound>
+		<ExtendedSoundBank>xtnd_ui_hawk.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">MediumAir</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>AirCraft</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>SpartanBoardFlying</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>Obscurable</Flag>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>26</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>27</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_air_hornet_01" id="0" dbid="1144">
+		<PhysicsInfo>hornet</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\air\hornet_01\hornet_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_wasp</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>22217</DisplayNameID>
+		<RolloverTextID>22218</RolloverTextID>
+		<Flag>HasPivotingEngines</Flag>
+		<Hardpoint name="LeftWingmanTurret" autocenter="true" yawrate="180" pitchrate="180" yawmaxangle="100" pitchMaxAngle="30" pitchMinAngle="-30" yawattachment="LeftWingmen" pitchattachment="LeftWingmen" />
+		<Hardpoint name="RightWingmanTurret" autocenter="true" yawrate="180" pitchrate="180" yawmaxangle="100" pitchMaxAngle="30" pitchMinAngle="-30" yawattachment="RightWingmen" pitchattachment="RightWingmen" />
+		<Hardpoint name="MGTurret" autocenter="true" yawrate="360" pitchrate="180" yawmaxangle="60" pitchmaxangle="20" pitchminangle="-60" yawattachment="Turret" pitchattachment="Turret" />
+		<Hardpoint name="RocketTurret" autocenter="true" yawmaxangle="60" pitchmaxangle="60" yawattachment="Rocket" pitchattachment="Rocket" useYawAndPitchAsTolerance="true" />
+		<Hardpoint name="TurbineRL" autocenter="true" yawrate="0" yawmaxangle="0" pitchrate="60" pitchMaxAngle="30" pitchMinAngle="-30" pitchattachment="Turbine L" />
+		<Hardpoint name="TurbineRR" autocenter="true" yawrate="0" yawmaxangle="0" pitchrate="60" pitchMaxAngle="30" pitchMinAngle="-30" pitchattachment="Turbine R" />
+		<Hardpoint name="ChaffTurret" autocenter="true" yawrate="0" yawmaxangle="0" pitchrate="60" pitchMaxAngle="30" pitchMinAngle="-30" pitchattachment="ChaffPod" yawattachment="ChaffPod" />
+		<MovementType>Air</MovementType>
+		<Velocity>30</Velocity>
+		<ReverseSpeed>15.0f</ReverseSpeed>
+		<TurnRate>120</TurnRate>
+		<Hitpoints>4391</Hitpoints>
+		<AttackGradeDPS>165</AttackGradeDPS>
+		<CombatValue>10</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">2</Pop>
+		<Bounty>10</Bounty>
+		<Veterancy Level="1" XP="20" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="50" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="90" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>60</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>unsc_air_hornet_01.tactics</Tactics>
+		<RepairPoints>150</RepairPoints>
+		<ObstructionRadiusX>4.5</ObstructionRadiusX>
+		<ObstructionRadiusY>2</ObstructionRadiusY>
+		<ObstructionRadiusZ>4.5</ObstructionRadiusZ>
+		<PickRadius>2.6</PickRadius>
+		<PickOffset>0.6</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Air</GotoType>
+		<SubSelectSort>7000</SubSelectSort>
+		<SelectedRadiusX>4.3</SelectedRadiusX>
+		<SelectedRadiusZ>4.3</SelectedRadiusZ>
+		<Sound Type="Create">play_unsc_hornet_birth</Sound>
+		<Sound Type="Death">play_unsc_hornet_death</Sound>
+		<Sound Type="Select">play_unsc_hornet_select</Sound>
+		<Sound Type="Work">play_unsc_hornet_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_hornet_attack</Sound>
+		<Sound Type="Ability">play_unsc_hornet_ability</Sound>
+		<Sound Type="Exist">start_exist_hornet</Sound>
+		<Sound Type="StopExist">stop_exist_hornet</Sound>
+		<Sound Type="StartMove">start_move_hornet</Sound>
+		<Sound Type="StopMove">stop_move_hornet</Sound>
+		<Sound Type="ImpactDeath">play_impact_death_hornet</Sound>
+		<Sound Type="PieceThrownOff">play_hornet_damage</Sound>
+		<ExtendedSoundBank>xtnd_ui_hornet.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">MediumAir</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>AirCraft</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>SpartanBoardFlying</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<Flag>Repairable</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>26</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>27</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_air_vulture_01" id="0" dbid="165">
+		<PhysicsInfo>vulture</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\air\vulture_01\vulture_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_vulture</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>10078</DisplayNameID>
+		<RolloverTextID>10079</RolloverTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>12</Velocity>
+		<TurnRate>45</TurnRate>
+		<Hardpoint name="LeftCannonTurret" autocenter="true" combined="true" yawrate="90" yawmaxangle="60" yawattachment="CannonLeft" />
+		<Hardpoint name="RightCannonTurret" autocenter="true" combined="true" yawrate="90" yawmaxangle="60" yawattachment="CannonRight" />
+		<Hardpoint name="LeftMissileTurret" autocenter="true" combined="true" yawrate="180" yawattachment="MissleLeft" />
+		<Hardpoint name="RightMissileTurret" autocenter="true" combined="true" yawrate="180" yawattachment="MissleRight" />
+		<Hitpoints>12284</Hitpoints>
+		<AttackGradeDPS>702</AttackGradeDPS>
+		<CombatValue>36</CombatValue>
+		<LOS>80</LOS>
+		<Pop Type="Unit">6</Pop>
+		<Bounty>36</Bounty>
+		<Veterancy Level="1" XP="72" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="180" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="324" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
+		<Tactics>unsc_air_vulture_01.tactics</Tactics>
+		<NumStasisFieldsToStop>3</NumStasisFieldsToStop>
+		<RepairPoints>800</RepairPoints>
+		<ObstructionRadiusX>10</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>14</ObstructionRadiusZ>
+		<PickRadius>7.7</PickRadius>
+		<PickOffset>2</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Air</GotoType>
+		<SubSelectSort>7200</SubSelectSort>
+		<SelectedRadiusX>7.3</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<AbilityCommand>UnscBarrage</AbilityCommand>
+		<Sound Type="Create">play_unsc_vulture_birth</Sound>
+		<Sound Type="Death">play_unsc_vulture_death</Sound>
+		<Sound Type="Select">play_unsc_vulture_select</Sound>
+		<Sound Type="Work">play_unsc_vulture_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_vulture_attack</Sound>
+		<Sound Type="Ability">play_unsc_vulture_ability</Sound>
+		<Sound Type="Exist">start_exist_vulture</Sound>
+		<Sound Type="StopExist">stop_exist_vulture</Sound>
+		<Sound Type="StartMove">start_move_vulture</Sound>
+		<Sound Type="StopMove">stop_move_vulture</Sound>
+		<Sound Type="ImpactDeath">play_impact_death_vulture</Sound>
+		<Sound Type="PieceThrownOff">play_scorpion_damage</Sound>
+		<ExtendedSoundBank>xtnd_ui_vulture.bnk</ExtendedSoundBank>
+		<DamageType direction="Full">MediumAir</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>AirCraft</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>Obscurable</Flag>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>34</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>35</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="unsc_air_pelican_01" id="0" dbid="168">
+		<PhysicsInfo>pelican</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\air\pelican_01\pelican_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>10084</DisplayNameID>
+		<RoleTextID>509</RoleTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>28</Velocity>
+		<ReverseSpeed>19.0f</ReverseSpeed>
+		<TurnRate>45</TurnRate>
+		<Flag>HasPivotingEngines</Flag>
+		<Hardpoint name="TurbineFL" autocenter="true" yawrate="0" yawmaxangle="0" pitchrate="60" pitchMaxAngle="20" pitchMinAngle="-20" pitchattachment="Turbine FL" />
+		<Hardpoint name="TurbineFR" autocenter="true" yawrate="0" yawmaxangle="0" pitchrate="60" pitchMaxAngle="20" pitchMinAngle="-20" pitchattachment="Turbine FR" />
+		<Hardpoint name="TurbineRL" autocenter="true" yawrate="0" yawmaxangle="0" pitchrate="60" pitchMaxAngle="30" pitchMinAngle="-30" pitchattachment="Turbine RL" />
+		<Hardpoint name="TurbineRR" autocenter="true" yawrate="0" yawmaxangle="0" pitchrate="60" pitchMaxAngle="30" pitchMinAngle="-30" pitchattachment="Turbine RR" />
+		<Hitpoints>6285</Hitpoints>
+		<LOS>55</LOS>
+		<Pop Type="Unit">0</Pop>
+		<Bounty>6</Bounty>
+		<RepairPoints>400</RepairPoints>
+		<Tactics>unsc_air_pelican_01.tactics</Tactics>
+		<ObstructionRadiusX>12</ObstructionRadiusX>
+		<ObstructionRadiusY>3.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>15</ObstructionRadiusZ>
+		<PickRadius>7.9</PickRadius>
+		<PickOffset>2.54</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Target</SelectType>
+		<GotoType>Air</GotoType>
+		<SubSelectSort>7300</SubSelectSort>
+		<SelectedRadiusX>7.3</SelectedRadiusX>
+		<SelectedRadiusZ>7.3</SelectedRadiusZ>
+		<Contain>Transportable</Contain>
+		<MaxContained>6</MaxContained>
+		<AbilityCommand>UnscUnload</AbilityCommand>
+		<Sound Type="Death">play_unsc_pelican_death</Sound>
+		<ExtendedSoundBank>xtnd_ui_pelican.bnk</ExtendedSoundBank>
+		<Sound Type="Exist">start_exist_pelican</Sound>
+		<Sound Type="StopExist">stop_exist_pelican</Sound>
+		<Sound Type="StartMove">start_move_pelican</Sound>
+		<Sound Type="StopMove">stop_move_pelican</Sound>
+		<Sound Type="ImpactDeath">play_impact_death_pelican</Sound>
+		<DamageType direction="Full">MediumAir</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Transport</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_Transporter</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>KillGarrisoned</Flag>
+		<Flag>PassiveGarrisoned</Flag>
+		<Flag>Obscurable</Flag>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<HPBar>UNSC_Health</HPBar>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>30</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>31</CircleMenuFrameIDHighlight>
+		</FlashUI>
+	</Object>
+	<Object name="unsc_air_albatross_01" id="0" dbid="3001">
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\air\albatross_01\albatross_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MovementType>Air</MovementType>
+		<Velocity>40</Velocity>
+		<FlightLevel>0</FlightLevel>
+		<TurnRate>60</TurnRate>
+		<Hitpoints>2000</Hitpoints>
+		<RepairPoints>400</RepairPoints>
+		<ObstructionRadiusX>8</ObstructionRadiusX>
+		<ObstructionRadiusY>8</ObstructionRadiusY>
+		<ObstructionRadiusZ>11</ObstructionRadiusZ>
+		<PickRadius>5</PickRadius>
+		<PickOffset>2.6</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Target</SelectType>
+		<SelectedRadiusX>7.3</SelectedRadiusX>
+		<SelectedRadiusZ>7.3</SelectedRadiusZ>
+		<DamageType direction="Full">MediumAir</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<HPBar>UNSC_Health</HPBar>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>30</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>31</CircleMenuFrameIDHighlight>
+		</FlashUI>
+	</Object>
+	<Object name="unsc_air_odstPod_01" id="0" dbid="3002">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>unsc\air\odstPod_01\odstPod_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>125</Velocity>
+		<Tactics>unsc_air_odstPod_01.tactics</Tactics>
+		<Lifespan>2</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Sound Type="Exist">play_odst_airdrop_travel</Sound>
+		<Sound Type="StopExist">stop_odst_airdrop_travel</Sound>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<MaxProjectileHeight>35</MaxProjectileHeight>
+	</Object>
+	<Object name="unsc_prop_crashedscorpion_01" id="0" dbid="172">
+		<ObjectClass>Object</ObjectClass>
+		<SurfaceType>Metal</SurfaceType>
+		<Visual>unsc\prop\crashedscorpion_01\crashedscorpion_01.vis</Visual>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+	</Object>
+	<Object name="unsc_prop_crashedpelican_01" id="0" dbid="173">
+		<ObjectClass>Object</ObjectClass>
+		<SurfaceType>Metal</SurfaceType>
+		<Visual>unsc\prop\crashedpelican_01\crashedpelican_01.vis</Visual>
+		<PortraitIcon>ui\ingame\resource_solids</PortraitIcon>
+		<Sound Type="Exist">play_scn_01_pelican_fire_01</Sound>
+		<Sound Type="StopExist">stop_scn_01_pelican_fire_01</Sound>
+		<Flag>SoundBehindFOW</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+	</Object>
+	</Objects>

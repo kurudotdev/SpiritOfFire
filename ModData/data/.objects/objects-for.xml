@@ -1,0 +1,679 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Objects><Object name="for_bldg_factory_01" id="0" dbid="233">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>forerunner\building\factory_01\factory_01.vis</Visual>
+		<MinimapIcon size="15">Command</MinimapIcon>
+		<MovementType>Land</MovementType>
+		<Hitpoints>15000</Hitpoints>
+		<LOS>55</LOS>
+		<BuildPoints>20</BuildPoints>
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>14</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>15</SelectedRadiusX>
+		<SelectedRadiusZ>15</SelectedRadiusZ>
+		<PickRadius>7.7</PickRadius>
+		<PickOffset>2.6</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<DeathReplacement>for_bldg_factory_01</DeathReplacement>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>CapturePoint</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Capturable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Invulnerable</Flag>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="for_bldg_beta_01" id="0" dbid="234">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>forerunner\building\beta_01\beta_01.vis</Visual>
+		<MinimapIcon size="15">Command</MinimapIcon>
+		<MovementType>Land</MovementType>
+		<Hitpoints>75000</Hitpoints>
+		<LOS>55</LOS>
+		<BuildPoints>20</BuildPoints>
+		<ObstructionRadiusX>12</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>12</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>10</SelectedRadiusX>
+		<SelectedRadiusZ>10</SelectedRadiusZ>
+		<PickRadius>7.7</PickRadius>
+		<PickOffset>2.6</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<ObjectType>CapturePoint</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Capturable</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>DamageGarrisoned</Flag>
+	</Object>
+	<Object name="for_bldg_alpha_01" id="0" dbid="235">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>forerunner\building\alpha_01\alpha_01.vis</Visual>
+		<MinimapIcon size="15">Command</MinimapIcon>
+		<MovementType>Land</MovementType>
+		<Hitpoints>75000</Hitpoints>
+		<LOS>55</LOS>
+		<BuildPoints>20</BuildPoints>
+		<ObstructionRadiusX>12</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>12</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>10</SelectedRadiusX>
+		<SelectedRadiusZ>10</SelectedRadiusZ>
+		<PickRadius>7.7</PickRadius>
+		<PickOffset>2.6</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<ObjectType>CapturePoint</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Capturable</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>DamageGarrisoned</Flag>
+	</Object>
+	<Object name="for_air_monitor_01" is="0" id="2061" dbid="3233">
+		<PhysicsInfo>sentinel</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>forerunner\air\monitor_01\monitor_01.vis</Visual>
+		<FlightLevel>25</FlightLevel>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>23944</DisplayNameID>
+		<RolloverTextID>23945</RolloverTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>30</Velocity>
+		<ReverseSpeed>25.0f</ReverseSpeed>
+		<TurnRate>1000</TurnRate>
+		<Hitpoints>500</Hitpoints>
+		<AttackGradeDPS>0</AttackGradeDPS>
+		<CombatValue>0</CombatValue>
+		<LOS>55</LOS>
+		<CombatValue>4</CombatValue>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>1</Bounty>
+		<Tactics>for_air_monitor_01.tactics</Tactics>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>1.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.8</ObstructionRadiusZ>
+		<PickRadius>3.4</PickRadius>
+		<PickOffset>-0.1</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<SubSelectSort>10003</SubSelectSort>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>2</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<DamageType direction="Full">MediumAir</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>AirCraft</ObjectType>
+		<ObjectType>Forerunner</ObjectType>
+		<Sound Type="Create">play_sentinel_birth</Sound>
+		<Sound Type="Death">play_forerunner_sentinel_death</Sound>
+		<Sound Type="Select">play_sentinel_select</Sound>
+		<Sound Type="Work">play_sentinel_acknowledge</Sound>
+		<Sound Type="Attack">play_sentinel_acknowledge</Sound>
+		<Sound Type="Exist">start_exist_sentinel</Sound>
+		<Sound Type="StopExist">stop_exist_sentinel</Sound>
+		<Sound Type="StartMove">start_move_sentinel</Sound>
+		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<SurfaceType>Metal</SurfaceType>
+		<AbilityCommand>ForMonitorDamage</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Repairable</Flag>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="for_air_monitor_02" is="0" id="2062" dbid="3234">
+		<PhysicsInfo>sentinel</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>forerunner\air\monitor_02\monitor_02.vis</Visual>
+		<FlightLevel>25</FlightLevel>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>23942</DisplayNameID>
+		<RolloverTextID>23943</RolloverTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>30</Velocity>
+		<ReverseSpeed>25.0f</ReverseSpeed>
+		<TurnRate>1000</TurnRate>
+		<Hitpoints>500</Hitpoints>
+		<AttackGradeDPS>0</AttackGradeDPS>
+		<CombatValue>0</CombatValue>
+		<LOS>55</LOS>
+		<CombatValue>4</CombatValue>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>1</Bounty>
+		<Tactics>for_air_monitor_02.tactics</Tactics>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>1.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.8</ObstructionRadiusZ>
+		<PickRadius>3.4</PickRadius>
+		<PickOffset>-0.1</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<SubSelectSort>10003</SubSelectSort>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>2</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<DamageType direction="Full">MediumAir</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>AirCraft</ObjectType>
+		<ObjectType>Forerunner</ObjectType>
+		<Sound Type="Create">play_sentinel_birth</Sound>
+		<Sound Type="Death">play_forerunner_sentinel_death</Sound>
+		<Sound Type="Select">play_sentinel_select</Sound>
+		<Sound Type="Work">play_sentinel_acknowledge</Sound>
+		<Sound Type="Attack">play_sentinel_acknowledge</Sound>
+		<Sound Type="Exist">start_exist_sentinel</Sound>
+		<Sound Type="StopExist">stop_exist_sentinel</Sound>
+		<Sound Type="StartMove">start_move_sentinel</Sound>
+		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<SurfaceType>Metal</SurfaceType>
+		<AbilityCommand>ForMonitorHeal</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Repairable</Flag>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="for_air_monitor_04" is="0" id="2062" dbid="3557">
+		<PhysicsInfo>sentinel</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>forerunner\air\monitor_04\monitor_04.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>24310</DisplayNameID>
+		<RolloverTextID>24311</RolloverTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>30</Velocity>
+		<ReverseSpeed>25.0f</ReverseSpeed>
+		<TurnRate>1000</TurnRate>
+		<Hitpoints>500</Hitpoints>
+		<AttackGradeDPS>0</AttackGradeDPS>
+		<CombatValue>0</CombatValue>
+		<LOS>55</LOS>
+		<CombatValue>4</CombatValue>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>1</Bounty>
+		<Tactics>for_air_monitor_04.tactics</Tactics>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>1.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.8</ObstructionRadiusZ>
+		<PickRadius>3.4</PickRadius>
+		<PickOffset>-0.1</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<SubSelectSort>10003</SubSelectSort>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>2</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<DamageType direction="Full">MediumAir</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Forerunner</ObjectType>
+		<ObjectType>AirCraft</ObjectType>
+		<Sound Type="Create">play_sentinel_birth</Sound>
+		<Sound Type="Death">play_forerunner_sentinel_death</Sound>
+		<Sound Type="Select">play_sentinel_select</Sound>
+		<Sound Type="Work">play_sentinel_acknowledge</Sound>
+		<Sound Type="Attack">play_sentinel_acknowledge</Sound>
+		<Sound Type="Exist">start_exist_sentinel</Sound>
+		<Sound Type="StopExist">stop_exist_sentinel</Sound>
+		<Sound Type="StartMove">start_move_sentinel</Sound>
+		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<SurfaceType>Metal</SurfaceType>
+		<AbilityCommand>ForMonitorShield</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Repairable</Flag>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="for_air_drone_01" id="0" dbid="2885">
+		<PhysicsInfo>sentinel</PhysicsInfo>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>covenant\air\drone_01\drone_01.vis</Visual>
+		<DisplayNameID>23598</DisplayNameID>
+		<RolloverTextID>23599</RolloverTextID>
+		<Ability>ScoutLOS.triggerscript</Ability>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MovementType>Air</MovementType>
+		<Velocity>45</Velocity>
+		<TurnRate>120</TurnRate>
+		<Hitpoints>500</Hitpoints>
+		<AttackGradeDPS>0</AttackGradeDPS>
+		<CombatValue>0</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">0</Pop>
+		<Bounty>1</Bounty>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>1.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.8</ObstructionRadiusZ>
+		<PickRadius>3.4</PickRadius>
+		<PickOffset>-0.1</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<SubSelectSort>10000</SubSelectSort>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>2</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<DamageType direction="Full">MediumAir</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>AirCraft</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>Forerunner</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Sound Type="Exist">start_exist_drone</Sound>
+		<Sound Type="StopExist">stop_exist_drone</Sound>
+		<Sound Type="StartMove">start_move_drone</Sound>
+		<Sound Type="StopMove">stop_move_drone</Sound>
+		<Flag>AutoCloak</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="for_air_sentinel_01" id="0" dbid="239">
+		<PhysicsInfo>sentinel</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>forerunner\air\sentinel_01\sentinel_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>10154</DisplayNameID>
+		<RolloverTextID>10155</RolloverTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>12</Velocity>
+		<TurnRate>120</TurnRate>
+		<Hitpoints>1181</Hitpoints>
+		<LOS>55</LOS>
+		<CombatValue>4</CombatValue>
+		<Pop Type="Unit">1</Pop>
+		<Bounty>4</Bounty>
+		<Tactics>for_air_sentinel_01.tactics</Tactics>
+		<RepairPoints>100</RepairPoints>
+		<ObstructionRadiusX>3</ObstructionRadiusX>
+		<ObstructionRadiusY>2</ObstructionRadiusY>
+		<ObstructionRadiusZ>3</ObstructionRadiusZ>
+		<PickRadius>1.6</PickRadius>
+		<PickOffset>2.1</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<SubSelectSort>10001</SubSelectSort>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>2</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<Sound Type="Create">play_sentinel_birth</Sound>
+		<Sound Type="Death">play_forerunner_sentinel_death</Sound>
+		<Sound Type="Select">play_sentinel_select</Sound>
+		<Sound Type="Work">play_sentinel_acknowledge</Sound>
+		<Sound Type="Attack">play_sentinel_acknowledge</Sound>
+		<Sound Type="Exist">start_exist_sentinel</Sound>
+		<Sound Type="StopExist">stop_exist_sentinel</Sound>
+		<Sound Type="StartMove">start_move_sentinel</Sound>
+		<Sound Type="StopMove">stop_move_sentinel</Sound>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>Forerunner</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Repairable</Flag>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="for_air_sentinel_03" is="0" id="1247" dbid="1466">
+		<PhysicsInfo>sentinel</PhysicsInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>forerunner\air\sentinel_03\sentinel_03.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<DisplayNameID>23596</DisplayNameID>
+		<RolloverTextID>23597</RolloverTextID>
+		<MovementType>Air</MovementType>
+		<Velocity>12</Velocity>
+		<TurnRate>120</TurnRate>
+		<Hitpoints>6400</Hitpoints>
+		<CombatValue>16</CombatValue>
+		<LOS>55</LOS>
+		<Pop Type="Unit">2</Pop>
+		<Bounty>16</Bounty>
+		<Tactics>for_air_sentinel_03.tactics</Tactics>
+		<RepairPoints>100</RepairPoints>
+		<ObstructionRadiusX>6</ObstructionRadiusX>
+		<ObstructionRadiusY>2</ObstructionRadiusY>
+		<ObstructionRadiusZ>6</ObstructionRadiusZ>
+		<PickRadius>1.6</PickRadius>
+		<PickOffset>2.1</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<SubSelectSort>10002</SubSelectSort>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>2</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<Sound Type="Create">play_super_sentinel_birth</Sound>
+		<Sound Type="Death">play_forerunner_super_sentinel_death</Sound>
+		<Sound Type="Select">play_super_sentinel_select</Sound>
+		<Sound Type="Work">play_super_sentinel_acknowledge</Sound>
+		<Sound Type="Attack">play_super_sentinel_acknowledge</Sound>
+		<Sound Type="Exist">start_exist_super_sentinel</Sound>
+		<Sound Type="StopExist">stop_exist_super_sentinel</Sound>
+		<Sound Type="StartMove">start_move_super_sentinel</Sound>
+		<Sound Type="StopMove">stop_move_super_sentinel</Sound>
+		<DamageType direction="Full">Medium</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>Forerunner</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Repairable</Flag>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="for_bldg_captureBeacon_01" is="0" id="382" dbid="406">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>forerunner\building\beacon_01\beacon_01.vis</Visual>
+		<MovementType>Land</MovementType>
+		<Hitpoints>75000</Hitpoints>
+		<LOS>55</LOS>
+		<DisplayNameID>24706</DisplayNameID>
+		<RoleTextID>24707</RoleTextID>
+		<BuildPoints>40</BuildPoints>
+		<AddResource Amount="1">Power</AddResource>
+		<ObstructionRadiusX>9</ObstructionRadiusX>
+		<ObstructionRadiusY>9</ObstructionRadiusY>
+		<ObstructionRadiusZ>8.3</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>10</SelectedRadiusX>
+		<SelectedRadiusZ>10</SelectedRadiusZ>
+		<PickRadius>7.7</PickRadius>
+		<PickOffset>2.6</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<DeathReplacement>for_bldg_captureBeacon_01</DeathReplacement>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>CapturePoint</ObjectType>
+		<Sound Type="Exist">play_arc_reactor_exist</Sound>
+		<Sound Type="StopExist">stop_arc_reactor_exist</Sound>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Capturable</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>SoundBehindFOW</Flag>
+		<Flag>Invulnerable</Flag>
+	</Object>
+	<Object name="for_building_beacon_01" is="0" id="382" dbid="407">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>forerunner\building\beacon_01\beacon_01.vis</Visual>
+		<MovementType>Land</MovementType>
+		<Hitpoints>500</Hitpoints>
+		<LOS>20</LOS>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>SoundBehindFOW</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="for_building_rubble_01" is="0" id="389" dbid="414">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\rubble_01\rubble_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_rubble_02" is="0" id="390" dbid="415">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\rubble_02\rubble_02.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_rubble_03" is="0" id="391" dbid="416">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\rubble_03\rubble_03.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_rubble_04" is="0" id="392" dbid="417">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\rubble_04\rubble_04.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_rubble_05" is="0" id="393" dbid="418">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\rubble_05\rubble_05.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_rubble_06" is="0" id="394" dbid="419">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\rubble_06\rubble_06.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_rubble_07" is="0" id="395" dbid="420">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\rubble_07\rubble_07.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_beacon_02" is="0" id="403" dbid="428">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\beacon_02\beacon_02.vis</Visual>
+		<Flag>SoundBehindFOW</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="for_building_waterfalltube_01" is="0" id="446" dbid="471">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\waterfalltube_01\waterfalltube_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_waterfalldisc_01" is="0" id="476" dbid="500">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\waterfalldisc_01\waterfalldisc_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_waterfallbridge_01" is="0" id="477" dbid="501">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\waterfallbridge_01\waterfallbridge_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_waterfalldecorativepipes_01" is="0" id="478" dbid="502">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\waterfalldecorativepipes_01\waterfalldecorativepipes_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_waterfallpipes_01" is="0" id="479" dbid="503">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\waterfallpipes_01\waterfallpipes_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_waterfallwhirlpool_01" is="0" id="480" dbid="504">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\waterfallwhirlpool_01\waterfallwhirlpool_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_centerpillar_01" is="0" id="526" dbid="548">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\centerpillar_01\centerpillar_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_beacon_03" is="0" id="527" dbid="549">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\beacon_03\beacon_03.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_centerpillar_02" is="0" id="528" dbid="550">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\centerpillar_02\centerpillar_02.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_centerpillar_03" is="0" id="529" dbid="551">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\centerpillar_03\centerpillar_03.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_centerpillar_04" is="0" id="530" dbid="552">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\centerpillar_04\centerpillar_04.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_centerpillar_05" is="0" id="532" dbid="554">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\centerpillar_05\centerpillar_05.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_disc_01" is="0" id="537" dbid="559">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\disc_01\disc_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_air_attractor_01" is="0" id="690" dbid="709">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>forerunner\air\attractor_01\attractor_01.vis</Visual>
+		<LOS>20</LOS>
+		<Velocity>4</Velocity>
+		<TurnRate>90</TurnRate>
+		<MovementType>Land</MovementType>
+		<BuildPoints>20</BuildPoints>
+		<LOS>12</LOS>
+		<ObstructionRadiusX>1</ObstructionRadiusX>
+		<ObstructionRadiusY>7</ObstructionRadiusY>
+		<ObstructionRadiusZ>3</ObstructionRadiusZ>
+		<PickRadius>5.8</PickRadius>
+		<PickOffset>8.7</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectedRadiusX>3.8</SelectedRadiusX>
+		<SelectedRadiusZ>3.8</SelectedRadiusZ>
+		<SelectType>Unit</SelectType>
+		<ObjectType>CapturePoint</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Capturable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+	</Object>
+	<Object name="for_building_gamma_01" is="0" id="851" dbid="940">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\gamma_01\gamma_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_vent" is="0" id="1172" dbid="1340">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\vent\vent.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Sound Type="Exist">play_obj_steam_vent</Sound>
+		<Sound Type="StopExist">stop_obj_steam_vent</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="for_building_subgroundcylinder_01" is="0" id="1222" dbid="1432">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\subgroundcylinder_01\subgroundcylinder_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="for_building_subgroundcylinder_02" is="0" id="1223" dbid="1433">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>forerunner\building\subgroundcylinder_02\subgroundcylinder_02.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	</Objects>

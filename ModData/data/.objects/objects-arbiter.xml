@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Objects><Object name="arbiter_power_hack_obstruction" id="0" dbid="312">
+		<ObstructionRadiusX>3</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>3</ObstructionRadiusZ>
+	</Object>
+	</Objects>

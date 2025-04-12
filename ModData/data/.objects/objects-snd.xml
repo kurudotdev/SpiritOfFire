@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Objects><Object name="snd_play_fx_proj_artillery_01" id="733" dbid="751">
+		<Sound Type="Exist">play_fx_proj_artillery_01</Sound>
+	</Object>
+	<Object name="snd_play_fx_proj_missile_01" id="738" dbid="756">
+		<Sound Type="Exist">play_fx_proj_missile_01</Sound>
+		<Sound Type="StopExist">stop_fx_proj_missile_01</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_birds_04" id="739" dbid="757">
+		<Sound Type="Exist">play_birds_04</Sound>
+		<Sound Type="StopExist">stop_birds_04</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_birds_01" id="740" dbid="758">
+		<Sound Type="Exist">play_birds_01</Sound>
+		<Sound Type="StopExist">stop_birds_01</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_birds_02" id="741" dbid="759">
+		<Sound Type="Exist">play_birds_02</Sound>
+		<Sound Type="StopExist">stop_birds_02</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_birds_03" id="742" dbid="760">
+		<Sound Type="Exist">play_birds_03</Sound>
+		<Sound Type="StopExist">stop_birds_03</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_birds_05" id="743" dbid="761">
+		<Sound Type="Exist">play_birds_05</Sound>
+		<Sound Type="StopExist">stop_birds_05</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_birds_06" id="744" dbid="762">
+		<Sound Type="Exist">play_birds_06</Sound>
+		<Sound Type="StopExist">stop_birds_06</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_birds_07" id="745" dbid="763">
+		<Sound Type="Exist">play_birds_07</Sound>
+		<Sound Type="StopExist">stop_birds_07</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_birds_08" id="746" dbid="764">
+		<Sound Type="Exist">play_birds_08</Sound>
+		<Sound Type="StopExist">stop_birds_08</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_birds_09" id="747" dbid="765">
+		<Sound Type="Exist">play_birds_09</Sound>
+		<Sound Type="StopExist">stop_birds_09</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_insect_01" id="748" dbid="766">
+		<Sound Type="Exist">play_insect_01</Sound>
+		<Sound Type="StopExist">stop_insect_01</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_insect_02" id="749" dbid="767">
+		<Sound Type="Exist">play_insect_02</Sound>
+		<Sound Type="StopExist">stop_insect_02</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_insect_03" id="750" dbid="768">
+		<Sound Type="Exist">play_insect_03</Sound>
+		<Sound Type="StopExist">stop_insect_03</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_insect_04" id="751" dbid="769">
+		<Sound Type="Exist">play_insect_04</Sound>
+		<Sound Type="StopExist">stop_insect_04</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_insect_05" id="752" dbid="770">
+		<Sound Type="Exist">play_insect_05</Sound>
+		<Sound Type="StopExist">stop_insect_05</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_insect_06" id="753" dbid="771">
+		<Sound Type="Exist">play_insect_06</Sound>
+		<Sound Type="StopExist">stop_insect_06</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_insect_07" id="754" dbid="772">
+		<Sound Type="Exist">play_insect_07</Sound>
+		<Sound Type="StopExist">stop_insect_07</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_river_halo_01" id="755" dbid="773">
+		<Sound Type="Exist">play_river_halo_01</Sound>
+		<Sound Type="StopExist">stop_river_halo_01</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_waterfall_halo_01" id="756" dbid="774">
+		<Sound Type="Exist">play_waterfall_halo_01</Sound>
+		<Sound Type="StopExist">stop_waterfall_halo_01</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_birds_10" id="779" dbid="797">
+		<Sound Type="Exist">play_birds_10</Sound>
+		<Sound Type="StopExist">stop_birds_10</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_amb_harvest_ice_crack" id="787" dbid="805">
+		<Sound Type="Exist">play_amb_harvest_ice_crack</Sound>
+		<Sound Type="StopExist">stop_amb_harvest_ice_crack</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_amb_harvest_ice_groan" id="788" dbid="806">
+		<Sound Type="Exist">play_amb_harvest_ice_groan</Sound>
+		<Sound Type="StopExist">stop_amb_harvest_ice_groan</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_amb_harvest_snow_gust" id="789" dbid="807">
+		<Sound Type="Exist">play_amb_harvest_snow_gust</Sound>
+		<Sound Type="StopExist">stop_amb_harvest_snow_gust</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_crater_rumble" id="791" dbid="809">
+		<Sound Type="Exist">play_crater_rumble</Sound>
+		<Sound Type="StopExist">stop_crater_rumble</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_crater_heat" id="792" dbid="810">
+		<Sound Type="Exist">play_crater_heat</Sound>
+		<Sound Type="StopExist">stop_crater_heat</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_crater_debris" id="793" dbid="811">
+		<Sound Type="Exist">play_crater_debris</Sound>
+		<Sound Type="StopExist">stop_crater_debris</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_ice_stress" id="794" dbid="812">
+		<Sound Type="Exist">play_ice_stress</Sound>
+		<Sound Type="StopExist">stop_ice_stress</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_ice_pop" id="795" dbid="813">
+		<Sound Type="Exist">play_ice_pop</Sound>
+		<Sound Type="StopExist">stop_ice_pop</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_birds_group_01" id="799" dbid="816">
+		<Sound Type="Exist">play_birds_group_01</Sound>
+		<Sound Type="StopExist">stop_birds_group_01</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_birds_group_02" id="800" dbid="817">
+		<Sound Type="Exist">play_birds_group_02</Sound>
+		<Sound Type="StopExist">stop_birds_group_02</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_ice_pressure" id="823" dbid="840">
+		<Sound Type="Exist">play_ice_pressure</Sound>
+		<Sound Type="StopExist">stop_ice_pressure</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_crater_lava" id="831" dbid="848">
+		<Sound Type="Exist">play_crater_lava</Sound>
+		<Sound Type="StopExist">stop_crater_lava</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_scn_01_pelican_fire_01" id="867" dbid="963">
+		<Sound Type="Exist">play_scn_01_pelican_fire_01</Sound>
+		<Sound Type="StopExist">stop_scn_01_pelican_fire_01</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_metal_stress" id="868" dbid="964">
+		<Sound Type="Exist">play_metal_stress</Sound>
+		<Sound Type="StopExist">stop_metal_stress</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_ice_reverb" id="870" dbid="972">
+		<Sound Type="Exist">play_ice_reverb</Sound>
+		<Sound Type="StopExist">stop_ice_reverb</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_water_animal_small" id="873" dbid="976">
+		<Sound Type="Exist">play_water_animal_small</Sound>
+		<Sound Type="StopExist">stop_water_animal_small</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_obj_steam_vent" id="1159" dbid="1327">
+		<Sound Type="Exist">play_obj_steam_vent</Sound>
+	</Object>
+	<Object name="snd_play_birds_11" id="1160" dbid="1328">
+		<Sound Type="Exist">play_birds_11</Sound>
+		<Sound Type="StopExist">stop_birds_11</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_crowd_chatter_01" id="1321" dbid="2254" />
+	<Object name="snd_play_bird_13" id="1329" dbid="2267">
+		<Sound Type="Exist">play_bird_13</Sound>
+		<Sound Type="StopExist">stop_bird_13</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_bird_14" id="1330" dbid="2268">
+		<Sound Type="Exist">play_bird_14</Sound>
+		<Sound Type="StopExist">stop_bird_14</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_bird_15" id="1331" dbid="2269">
+		<Sound Type="Exist">play_bird_15</Sound>
+		<Sound Type="StopExist">stop_bird_15</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_bird_16" id="1332" dbid="2270">
+		<Sound Type="Exist">play_bird_16</Sound>
+		<Sound Type="StopExist">stop_bird_16</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_bird_17" id="1333" dbid="2271">
+		<Sound Type="Exist">play_bird_17</Sound>
+		<Sound Type="StopExist">stop_bird_17</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_birds_group_03" id="1370" dbid="2352">
+		<Sound Type="Exist">play_birds_group_03</Sound>
+		<Sound Type="StopExist">stop_birds_group_03</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_obj_fountain" id="1382" dbid="2364">
+		<Sound Type="Exist">play_obj_fountain</Sound>
+		<Sound Type="StopExist">stop_obj_fountain</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_scn_02_marine_01" id="1405" dbid="2393" />
+	<Object name="snd_play_scn_02_marine_02" id="1406" dbid="2394" />
+	<Object name="snd_play_scn_02_marine_03" id="1407" dbid="2395" />
+	<Object name="snd_play_scn_02_marine_04" id="1408" dbid="2396" />
+	<Object name="snd_play_scn_02_marine_05" id="1409" dbid="2397" />
+	<Object name="snd_play_scn_02_marine_06" id="1410" dbid="2398" />
+	<Object name="snd_play_scn_02_marine_07" id="1411" dbid="2399" />
+	<Object name="snd_play_scn_02_marine_08" id="1412" dbid="2400" />
+	<Object name="snd_play_scn_02_marine_09" id="1413" dbid="2401" />
+	<Object name="snd_play_scn_02_marine_10" id="1414" dbid="2402" />
+	<Object name="snd_play_harvest_crater_active" id="1418" dbid="2406">
+		<Sound Type="Exist">play_harvest_crater_active</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_frog_01" id="1465" dbid="2458">
+		<Sound Type="Exist">play_frog_01</Sound>
+		<Sound Type="StopExist">stop_frog_01</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_bird_bg_01" id="1466" dbid="2459">
+		<Sound Type="Exist">play_bird_bg_01</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_frog_02" id="1467" dbid="2460">
+		<Sound Type="Exist">play_frog_02</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_frog_chorus_01" id="1468" dbid="2461">
+		<Sound Type="Exist">play_frog_chorus_01</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_frog_chorus_02" id="1469" dbid="2462">
+		<Sound Type="Exist">play_frog_chorus_02</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_bird_12" id="1471" dbid="2464">
+		<Sound Type="Exist">play_bird_12</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_rock_debris" id="1473" dbid="2469">
+		<Sound Type="Exist">play_rock_debris</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_ice_pressure_normal_pitch" id="1475" dbid="2471">
+		<Sound Type="Exist">play_ice_pressure_normal_pitch</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_wind_gust_wire" id="1479" dbid="2477">
+		<Sound Type="Exist">play_wind_gust_wire</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_flood_brain_exist" id="1567" dbid="2577">
+		<Sound Type="Exist">play_flood_brain_exist</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_flood_pod_open" id="1568" dbid="2578">
+		<Sound Type="Exist">play_flood_pod_open</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_cavern_scn_08" id="1569" dbid="2579">
+		<Sound Type="Exist">play_cavern_scn_08</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_flood_pod_exist" id="1570" dbid="2580">
+		<Sound Type="Exist">play_flood_pod_exist</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_scn_03_harvest_wind_gust" id="1590" dbid="2610">
+		<Sound Type="Exist">play_scn_03_harvest_wind_gust</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_scn_03_chasm" id="1591" dbid="2611">
+		<Sound Type="Exist">play_scn_03_chasm</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_scn_03_forerunner_machine" id="1592" dbid="2612">
+		<Sound Type="Exist">play_scn_03_forerunner_machine</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_scn_03_forerunner_tech" id="1593" dbid="2613">
+		<Sound Type="Exist">play_scn_03_forerunner_tech</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_ocean_waves" id="1597" dbid="2618">
+		<Sound Type="Exist">play_ocean_waves</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_water_bird_10_distant_reverb_closed" id="1599" dbid="2620">
+		<Sound Type="Exist">play_water_bird_10_distant_reverb_closed</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_water_animal_large_distant_01" id="1600" dbid="2621">
+		<Sound Type="Exist">play_water_animal_large_distant_01</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_cov_monument_exist" id="1620" dbid="2645">
+		<Sound Type="Exist">play_cov_monument_exist</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_scn_06_domeoflight" id="1623" dbid="2649">
+		<Sound Type="Exist">play_scn_06_domeoflight</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_burning_wreckage" id="1628" dbid="2654">
+		<Sound Type="Exist">play_burning_wreckage</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_burning_tram" id="1634" dbid="2661">
+		<Sound Type="Exist">play_burning_tram</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_arc_reactor_exist" id="1635" dbid="2662">
+		<Sound Type="Exist">play_arc_reactor_exist</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_water_bird_15" id="1636" dbid="2664">
+		<Sound Type="Exist">play_water_bird_15</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_amb_harvest" id="1868" dbid="2985">
+		<Sound Type="Exist">play_amb_harvest</Sound>
+		<Sound Type="StopExist">stop_amb_harvest</Sound>
+		<Flag>SoundBehindFOW</Flag>
+	</Object>
+	<Object name="snd_play_scn_03_forerunner_powersource" id="2335" dbid="3606">
+		<Sound Type="Exist">play_scn_03_forerunner_powersource</Sound>
+		<Sound Type="StopExist">stop_scn_03_forerunner_powersource</Sound>
+	</Object>
+	<Object name="snd_play_fire_wreck" id="2336" dbid="3607">
+		<Sound Type="Exist">play_fire_wreck</Sound>
+		<Sound Type="StopExist">stop_fire_wreck</Sound>
+	</Object>
+	<Object name="snd_play_sof_engine" id="0" dbid="4253">
+		<Sound Type="Exist">play_sof_engine</Sound>
+		<Sound Type="StopExist">stop_sof_engine</Sound>
+	</Object>
+	<Object name="snd_play_amb_sof" id="0" dbid="4255">
+		<Sound Type="Exist">play_amb_sof</Sound>
+		<Sound Type="StopExist">stop_amb_sof</Sound>
+	</Object>
+	<Object name="snd_play_amb_water_lap" id="0" dbid="4344">
+		<Sound Type="Exist">play_amb_water_lap</Sound>
+		<Sound Type="StopExist">stop_amb_water_lap</Sound>
+	</Object>
+	</Objects>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Objects><Object name="template_test_object" is="0" dbid="1">
+		<Visual>template\object.vis</Visual>
+	</Object>
+	<Object name="template_environment_object" is="0" dbid="2">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>template\object.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="template_campaign_object" is="0" dbid="3">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>template\object.vis</Visual>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="template_noTieToGroundArt" is="0" dbid="6">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>template\object.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NoTieToGround</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="template_sound_object" id="0" dbid="10">
+		<Sound Type="Exist">play_fx_proj_artillery_01</Sound>
+		<Sound Type="StopExist">stop_fx_proj_artillery_01</Sound>
+	</Object>
+	<Object name="template_cinematic_object" dbid="4236">
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>template\object.vis</Visual>
+		<Hitpoints>10</Hitpoints>
+	</Object>
+	</Objects>

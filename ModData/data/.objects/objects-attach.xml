@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Objects><Object name="attach_test" dbid="4343">
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>unsc\object\attachtest_01\attachtest_01.vis</Visual>
+		<Hitpoints>1</Hitpoints>
+		<ObstructionRadiusX>2</ObstructionRadiusX>
+		<ObstructionRadiusY>2</ObstructionRadiusY>
+		<ObstructionRadiusZ>2</ObstructionRadiusZ>
+		<PickRadius>2</PickRadius>
+		<PickOffset>0.1</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>3</SubSelectSort>
+		<SelectedRadiusX>2</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<LOS>50</LOS>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+	</Object>
+	</Objects>

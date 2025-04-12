@@ -1,0 +1,580 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Objects><Object name="pow_cp_explode_01" id="0" dbid="2794">
+		<ObjectClass>Projectile</ObjectClass>
+		<MovementType>Air</MovementType>
+		<Velocity>45</Velocity>
+		<Tactics>pow_cp_explode_01.tactics</Tactics>
+		<Lifespan>20</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<MaxProjectileHeight>50</MaxProjectileHeight>
+		<ImpactDecal sizeX="15" sizeZ="15" timeFullyOpaque="45" fadeOutTime="10" orientation="random">decals\bigscorch_01</ImpactDecal>
+	</Object>
+	<Object name="pow_cp_smallExplode_01" id="0" dbid="2994">
+		<ObjectClass>Projectile</ObjectClass>
+		<MovementType>Air</MovementType>
+		<Velocity>45</Velocity>
+		<Tactics>pow_cp_smallExplode_01.tactics</Tactics>
+		<Lifespan>20</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<MaxProjectileHeight>50</MaxProjectileHeight>
+		<ImpactDecal sizeX="5" sizeZ="5" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\artilary_scorch01</ImpactDecal>
+	</Object>
+	<Object name="pow_cp_largeExplode_01" id="0" dbid="2995">
+		<ObjectClass>Projectile</ObjectClass>
+		<MovementType>Air</MovementType>
+		<Velocity>45</Velocity>
+		<Tactics>pow_cp_largeExplode_01.tactics</Tactics>
+		<Lifespan>20</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<MaxProjectileHeight>50</MaxProjectileHeight>
+		<ImpactDecal sizeX="30" sizeZ="30" timeFullyOpaque="45" fadeOutTime="10" orientation="random">decals\bigscorch_01</ImpactDecal>
+	</Object>
+	<Object name="pow_proj_cleansing_01" id="0" dbid="3498">
+		<ObjectClass>Projectile</ObjectClass>
+		<MovementType>Air</MovementType>
+		<Velocity>50</Velocity>
+		<Tactics>pow_proj_cleansing_01.tactics</Tactics>
+		<Lifespan>1</Lifespan>
+		<ObstructionRadiusX>1</ObstructionRadiusX>
+		<ObstructionRadiusZ>1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="pow_proj_wave_debris_01" id="0" dbid="4037">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>environment\rock\rocksmall_01\rocksmall_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>50</Velocity>
+		<Lifespan>10</Lifespan>
+		<Tactics>pow_proj_wave_debris_01.tactics</Tactics>
+		<ObstructionRadiusX>1</ObstructionRadiusX>
+		<ObstructionRadiusZ>1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<Flag>ProjectileTumbles</Flag>
+		<Sound Type="StopExist">play_proj_rock_01</Sound>
+		<MaxProjectileHeight>8</MaxProjectileHeight>
+		<ImpactDecal sizeX="4" sizeZ="4" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\missle_scorch01</ImpactDecal>
+	</Object>
+	<Object name="pow_proj_wave_explode_01" id="0" dbid="4038">
+		<ObjectClass>Projectile</ObjectClass>
+		<MovementType>Air</MovementType>
+		<Velocity>50</Velocity>
+		<Tactics>pow_proj_wave_explode_01.tactics</Tactics>
+		<Lifespan>1</Lifespan>
+		<ObstructionRadiusX>1</ObstructionRadiusX>
+		<ObstructionRadiusZ>1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="pow_proj_wave_lightning_01" id="0" dbid="4039">
+		<ObjectClass>Projectile</ObjectClass>
+		<MovementType>Air</MovementType>
+		<Velocity>1000</Velocity>
+		<Tactics>pow_proj_wave_lightning_01.tactics</Tactics>
+		<Lifespan>1</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<ImpactDecal sizeX="2" sizeZ="2" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\artilary_scorch01</ImpactDecal>
+	</Object>
+	<Object name="pow_proj_wave_lightning_beam_01" id="0" dbid="4063">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects\projectiles\Beam\lightning_beam\lightningbeam_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>300</Velocity>
+		<Lifespan>0.25</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Sound Type="Exist">play_cov_scarab_beam</Sound>
+		<Sound Type="StopExist">stop_cov_scarab_beam</Sound>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Beam</Flag>
+		<BeamHead>pow_proj_wave_lightning_beam_head_01</BeamHead>
+		<BeamTail>pow_proj_wave_lightning_beam_tail_01</BeamTail>
+		<ImpactDecal sizeX="3" sizeZ="3" timeFullyOpaque="2" fadeOutTime="5" orientation="random">decals\beam_scorch01</ImpactDecal>
+	</Object>
+	<Object name="pow_proj_wave_lightning_beam_head_01" is="0" id="1852" dbid="4064">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>effects\projectiles\Beam\lightning_beam\lightningbeam_head_01.vis</Visual>
+		<Flag>NoTieToGround</Flag>
+	</Object>
+	<Object name="pow_proj_wave_lightning_beam_tail_01" is="0" id="1854" dbid="4065">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>effects\projectiles\Beam\lightning_beam\lightningbeam_tail_01.vis</Visual>
+		<Flag>NoTieToGround</Flag>
+	</Object>
+	<Object name="pow_gp_wave_01" id="0" dbid="4040">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>effects\gravity_ball\gravity_ball_01.vis</Visual>
+		<LOS>6</LOS>
+		<Tactics>pow_proj_wave_explode_01.tactics</Tactics>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>8</Velocity>
+		<TurnRate>3600</TurnRate>
+		<Hitpoints>500</Hitpoints>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
+		<VisualDisplayPriority>high</VisualDisplayPriority>
+		<Sound Type="Birth">play_vortex_start</Sound>
+		<Sound Type="Exist">play_vortex_loop</Sound>
+		<Sound Type="StopExist">play_vortex_loop_death</Sound>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>NoTieToGround</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="pow_gp_wave_02" id="0" dbid="4066">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>effects\gravity_ball\gravity_ball_02.vis</Visual>
+		<LOS>6</LOS>
+		<Tactics>pow_proj_wave_explode_01.tactics</Tactics>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>8</Velocity>
+		<TurnRate>3600</TurnRate>
+		<Hitpoints>500</Hitpoints>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
+		<VisualDisplayPriority>high</VisualDisplayPriority>
+		<Sound Type="Birth">play_vortex_start</Sound>
+		<Sound Type="Exist">play_vortex_loop</Sound>
+		<Sound Type="StopExist">play_vortex_loop_death</Sound>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>NoTieToGround</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="pow_gp_wave_03" id="0" dbid="4067">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>effects\gravity_ball\gravity_ball_03.vis</Visual>
+		<LOS>6</LOS>
+		<Tactics>pow_proj_wave_explode_01.tactics</Tactics>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>8</Velocity>
+		<TurnRate>3600</TurnRate>
+		<Hitpoints>500</Hitpoints>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
+		<VisualDisplayPriority>high</VisualDisplayPriority>
+		<Sound Type="Birth">play_vortex_start</Sound>
+		<Sound Type="Exist">play_vortex_loop</Sound>
+		<Sound Type="StopExist">play_vortex_loop_death</Sound>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>NoTieToGround</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="pow_gp_cleansing_old" id="0" dbid="83">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>environment\harvest\orbitalbeam_01\orbitalbeam_01.vis</Visual>
+		<LOS>6</LOS>
+		<MovementType>Air</MovementType>
+		<Sound Type="Exist">play_fx_gp_cleansing</Sound>
+		<Sound Type="StopExist">stop_fx_gp_cleansing</Sound>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>16</Velocity>
+		<TurnRate>3600</TurnRate>
+		<Hitpoints>500</Hitpoints>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
+		<VisualDisplayPriority>high</VisualDisplayPriority>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonCollideable</Flag>
+	</Object>
+	<Object name="pow_gp_cleansing_01" id="0" dbid="3764">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>effects\cleansing\cleansing_small_a.vis</Visual>
+		<LOS>6</LOS>
+		<MovementType>Air</MovementType>
+		<Sound Type="Exist">play_fx_gp_cleansing</Sound>
+		<Sound Type="StopExist">stop_fx_gp_cleansing</Sound>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>8</Velocity>
+		<TurnRate>3600</TurnRate>
+		<Hitpoints>500</Hitpoints>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
+		<VisualDisplayPriority>high</VisualDisplayPriority>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonCollideable</Flag>
+	</Object>
+	<Object name="pow_gp_cleansing_02" id="0" dbid="3754">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>effects\cleansing\cleansing_medium_a.vis</Visual>
+		<LOS>6</LOS>
+		<MovementType>Air</MovementType>
+		<Sound Type="Exist">play_fx_gp_cleansing</Sound>
+		<Sound Type="StopExist">stop_fx_gp_cleansing</Sound>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>8</Velocity>
+		<TurnRate>3600</TurnRate>
+		<Hitpoints>500</Hitpoints>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
+		<VisualDisplayPriority>high</VisualDisplayPriority>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonCollideable</Flag>
+	</Object>
+	<Object name="pow_gp_cleansing_03" id="0" dbid="3755">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>effects\cleansing\cleansing_large_a.vis</Visual>
+		<LOS>6</LOS>
+		<MovementType>Air</MovementType>
+		<Sound Type="Exist">play_fx_gp_cleansing</Sound>
+		<Sound Type="StopExist">stop_fx_gp_cleansing</Sound>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>8</Velocity>
+		<TurnRate>3600</TurnRate>
+		<Hitpoints>500</Hitpoints>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
+		<VisualDisplayPriority>high</VisualDisplayPriority>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonCollideable</Flag>
+	</Object>
+	<Object name="pow_gp_macblast_rocks_large" id="0" dbid="3841">
+		<PhysicsInfo>largeRock</PhysicsInfo>
+		<ObjectClass>Object</ObjectClass>
+		<Visual>effects\macblast\rocks_large.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>10</Velocity>
+		<Lifespan>10</Lifespan>
+		<Hitpoints>1</Hitpoints>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="pow_gp_macblast_rocks_medium" id="0" dbid="3842">
+		<PhysicsInfo>mediumRock</PhysicsInfo>
+		<ObjectClass>Object</ObjectClass>
+		<Visual>effects\macblast\rocks_medium.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>10</Velocity>
+		<Lifespan>10</Lifespan>
+		<Hitpoints>1</Hitpoints>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="pow_gp_macblast_rocks_small" id="0" dbid="3843">
+		<PhysicsInfo>smallRock</PhysicsInfo>
+		<ObjectClass>Object</ObjectClass>
+		<Visual>effects\macblast\rocks_small.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>10</Velocity>
+		<Lifespan>10</Lifespan>
+		<Hitpoints>1</Hitpoints>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="pow_gp_orbitalbombardment" id="0" dbid="85">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects\projectiles\unsc\maccannon_01\maccannon_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>300</Velocity>
+		<Tactics>pow_gp_orbitalbombardment.tactics</Tactics>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ImpactDecal sizeX="45" sizeZ="45" timeFullyOpaque="30" fadeOutTime="10" orientation="random">decals\bigscorch_01</ImpactDecal>
+		<Sound Type="Exist">play_unsc_gp_orbital_bombardment</Sound>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>VisibleToAll</Flag>
+	</Object>
+	<Object name="pow_gp_macCannonSmall" id="0" dbid="3248">
+		<ObjectClass>Projectile</ObjectClass>
+		<MovementType>Air</MovementType>
+		<Velocity>75</Velocity>
+		<Lifespan>15</Lifespan>
+		<Tactics>pow_gp_macCannonSmall.tactics</Tactics>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ImpactDecal sizeX="15" sizeZ="15" timeFullyOpaque="30" fadeOutTime="10" orientation="random">decals\bigscorch_01</ImpactDecal>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>VisibleToAll</Flag>
+	</Object>
+	<Object name="pow_gp_rage_impact" id="0" dbid="3932">
+		<ObjectClass>Projectile</ObjectClass>
+		<MovementType>Air</MovementType>
+		<Velocity>75</Velocity>
+		<Lifespan>0</Lifespan>
+		<Tactics>pow_gp_rage_impact.tactics</Tactics>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ImpactDecal sizeX="15" sizeZ="15" timeFullyOpaque="30" fadeOutTime="10" orientation="random">decals\bigscorch_01</ImpactDecal>
+		<Flag>ExplodeOnTimer</Flag>
+		<Flag>IsSticky</Flag>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="pow_gp_macCannonVisualSmall" id="0" dbid="3846">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>effects\impacts\unsc\maccannon_01\maccannon_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Lifespan>15</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ImpactDecal sizeX="15" sizeZ="15" timeFullyOpaque="30" fadeOutTime="10" orientation="random">decals\bigscorch_01</ImpactDecal>
+		<Sound Type="Exist">play_unsc_gp_orbital_bombardment</Sound>
+		<Sound Type="StopExist">stop_unsc_gp_orbital_bombardment</Sound>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="pow_gp_macCannonVisualMedium" id="0" dbid="3847">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>effects\impacts\unsc\maccannon_01\maccannon_02.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Lifespan>15</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ImpactDecal sizeX="30" sizeZ="30" timeFullyOpaque="30" fadeOutTime="10" orientation="random">decals\bigscorch_01</ImpactDecal>
+		<Sound Type="Exist">play_unsc_gp_orbital_bombardment</Sound>
+		<Sound Type="StopExist">stop_unsc_gp_orbital_bombardment</Sound>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="pow_gp_macCannonVisualLarge" id="0" dbid="3848">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>effects\impacts\unsc\maccannon_01\maccannon_03.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Lifespan>15</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ImpactDecal sizeX="45" sizeZ="45" timeFullyOpaque="30" fadeOutTime="10" orientation="random">decals\bigscorch_01</ImpactDecal>
+		<Sound Type="Exist">play_unsc_gp_orbital_bombardment</Sound>
+		<Sound Type="StopExist">stop_unsc_gp_orbital_bombardment</Sound>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="pow_gp_carpetbomb" id="0" dbid="3636">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects\projectiles\missile.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>8</Velocity>
+		<Lifespan>5</Lifespan>
+		<Tactics>pow_gp_carpetbomb.tactics</Tactics>
+		<Sound Type="Exist">play_fx_proj_missile_01</Sound>
+		<Sound Type="StopExist">stop_fx_proj_missile_01</Sound>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<Flag>HighArc</Flag>
+		<MaxProjectileHeight>28</MaxProjectileHeight>
+	</Object>
+	<Object name="pow_gp_carpetbomb_impact" id="0" dbid="3680">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>effects\carpet_bombing\cb_impact.vis</Visual>
+		<Lifespan>5</Lifespan>
+		<MovementType>Land</MovementType>
+		<Velocity>0</Velocity>
+		<TurnRate>3600</TurnRate>
+		<Hitpoints>500</Hitpoints>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonCollideable</Flag>
+	</Object>
+	<Object name="pow_gp_carpetbomb_explosion" id="0" dbid="87">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>effects\carpet_bombing\cb_explosion.vis</Visual>
+		<Lifespan>5</Lifespan>
+		<MovementType>Land</MovementType>
+		<Velocity>0</Velocity>
+		<TurnRate>3600</TurnRate>
+		<Hitpoints>500</Hitpoints>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonCollideable</Flag>
+	</Object>
+	<Object name="pow_proj_carpetbomb" id="0" dbid="3637">
+		<ObjectClass>Projectile</ObjectClass>
+		<MovementType>Air</MovementType>
+		<Velocity>50</Velocity>
+		<Tactics>pow_proj_carpetbomb_01.tactics</Tactics>
+		<Lifespan>1</Lifespan>
+		<ObstructionRadiusX>1</ObstructionRadiusX>
+		<ObstructionRadiusZ>1</ObstructionRadiusZ>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="pow_gp_arrow" id="0" dbid="3756">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>effects\carpet_bombing\cb_arrow.vis</Visual>
+		<MovementType>Land</MovementType>
+		<Velocity>0</Velocity>
+		<Lifespan>500</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Update</Flag>
+	</Object>
+	<Object name="pow_gp_megaTurret" id="0" dbid="88">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects\projectiles\cov\plasmamortar_01\plasmamortar_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>150</Velocity>
+		<Lifespan>50</Lifespan>
+		<Tactics>pow_gp_megaTurret.tactics</Tactics>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<Sound Type="Exist">play_fx_proj_artillery_01</Sound>
+		<Sound Type="StopExist">stop_fx_proj_artillery_01</Sound>
+		<MaxProjectileHeight>10000</MaxProjectileHeight>
+	</Object>
+	<Object name="pow_gp_shortsword_01" id="8975" dbid="3880">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>unsc\air\shortsword_01\shortsword_01.vis</Visual>
+		<Sound Type="Exist">play_exist_pow_gp_shortsword_01</Sound>
+		<Sound Type="StopExist">stop_exist_pow_gp_shortsword_01</Sound>
+		<Flag>NonCollideable</Flag>
+		<Flag>Update</Flag>
+	</Object>
+	<Object name="pow_sp_artillery_01" id="0" dbid="90">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects\projectiles\bullets\artillery_shell\artillery_shell_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>45</Velocity>
+		<Tactics>pow_sp_artillery_01.tactics</Tactics>
+		<Lifespan>20</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Sound Type="Exist">play_fx_proj_artillery_01</Sound>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<MaxProjectileHeight>25</MaxProjectileHeight>
+	</Object>
+	<Object name="pow_sp_flare_01" id="0" dbid="91">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>effects\special\unit_empEffect_01.vis</Visual>
+		<LOS>80</LOS>
+		<Hitpoints>24</Hitpoints>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<ObstructionRadiusX>0</ObstructionRadiusX>
+		<ObstructionRadiusZ>0</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="pow_sp_jamming_01" id="0" dbid="1157">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>effects\fire\crater_heat_01.vis</Visual>
+		<Flag>NoTieToGround</Flag>
+		<Flag>VisibleToAll</Flag>
+	</Object>
+	<Object name="pow_sp_smoke_01" id="0" dbid="92">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>effects\powers\unsc\smokescreen_01.vis</Visual>
+		<Flag>NoTieToGround</Flag>
+		<Flag>VisibleToAll</Flag>
+	</Object>
+	<Object name="pow_sp_plasmaFire_01" id="0" dbid="93">
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>effects\environment\harvest\lavaflareup_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0.5</FlightLevel>
+		<Velocity>15</Velocity>
+		<TurnRate>120</TurnRate>
+		<Hitpoints>1000</Hitpoints>
+		<LOS>0</LOS>
+		<Bounty>12</Bounty>
+		<Lifespan>2</Lifespan>
+		<ObstructionRadiusX>0</ObstructionRadiusX>
+		<ObstructionRadiusY>0</ObstructionRadiusY>
+		<ObstructionRadiusZ>0</ObstructionRadiusZ>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Invulnerable</Flag>
+	</Object>
+	<Object name="pow_scn02_methaneExplode_01" id="0" dbid="2934">
+		<ObjectClass>Projectile</ObjectClass>
+		<MovementType>Air</MovementType>
+		<Velocity>45</Velocity>
+		<Tactics>pow_scn02_methaneExplode_01.tactics</Tactics>
+		<Lifespan>20</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<MaxProjectileHeight>50</MaxProjectileHeight>
+		<ImpactDecal sizeX="30" sizeZ="30" timeFullyOpaque="45" fadeOutTime="10" orientation="random">decals\bigscorch_01</ImpactDecal>
+	</Object>
+	</Objects>

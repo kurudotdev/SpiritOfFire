@@ -1,0 +1,1376 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Objects><Object name="hook_bldg_wall_01" is="0" id="8926" dbid="3759">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\building\wall_01\wall_01.vis</Visual>
+		<Ability>HookCoverWithLOS.triggerscript</Ability>
+		<DisplayNameID>24662</DisplayNameID>
+		<RolloverTextID>24663</RolloverTextID>
+		<RoleTextID>24663</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>1</Hitpoints>
+		<LOS>55</LOS>
+		<Tactics>hook_bldg_wall_01.tactics</Tactics>
+		<ObstructionRadiusX>6</ObstructionRadiusX>
+		<ObstructionRadiusY>9</ObstructionRadiusY>
+		<ObstructionRadiusZ>11</ObstructionRadiusZ>
+		<SelectedRadiusX>7</SelectedRadiusX>
+		<SelectedRadiusZ>7</SelectedRadiusZ>
+		<PickRadius>8.4</PickRadius>
+		<PickOffset>6.8</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>1</MaxContained>
+		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>SoundBehindFOW</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>UnGarrisonToGaia</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+	</Object>
+	<Object name="hook_bldg_wall_02" is="0" id="8926" dbid="3840">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\building\wall_02\wall_02.vis</Visual>
+		<DisplayNameID>24662</DisplayNameID>
+		<RolloverTextID>24663</RolloverTextID>
+		<RoleTextID>24663</RoleTextID>
+		<Hitpoints>15000</Hitpoints>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>10</ObstructionRadiusY>
+		<ObstructionRadiusZ>5</ObstructionRadiusZ>
+		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+		<ObjectType>_Hook</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>UnGarrisonToGaia</Flag>
+	</Object>
+	<Object name="hook_bldg_turretFoundation_01" id="0" dbid="4305">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\Building\turretSocketFoundation_01\turretSocketFoundation_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<Hitpoints>1</Hitpoints>
+		<LOS>0</LOS>
+		<MovementType>Land</MovementType>
+		<ChildObjects>
+			<Object Type="Object" Offset="0,0,0" Rotation="0">hook_bldg_turretSocket_01</Object>
+		</ChildObjects>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
+	</Object>
+	<Object name="hook_bldg_turretSocket_01" id="0" dbid="3827">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\Building\turretSocket_01\turretSocket_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<DisplayNameID>23624</DisplayNameID>
+		<RolloverTextID>23625</RolloverTextID>
+		<Hitpoints>10</Hitpoints>
+		<LOS>0</LOS>
+		<MovementType>Land</MovementType>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<PickRadius>6.2</PickRadius>
+		<PickOffset>0.7</PickOffset>
+		<GathererLimit>1</GathererLimit>
+		<Command Type="BuildOther" Position="0" AutoClose="true">hook_bldg_turret_01</Command>
+		<ObjectType>TurretSocket</ObjectType>
+		<ObjectType>_TurretSocket</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>SecondaryBuildingQueue</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>SingleSocketBuilding</Flag>
+		<Flag>ForceCreateObstruction</Flag>
+		<Flag>SecondaryBuildingQueue</Flag>
+		<Flag>PermanentSocket</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+	</Object>
+	<Object name="hook_bldg_turret_01" id="0" dbid="4306">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\turret_01\turret_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_turret_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>23632</DisplayNameID>
+		<RolloverTextID>23633</RolloverTextID>
+		<RoleTextID>516</RoleTextID>
+		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
+		<MovementType>Land</MovementType>
+		<Hitpoints>6218</Hitpoints>
+		<AttackGradeDPS>187</AttackGradeDPS>
+		<CombatValue>12</CombatValue>
+		<LOS>80</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">250</Cost>
+		<Bounty>12</Bounty>
+		<Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="162" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>unsc_bldg_turret_01.tactics</Tactics>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>6.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>5</PickRadius>
+		<PickOffset>5</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>5.9</SelectedRadiusX>
+		<SelectedRadiusZ>5.6</SelectedRadiusZ>
+		<Command Type="Research" Position="1">hook_turret_upgradeAI</Command>
+		<Command Type="Research" Position="2">hook_turret_upgradeAV</Command>
+		<Command Type="Research" Position="3">hook_turret_upgradeAA</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Create">play_vog_building_turret</Sound>
+		<Sound Type="Death">play_turret_01_death</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<DazeResist>0.25</DazeResist>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>TurretBuilding</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Player">TurretSocket</Socket>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonRotatable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>DamageGarrisoned</Flag>
+		<Flag>DamagedDeathReplacement</Flag>
+		<Flag>ForceAnimRate</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal />
+			<CircleMenuFrameIDHighlight />
+		</FlashUI>
+		<HPBar offset="0,16,0">UNSC_Bldg_Health</HPBar>
+		<TrueLOSHeight>10</TrueLOSHeight>
+	</Object>
+	<Object name="hook_bldg_turretAI_01" id="0" dbid="4307">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\turretAI_01\turretAI_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_turret_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10022</DisplayNameID>
+		<RolloverTextID>10023</RolloverTextID>
+		<RoleTextID>516</RoleTextID>
+		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
+		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
+		<MovementType>Land</MovementType>
+		<Hitpoints>6218</Hitpoints>
+		<AttackGradeDPS>262</AttackGradeDPS>
+		<CombatValue>14</CombatValue>
+		<LOS>80</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">250</Cost>
+		<Bounty>12</Bounty>
+		<Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="162" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>unsc_bldg_turretAI_01.tactics</Tactics>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>6.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>5</PickRadius>
+		<PickOffset>5</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>5.9</SelectedRadiusX>
+		<SelectedRadiusZ>5.6</SelectedRadiusZ>
+		<Command Type="Research" Position="2">hook_turret_upgradeAV</Command>
+		<Command Type="Research" Position="3">hook_turret_upgradeAA</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Create">play_vog_building_turret</Sound>
+		<Sound Type="Death">play_turret_01_death</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>TurretBuilding</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Player">TurretSocket</Socket>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonRotatable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>DamageGarrisoned</Flag>
+		<Flag>DamagedDeathReplacement</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal />
+			<CircleMenuFrameIDHighlight />
+		</FlashUI>
+		<HPBar offset="0,16,0">UNSC_Bldg_Health</HPBar>
+		<TrueLOSHeight>10</TrueLOSHeight>
+	</Object>
+	<Object name="hook_bldg_turretAV_01" id="0" dbid="4308">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\turretAV_01\turretAV_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_turret_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10042</DisplayNameID>
+		<RolloverTextID>10043</RolloverTextID>
+		<RoleTextID>516</RoleTextID>
+		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
+		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
+		<MovementType>Land</MovementType>
+		<Hitpoints>6218</Hitpoints>
+		<AttackGradeDPS>262</AttackGradeDPS>
+		<CombatValue>14</CombatValue>
+		<LOS>80</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">250</Cost>
+		<Bounty>14</Bounty>
+		<Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="162" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>unsc_bldg_turretAV_01.tactics</Tactics>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>6.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>5</PickRadius>
+		<PickOffset>5</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>5.9</SelectedRadiusX>
+		<SelectedRadiusZ>5.6</SelectedRadiusZ>
+		<Command Type="Research" Position="1">hook_turret_upgradeAI</Command>
+		<Command Type="Research" Position="3">hook_turret_upgradeAA</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Create">play_vog_building_turret</Sound>
+		<Sound Type="Death">play_turret_01_death</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>TurretBuilding</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Player">TurretSocket</Socket>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonRotatable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>DamageGarrisoned</Flag>
+		<Flag>DamagedDeathReplacement</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal />
+			<CircleMenuFrameIDHighlight />
+		</FlashUI>
+		<HPBar offset="0,16,0">UNSC_Bldg_Health</HPBar>
+		<TrueLOSHeight>10</TrueLOSHeight>
+	</Object>
+	<Object name="hook_bldg_turretAA_01" id="0" dbid="4309">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\building\turretAA_01\turretAA_01.vis</Visual>
+		<PhysicsInfo>unsc_bldg_turret_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10044</DisplayNameID>
+		<RolloverTextID>10045</RolloverTextID>
+		<RoleTextID>516</RoleTextID>
+		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="AddOnGun" />
+		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
+		<MovementType>Land</MovementType>
+		<Hitpoints>6218</Hitpoints>
+		<AttackGradeDPS>262</AttackGradeDPS>
+		<CombatValue>14</CombatValue>
+		<LOS>80</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">250</Cost>
+		<Bounty>12</Bounty>
+		<Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="162" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>unsc_bldg_turretAA_01.tactics</Tactics>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>6.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>5</PickRadius>
+		<PickOffset>5</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>5.9</SelectedRadiusX>
+		<SelectedRadiusZ>5.6</SelectedRadiusZ>
+		<Command Type="Research" Position="1">unsc_turret_upgradeAI</Command>
+		<Command Type="Research" Position="2">unsc_turret_upgradeAV</Command>
+		<Command Type="Kill" Position="4" />
+		<Sound Type="Create">play_vog_building_turret</Sound>
+		<Sound Type="Death">play_turret_01_death</Sound>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>TurretBuilding</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unsc</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Player">TurretSocket</Socket>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NonRotatable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>DamageGarrisoned</Flag>
+		<Flag>DamagedDeathReplacement</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal />
+			<CircleMenuFrameIDHighlight />
+		</FlashUI>
+		<HPBar offset="0,16,0">UNSC_Bldg_Health</HPBar>
+		<TrueLOSHeight>10</TrueLOSHeight>
+	</Object>
+	<Object name="hook_bldg_parkingLotUNSC_01" dbid="4177">
+		<ObjectClass>Building</ObjectClass>
+		<TrainerType>1</TrainerType>
+		<ExitFromDirection>1</ExitFromDirection>
+		<Visual>hook/building/parkingLotUNSC_01/parkingLotUNSC_01.vis</Visual>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<Hitpoints>10</Hitpoints>
+		<LOS>0</LOS>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Update</Flag>
+		<Flag>Build</Flag>
+	</Object>
+	<Object name="hook_bldg_parkingLotCov_01" dbid="4178">
+		<ObjectClass>Building</ObjectClass>
+		<TrainerType ApplyFormation="true">0</TrainerType>
+		<Visual>hook/building/parkingLotCov_01/parkingLotCov_01.vis</Visual>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<Hitpoints>10</Hitpoints>
+		<LOS>0</LOS>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>Update</Flag>
+		<Flag>Build</Flag>
+	</Object>
+	<Object name="hook_bldg_miniBase_01" id="0" dbid="4141">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook/building/parkingLotUNSC_01/parkingLotUNSC_hologram_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<DisplayNameID>25936</DisplayNameID>
+		<RolloverTextID>25936</RolloverTextID>
+		<Hitpoints>10</Hitpoints>
+		<LOS>0</LOS>
+		<MovementType>Land</MovementType>
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<PickRadius>14</PickRadius>
+		<PickOffset>0.7</PickOffset>
+		<GathererLimit>1</GathererLimit>
+		<Command Type="BuildOther" Position="1" AutoClose="true">unsc_bldg_supplypad_01</Command>
+		<Command Type="BuildOther" Position="2" AutoClose="true">unsc_bldg_reactor_01</Command>
+		<Command Type="BuildOther" Position="3" AutoClose="true">unsc_bldg_fieldArmory_01</Command>
+		<Command Type="BuildOther" Position="7" AutoClose="true">unsc_bldg_barracks_01</Command>
+		<Command Type="BuildOther" Position="6" AutoClose="true">unsc_bldg_vehicledepot_01</Command>
+		<Command Type="BuildOther" Position="5" AutoClose="true">unsc_bldg_airpad_01</Command>
+		<Command Type="BuildOther" Position="1" AutoClose="true">cov_bldg_supplyDepot_01</Command>
+		<Command Type="BuildOther" Position="2" AutoClose="true">cov_bldg_temple_01</Command>
+		<Command Type="BuildOther" Position="5" AutoClose="true">cov_bldg_lightfactory_01</Command>
+		<Command Type="BuildOther" Position="6" AutoClose="true">cov_bldg_heavyfactory_01</Command>
+		<Command Type="BuildOther" Position="7" AutoClose="true">cov_bldg_barracks_01</Command>
+		<ChildObjects>
+			<Object Type="Rally" Offset="40,0,0" Rotation="0">sys_rallystart_01</Object>
+		</ChildObjects>
+		<ObjectType>BuildingSocket</ObjectType>
+		<ObjectType>_BuildingSocket</ObjectType>
+		<ObjectType>_Hook</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>SingleSocketBuilding</Flag>
+		<Flag>ForceCreateObstruction</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+		<Flag>PermanentSocket</Flag>
+		<Flag>UseBuildRotation</Flag>
+		<Flag>UseAutoParkingLot</Flag>
+	</Object>
+	<Object name="hook_bldg_socket_01" id="0" dbid="3753">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>unsc\Building\socket_01\socket_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<DisplayNameID>23629</DisplayNameID>
+		<RolloverTextID>23629</RolloverTextID>
+		<Hitpoints>10</Hitpoints>
+		<LOS>0</LOS>
+		<MovementType>Land</MovementType>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<PickRadius>9.8</PickRadius>
+		<PickOffset>0.7</PickOffset>
+		<GathererLimit>1</GathererLimit>
+		<Command Type="BuildOther" Position="1" AutoClose="true">unsc_bldg_supplypad_01</Command>
+		<Command Type="BuildOther" Position="2" AutoClose="true">unsc_bldg_reactor_01</Command>
+		<Command Type="BuildOther" Position="3" AutoClose="true">unsc_bldg_fieldArmory_01</Command>
+		<Command Type="BuildOther" Position="7" AutoClose="true">unsc_bldg_barracks_01</Command>
+		<Command Type="BuildOther" Position="6" AutoClose="true">unsc_bldg_vehicledepot_01</Command>
+		<Command Type="BuildOther" Position="5" AutoClose="true">unsc_bldg_airpad_01</Command>
+		<Command Type="BuildOther" Position="1" AutoClose="true">cov_bldg_supplyDepot_01</Command>
+		<Command Type="BuildOther" Position="2" AutoClose="true">cov_bldg_temple_01</Command>
+		<Command Type="BuildOther" Position="5" AutoClose="true">cov_bldg_lightfactory_01</Command>
+		<Command Type="BuildOther" Position="6" AutoClose="true">cov_bldg_heavyfactory_01</Command>
+		<Command Type="BuildOther" Position="7" AutoClose="true">cov_bldg_barracks_01</Command>
+		<ObjectType>BuildingSocket</ObjectType>
+		<ObjectType>_BuildingSocket</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>SingleSocketBuilding</Flag>
+		<Flag>ForceCreateObstruction</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+		<Flag>PermanentSocket</Flag>
+	</Object>
+	<Object name="hook_bldg_teleporter2way_01" is="0" id="2237" dbid="3486">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\building\teleporter2way_01\teleporter2way_01.vis</Visual>
+		<Hitpoints>5000</Hitpoints>
+		<LOS>15</LOS>
+		<DisplayNameID>24726</DisplayNameID>
+		<RoleTextID>24727</RoleTextID>
+		<GarrisonTime>0.5</GarrisonTime>
+		<ObstructionRadiusX>0</ObstructionRadiusX>
+		<ObstructionRadiusY>0</ObstructionRadiusY>
+		<ObstructionRadiusZ>0</ObstructionRadiusZ>
+		<PickRadius>10</PickRadius>
+		<PickOffset>11</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>SingleUnit</SelectType>
+		<SelectedRadiusX>8</SelectedRadiusX>
+		<SelectedRadiusZ>8</SelectedRadiusZ>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>TeleportPickup</ObjectType>
+		<ObjectType>_TeleportPickup</ObjectType>
+		<ObjectType>TeleportDropoff</ObjectType>
+		<ObjectType>_TeleportDropoff</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>_Hook</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<Sound Type="Exist">play_exist_teleporter</Sound>
+		<Sound Type="StopExist">stop_exist_teleporter</Sound>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>UnGarrisonToGaia</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>OneSquadContainment</Flag>
+		<Flag>Teleporter</Flag>
+		<Flag>NoGrayMapDoppledInCampaign</Flag>
+		<Tactics>hook_bldg_teleport_01.tactics</Tactics>
+	</Object>
+	<Object name="hook_bldg_teleporter1way_01" is="0" id="2237" dbid="3665">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\building\teleporter1way_01\teleporter1way_01.vis</Visual>
+		<Hitpoints>5000</Hitpoints>
+		<LOS>15</LOS>
+		<DisplayNameID>25581</DisplayNameID>
+		<RoleTextID>25582</RoleTextID>
+		<GarrisonTime>3</GarrisonTime>
+		<ObstructionRadiusX>0</ObstructionRadiusX>
+		<ObstructionRadiusY>0</ObstructionRadiusY>
+		<ObstructionRadiusZ>0</ObstructionRadiusZ>
+		<PickRadius>7.6</PickRadius>
+		<PickOffset>-0.5</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>SingleUnit</SelectType>
+		<SelectedRadiusX>8</SelectedRadiusX>
+		<SelectedRadiusZ>8</SelectedRadiusZ>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>TeleportDropoff</ObjectType>
+		<ObjectType>_TeleportDropoff</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>_Hook</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>NonSolid</Flag>
+		<Flag>UnGarrisonToGaia</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Tactics>hook_bldg_teleport_01.tactics</Tactics>
+	</Object>
+	<Object name="hook_spawner_FloodRelease_01" is="0" id="2333" dbid="3602">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\spawner\FloodRelease_01\FloodRelease_01.vis</Visual>
+		<DisplayNameID>24544</DisplayNameID>
+		<RolloverTextID>24545</RolloverTextID>
+		<RoleTextID>24546</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>25000</Hitpoints>
+		<ObstructionRadiusX>16</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>8.5</ObstructionRadiusZ>
+		<SelectedRadiusX>4.5</SelectedRadiusX>
+		<SelectedRadiusZ>4.5</SelectedRadiusZ>
+		<PickRadius>11</PickRadius>
+		<PickOffset>-3</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<MaxContained>1000</MaxContained>
+		<SelectType>Command</SelectType>
+		<DamageType direction="Full">Heavy</DamageType>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>1</MaxContained>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>UnGarrisonToGaia</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+		<Flag>HasHPBar</Flag>
+	</Object>
+	<Object name="hook_spawner_FloodRelease_02" is="0" id="2333" dbid="4145">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\spawner\FloodRelease_02\FloodRelease_02.vis</Visual>
+		<DisplayNameID>24544</DisplayNameID>
+		<RolloverTextID>24545</RolloverTextID>
+		<RoleTextID>24546</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>25000</Hitpoints>
+		<ObstructionRadiusX>16</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>8.5</ObstructionRadiusZ>
+		<SelectedRadiusX>4.5</SelectedRadiusX>
+		<SelectedRadiusZ>4.5</SelectedRadiusZ>
+		<PickRadius>11</PickRadius>
+		<PickOffset>-3</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<MaxContained>1000</MaxContained>
+		<SelectType>Command</SelectType>
+		<DamageType direction="Full">Heavy</DamageType>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>1</MaxContained>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>UnGarrisonToGaia</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+		<Flag>HasHPBar</Flag>
+	</Object>
+	<Object name="hook_bldg_megaTurret_01" id="0" dbid="3401">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\building\MegaTurret_01\megaTurret_01.vis</Visual>
+		<PhysicsInfo>cov_bldg_megaturret_01</PhysicsInfo>
+		<Ability>HookCoverWithLOS.triggerscript</Ability>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\bldg_mega_turret</PortraitIcon>
+		<Tactics>hook_bldg_megaTurret_01.tactics</Tactics>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10106</DisplayNameID>
+		<RolloverTextID>10107</RolloverTextID>
+		<PrereqTextID>245</PrereqTextID>
+		<RoleTextID>508</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>6000</Hitpoints>
+		<Shieldpoints>30000</Shieldpoints>
+		<CombatValue>20</CombatValue>
+		<Hardpoint name="Turret" autocenter="true" yawrate="30" pitchrate="15" pitchMinAngle="-5" pitchMaxAngle="85" yawattachment="turret" pitchattachment="gun" />
+		<LOS>55</LOS>
+		<BuildPoints>60</BuildPoints>
+		<Bounty>30</Bounty>
+		<Power>HookMegaTurret</Power>
+		<ObstructionRadiusX>8</ObstructionRadiusX>
+		<ObstructionRadiusY>9</ObstructionRadiusY>
+		<ObstructionRadiusZ>12</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>10.9</PickRadius>
+		<PickOffset>8.6</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>2</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<Command Type="Power" Position="2">HookMegaTurret</Command>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>1</MaxContained>
+		<Sound Type="Death">play_cov_banshee_death</Sound>
+		<Sound Type="Exist">start_exist_megaturret</Sound>
+		<Sound Type="StopExist">stop_exist_megaturret</Sound>
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full">Building</DamageType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<Socket Player="Player">BuildingSocket</Socket>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>UnGarrisonToGaia</Flag>
+	</Object>
+	<Object name="hook_bonus_reactor_01" is="0" id="2072" dbid="3251">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\bonus\reactor_01\reactor_01.vis</Visual>
+		<Ability>HookLockDownCover.triggerscript</Ability>
+		<DisplayNameID>24014</DisplayNameID>
+		<RolloverTextID>24020</RolloverTextID>
+		<RoleTextID>24020</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>75000</Hitpoints>
+		<LOS>55</LOS>
+		<BuildPoints>40</BuildPoints>
+		<AddResource Amount="1">Power</AddResource>
+		<ObstructionRadiusX>12</ObstructionRadiusX>
+		<ObstructionRadiusY>9</ObstructionRadiusY>
+		<ObstructionRadiusZ>12</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>10</SelectedRadiusX>
+		<SelectedRadiusZ>10</SelectedRadiusZ>
+		<PickRadius>11.5</PickRadius>
+		<PickOffset>2.6</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<DeathReplacement>hook_bonus_reactor_01</DeathReplacement>
+		<DamageType direction="Full">Heavy</DamageType>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>1</MaxContained>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<ObjectType>_PowerLevelBuilding</ObjectType>
+		<Sound Type="Exist">play_for_reactor_hook_exist</Sound>
+		<Sound Type="StopExist">stop_for_reactor_hook_exist</Sound>
+		<Sound Type="CaptureComplete">play_vog_map_reactor</Sound>
+		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>SoundBehindFOW</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>UnGarrisonToGaia</Flag>
+		<Flag>SoundBehindFOW</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+		<Flag>ForceUpdateContainedUnits</Flag>
+		<Flag>ObstructsAir</Flag>
+	</Object>
+	<Object name="hook_bonus_house_01" is="0" id="2072" dbid="3476">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\bonus\house_01\house_01.vis</Visual>
+		<Ability>HookLockDownCover.triggerscript</Ability>
+		<DisplayNameID>24022</DisplayNameID>
+		<RolloverTextID>24023</RolloverTextID>
+		<RoleTextID>24023</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>75000</Hitpoints>
+		<PopCapAddition Type="Unit">10</PopCapAddition>
+		<LOS>55</LOS>
+		<BuildPoints>40</BuildPoints>
+		<ObstructionRadiusX>12</ObstructionRadiusX>
+		<ObstructionRadiusY>9</ObstructionRadiusY>
+		<ObstructionRadiusZ>12</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>10</SelectedRadiusX>
+		<SelectedRadiusZ>10</SelectedRadiusZ>
+		<PickRadius>11.5</PickRadius>
+		<PickOffset>2.6</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<DeathReplacement>hook_bonus_house_01</DeathReplacement>
+		<DamageType direction="Full">Heavy</DamageType>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>1</MaxContained>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<Sound Type="Exist">play_for_reactor_hook_exist</Sound>
+		<Sound Type="StopExist">stop_for_reactor_hook_exist</Sound>
+		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>SoundBehindFOW</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>UnGarrisonToGaia</Flag>
+		<Flag>SoundBehindFOW</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+		<Flag>ForceUpdateContainedUnits</Flag>
+		<Flag>ObstructsAir</Flag>
+	</Object>
+	<Object name="hook_buff_healing_01" is="0" id="2026" dbid="3194">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\buff\healing_01\healing_01.vis</Visual>
+		<DisplayNameID>24013</DisplayNameID>
+		<RolloverTextID>24019</RolloverTextID>
+		<RoleTextID>24019</RoleTextID>
+		<Tactics>hook_buff_healing_01.tactics</Tactics>
+		<Hitpoints>1</Hitpoints>
+		<ObstructionRadiusX>8</ObstructionRadiusX>
+		<ObstructionRadiusY>14</ObstructionRadiusY>
+		<ObstructionRadiusZ>8</ObstructionRadiusZ>
+		<Flag>ObstructsAir</Flag>
+		<SelectedRadiusX>7</SelectedRadiusX>
+		<SelectedRadiusZ>7</SelectedRadiusZ>
+		<SelectType>SingleUnit</SelectType>
+		<PickRadius>12.8</PickRadius>
+		<PickOffset>9.5</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+	</Object>
+	<Object name="hook_bldg_civbuscover_01" is="0" id="2272" dbid="3530">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\building\civbuscover_01\civbuscover_01.vis</Visual>
+		<DisplayNameID>25365</DisplayNameID>
+		<RolloverTextID>25366</RolloverTextID>
+		<RoleTextID>25321</RoleTextID>
+		<LOS>55</LOS>
+		<Hitpoints>30000</Hitpoints>
+		<ObstructionRadiusX>9</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>20</ObstructionRadiusZ>
+		<SelectedRadiusX>9</SelectedRadiusX>
+		<SelectedRadiusZ>15</SelectedRadiusZ>
+		<PickRadius>8.02</PickRadius>
+		<PickOffset>0.2</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<DamageType direction="Full">Building</DamageType>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>1</MaxContained>
+		<SurfaceType>Metal</SurfaceType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>ForceUpdateContainedUnits</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+	</Object>
+	<Object name="hook_bldg_WarthogCover_01" is="0" id="2229" dbid="3477">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\building\WarthogCover_01\WarthogCover_01.vis</Visual>
+		<DisplayNameID>24387</DisplayNameID>
+		<RolloverTextID>24388</RolloverTextID>
+		<RoleTextID>25321</RoleTextID>
+		<LOS>55</LOS>
+		<Hitpoints>30000</Hitpoints>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>7</ObstructionRadiusZ>
+		<SelectedRadiusX>9</SelectedRadiusX>
+		<SelectedRadiusZ>15</SelectedRadiusZ>
+		<PickRadius>6</PickRadius>
+		<PickOffset>0.2</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<DamageType direction="Full">Building</DamageType>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>1</MaxContained>
+		<SurfaceType>Metal</SurfaceType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>ForceUpdateContainedUnits</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+	</Object>
+	<Object name="hook_bldg_WarthogCoverCinematic_01" is="0" id="2229" dbid="3477">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>hook\building\WarthogCover_01\WarthogCoverCinematic_01.vis</Visual>
+	</Object>
+	<Object name="hook_bldg_WarthogCover_02" is="0" id="2230" dbid="3478">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\building\WarthogCover_02\WarthogCover_02.vis</Visual>
+		<DisplayNameID>24387</DisplayNameID>
+		<RolloverTextID>24388</RolloverTextID>
+		<RoleTextID>25321</RoleTextID>
+		<LOS>55</LOS>
+		<Hitpoints>30000</Hitpoints>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>7</ObstructionRadiusZ>
+		<SelectedRadiusX>9</SelectedRadiusX>
+		<SelectedRadiusZ>15</SelectedRadiusZ>
+		<PickRadius>6</PickRadius>
+		<PickOffset>0.2</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<DamageType direction="Full">Building</DamageType>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>1</MaxContained>
+		<SurfaceType>Metal</SurfaceType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>ForceUpdateContainedUnits</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+	</Object>
+	<Object name="hook_bldg_WarthogCover_03" is="0" id="2231" dbid="3479">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\building\WarthogCover_03\WarthogCover_03.vis</Visual>
+		<DisplayNameID>24387</DisplayNameID>
+		<RolloverTextID>24388</RolloverTextID>
+		<RoleTextID>25321</RoleTextID>
+		<LOS>55</LOS>
+		<Hitpoints>30000</Hitpoints>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>7</ObstructionRadiusZ>
+		<SelectedRadiusX>9</SelectedRadiusX>
+		<SelectedRadiusZ>15</SelectedRadiusZ>
+		<PickRadius>6</PickRadius>
+		<PickOffset>0.2</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<DamageType direction="Full">Building</DamageType>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>1</MaxContained>
+		<SurfaceType>Metal</SurfaceType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>ForceUpdateContainedUnits</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+	</Object>
+	<Object name="hook_bldg_PelicanMediumCoverCinematic_01" is="0" id="2213" dbid="3436">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>hook\building\PelicanMediumCover_01\PelicanMediumCoverCinematic_01.vis</Visual>
+	</Object>
+	<Object name="hook_bldg_PelicanMediumCover_01" is="0" id="2213" dbid="3436">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\building\PelicanMediumCover_01\PelicanMediumCover_01.vis</Visual>
+		<DisplayNameID>23926</DisplayNameID>
+		<RolloverTextID>23927</RolloverTextID>
+		<RoleTextID>25321</RoleTextID>
+		<LOS>55</LOS>
+		<Hitpoints>30000</Hitpoints>
+		<ObstructionRadiusX>9</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>15</ObstructionRadiusZ>
+		<SelectedRadiusX>9</SelectedRadiusX>
+		<SelectedRadiusZ>15</SelectedRadiusZ>
+		<PickRadius>8.02</PickRadius>
+		<PickOffset>0.2</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<DamageType direction="Full">Building</DamageType>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>2</MaxContained>
+		<SurfaceType>Metal</SurfaceType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>ForceUpdateContainedUnits</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+	</Object>
+	<Object name="hook_bldg_PelicanMediumCover_02" is="0" id="2215" dbid="3438">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\building\PelicanMediumCover_02\PelicanMediumCover_02.vis</Visual>
+		<DisplayNameID>23926</DisplayNameID>
+		<RolloverTextID>23927</RolloverTextID>
+		<RoleTextID>25321</RoleTextID>
+		<LOS>55</LOS>
+		<Hitpoints>30000</Hitpoints>
+		<ObstructionRadiusX>9</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>15</ObstructionRadiusZ>
+		<SelectedRadiusX>9</SelectedRadiusX>
+		<SelectedRadiusZ>15</SelectedRadiusZ>
+		<PickRadius>8.02</PickRadius>
+		<PickOffset>0.2</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<DamageType direction="Full">Building</DamageType>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>2</MaxContained>
+		<SurfaceType>Metal</SurfaceType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>ForceUpdateContainedUnits</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+	</Object>
+	<Object name="hook_bldg_PelicanMediumCover_03" is="0" id="2227" dbid="3455">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\building\PelicanMediumCover_03\PelicanMediumCover_03.vis</Visual>
+		<DisplayNameID>23926</DisplayNameID>
+		<RolloverTextID>23927</RolloverTextID>
+		<RoleTextID>25321</RoleTextID>
+		<LOS>55</LOS>
+		<Hitpoints>30000</Hitpoints>
+		<ObstructionRadiusX>9</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>15</ObstructionRadiusZ>
+		<SelectedRadiusX>9</SelectedRadiusX>
+		<SelectedRadiusZ>15</SelectedRadiusZ>
+		<PickRadius>8.02</PickRadius>
+		<PickOffset>0.2</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<DamageType direction="Full">Building</DamageType>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>2</MaxContained>
+		<SurfaceType>Metal</SurfaceType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>ForceUpdateContainedUnits</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+	</Object>
+	<Object name="hook_bldg_pelicanCover_01" is="0" id="815" dbid="3217">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>environment\harvest\pelicanCover_01\pelicanCover_01.vis</Visual>
+		<DisplayNameID>23926</DisplayNameID>
+		<RolloverTextID>23927</RolloverTextID>
+		<RoleTextID>25321</RoleTextID>
+		<LOS>55</LOS>
+		<Hitpoints>15000</Hitpoints>
+		<ObstructionRadiusX>9</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>15</ObstructionRadiusZ>
+		<SelectedRadiusX>9</SelectedRadiusX>
+		<SelectedRadiusZ>15</SelectedRadiusZ>
+		<PickRadius>8.02</PickRadius>
+		<PickOffset>0.2</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<DamageType direction="Full">Building</DamageType>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>1</MaxContained>
+		<SurfaceType>Metal</SurfaceType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>ForceUpdateContainedUnits</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+	</Object>
+	<Object name="hook_bldg_sniperplatform_01" is="0" id="2047" dbid="3215">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\building\sniperplatform_01\sniperplatform_01.vis</Visual>
+		<Ability>HookCoverWithLOS.triggerscript</Ability>
+		<DisplayNameID>24016</DisplayNameID>
+		<RolloverTextID>23929</RolloverTextID>
+		<RoleTextID>23929</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>1</Hitpoints>
+		<LOS>55</LOS>
+		<Tactics>hook_bldg_sniperplatform_01.tactics</Tactics>
+		<ObstructionRadiusX>6</ObstructionRadiusX>
+		<ObstructionRadiusY>9</ObstructionRadiusY>
+		<ObstructionRadiusZ>6</ObstructionRadiusZ>
+		<SelectedRadiusX>7</SelectedRadiusX>
+		<SelectedRadiusZ>7</SelectedRadiusZ>
+		<PickRadius>8.4</PickRadius>
+		<PickOffset>6.8</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>1</MaxContained>
+		<Sound Type="Exist">play_sniperplatform_01_exist</Sound>
+		<Sound Type="StopExist">stop_sniperplatform_01_exist</Sound>
+		<ObjectType>_Hook</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>SoundBehindFOW</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>UnGarrisonToGaia</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+		<Flag>ForceUpdateContainedUnits</Flag>
+	</Object>
+	<Object name="hook_spawner_supply3hole_01" is="0" id="2049" dbid="3218">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\spawner\supply3hole_01\supply3hole_01.vis</Visual>
+		<MovementType>Land</MovementType>
+		<DisplayNameID>24015</DisplayNameID>
+		<RolloverTextID>24010</RolloverTextID>
+		<RoleTextID>24010</RoleTextID>
+		<Hitpoints>25000</Hitpoints>
+		<LOS>55</LOS>
+		<BuildPoints>40</BuildPoints>
+		<Tactics>hook_spawner_supply3hole_01.tactics</Tactics>
+		<ObstructionRadiusX>14</ObstructionRadiusX>
+		<ObstructionRadiusY>1</ObstructionRadiusY>
+		<ObstructionRadiusZ>14</ObstructionRadiusZ>
+		<SelectedRadiusX>10</SelectedRadiusX>
+		<SelectedRadiusZ>10</SelectedRadiusZ>
+		<PickRadius>10.5</PickRadius>
+		<PickOffset>7.2</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<DeathReplacement>hook_spawner_supply3hole_01</DeathReplacement>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<Command Type="Unload" Position="0" AutoClose="true" />
+		<Contain>Infantry</Contain>
+		<MaxContained>1</MaxContained>
+		<ObjectType>Garrison</ObjectType>
+		<ObjectType>_Garrison</ObjectType>
+		<ObjectType>GaiaGarrison</ObjectType>
+		<ObjectType>_Cover</ObjectType>
+		<Sound Type="Exist">play_for_supply3hole_exist</Sound>
+		<Sound Type="StopExist">stop_for_supply3hole_exist</Sound>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>SoundBehindFOW</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>UnGarrisonToGaia</Flag>
+		<Flag>SoundBehindFOW</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+		<Flag>ForceUpdateContainedUnits</Flag>
+		<Flag>ObstructsAir</Flag>
+		<Flag>Build</Flag>
+		<Flag>NoGrayMapDoppledInCampaign</Flag>
+	</Object>
+	<Object name="hook_store_sentinel_01" is="0" id="1924" dbid="3071">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\store\sentinel_01\sentinel_01.vis</Visual>
+		<DisplayNameID>23969</DisplayNameID>
+		<RolloverTextID>24017</RolloverTextID>
+		<RoleTextID>24017</RoleTextID>
+		<MinimapIcon size="15">Command</MinimapIcon>
+		<MovementType>Land</MovementType>
+		<Hitpoints>15000</Hitpoints>
+		<LOS>55</LOS>
+		<BuildPoints>20</BuildPoints>
+		<ObstructionRadiusX>23</ObstructionRadiusX>
+		<ObstructionRadiusY>10</ObstructionRadiusY>
+		<ObstructionRadiusZ>23</ObstructionRadiusZ>
+		<ObjectType>_Hook</ObjectType>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>23</SelectedRadiusX>
+		<SelectedRadiusZ>23</SelectedRadiusZ>
+		<PickRadius>19.18</PickRadius>
+		<PickOffset>-0.2</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<Command Type="TrainSquad" Position="1">for_air_sentinel_01</Command>
+		<Command Type="TrainSquad" Position="2">for_air_sentinel_03</Command>
+		<DeathReplacement>for_bldg_factory_01</DeathReplacement>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>_BirthOnTop</ObjectType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>Build</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+	</Object>
+	<Object name="hook_store_sentinel_02" is="0" id="1927" dbid="3074">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>hook\store\sentinel_02\sentinel_02.vis</Visual>
+		<DisplayNameID>23971</DisplayNameID>
+		<RoleTextID>24018</RoleTextID>
+		<MinimapIcon size="15">Command</MinimapIcon>
+		<MovementType>Land</MovementType>
+		<Hitpoints>15000</Hitpoints>
+		<LOS>55</LOS>
+		<BuildPoints>20</BuildPoints>
+		<ObstructionRadiusX>15</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>15</ObstructionRadiusZ>
+		<ObjectType>_Hook</ObjectType>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<SelectedRadiusX>15</SelectedRadiusX>
+		<SelectedRadiusZ>15</SelectedRadiusZ>
+		<PickRadius>13.6</PickRadius>
+		<PickOffset>2.6</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<Command Type="TrainSquad" Position="1">for_air_monitor_01</Command>
+		<Command Type="TrainSquad" Position="2">for_air_monitor_02</Command>
+		<Command Type="TrainSquad" Position="3">for_air_monitor_04</Command>
+		<DeathReplacement>for_bldg_factory_01</DeathReplacement>
+		<DamageType direction="Full">Heavy</DamageType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>_BirthOnTop</ObjectType>
+		<Sound Type="Exist">play_obj_steam_vent</Sound>
+		<Sound Type="StopExist">stop_obj_steam_vent</Sound>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>CommandableByAnyPlayer</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Neutral</Flag>
+		<Flag>Build</Flag>
+		<Flag>SelectionDontConformToTerrain</Flag>
+	</Object>
+	<Object name="hook_spawner_FloodReleaseEmblemA_01" is="0" id="8934" dbid="3817">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>hook\spawner\FloodReleaseEmblemA_01\FloodReleaseEmblemA_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="hook_spawner_FloodReleaseEmblemB_01" is="0" id="8935" dbid="3818">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>hook\spawner\FloodReleaseEmblemB_01\FloodReleaseEmblemB_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	</Objects>

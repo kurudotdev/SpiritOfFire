@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Objects><Object name="odst_power_hack_obstruction" id="0" dbid="310">
+		<ObstructionRadiusX>1</ObstructionRadiusX>
+		<ObstructionRadiusY>1</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
+	</Object>
+	</Objects>

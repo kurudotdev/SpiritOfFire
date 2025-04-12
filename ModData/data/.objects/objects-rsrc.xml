@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Objects><Object name="rsrc_supplies_crate_01" id="0" dbid="121">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>resource\supplies\crate_01\crate_01.vis</Visual>
+		<DisplayNameID>24061</DisplayNameID>
+		<RolloverTextID>24062</RolloverTextID>
+		<RoleTextID>24063</RoleTextID>
+		<MinimapColor Red="1" Green="0.8" Blue="0.4" />
+		<MovementType>Land</MovementType>
+		<Hitpoints>24</Hitpoints>
+		<ResourceAmount>30</ResourceAmount>
+		<ObstructionRadiusX>2.3</ObstructionRadiusX>
+		<ObstructionRadiusY>1.3</ObstructionRadiusY>
+		<ObstructionRadiusZ>2.3</ObstructionRadiusZ>
+		<PickRadius>2.9</PickRadius>
+		<PickOffset>0.4</PickOffset>
+		<PickPriority>Resource</PickPriority>
+		<SelectType>SingleUnit</SelectType>
+		<SelectedRadiusX>3.9</SelectedRadiusX>
+		<SelectedRadiusZ>3.9</SelectedRadiusZ>
+		<ObjectType>Resource</ObjectType>
+		<ObjectType>Resource_Supplies</ObjectType>
+		<ObjectType>_Gatherable</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<DeathFadeDelayTime>0</DeathFadeDelayTime>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Noncollideable</Flag>
+		<Flag>ForceCreateObstruction</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>DieAtZeroResources</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>Update</Flag>
+	</Object>
+	<Object name="rsrc_ForerunnerPower_capturepoint_02" is="0" id="655" dbid="674">
+		<Visual>resource\ForerunnerPower\capturepoint_02\capturepoint_02.vis</Visual>
+	</Object>
+	</Objects>

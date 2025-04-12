@@ -1,0 +1,1621 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Objects><Object name="fld_inf_infectedBrute_01" id="0" dbid="3794">
+		<PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\Infantry\InfectedBrute_01\InfectedBrute_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>24638</DisplayNameID>
+		<RolloverTextID>24639</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>785</Hitpoints>
+		<AttackGradeDPS>49.5</AttackGradeDPS>
+		<CombatValue>3</CombatValue>
+		<Pop Type="Unit">0.5</Pop>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Bounty>3</Bounty>
+		<Veterancy Level="1" XP="6" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="15" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="27" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>fld_inf_infectedBrute_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.4</ObstructionRadiusX>
+		<ObstructionRadiusY>2.6</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.4</ObstructionRadiusZ>
+		<PickRadius>2.1</PickRadius>
+		<PickOffset>2.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>4800</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_brute_birth</Sound>
+		<Sound Type="Death">play_death_infected_marine</Sound>
+		<Sound Type="Pain">play_cov_brute_vo_hit</Sound>
+		<Sound Type="Select">play_cov_brute_select</Sound>
+		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
+		<Sound Type="Ability">play_cov_brute_ability</Sound>
+		<Sound Type="Attack">play_cov_brute_attack</Sound>
+		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>EliteFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="fld_inf_infectedJackal_01" id="0" dbid="3795">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\Infantry\InfectedJackal_01\infected_jackal_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>24636</DisplayNameID>
+		<RolloverTextID>24637</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>176</Hitpoints>
+		<Shieldpoints>250</Shieldpoints>
+		<AttackGradeDPS>42</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<Pop Type="Unit">0.5</Pop>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Bounty>2</Bounty>
+		<Veterancy Level="1" XP="4" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="10" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="18" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>fld_inf_infectedJackal_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>1.4</ObstructionRadiusX>
+		<ObstructionRadiusY>1.8</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.4</ObstructionRadiusZ>
+		<PickRadius>1.9</PickRadius>
+		<PickOffset>1.4</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>4600</SubSelectSort>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<SquadModeAnim Mode="Sniper">AnchorDown</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
+		<Sound Type="Create">play_cov_jackal_birth</Sound>
+		<Sound Type="Death">play_death_infected_marine</Sound>
+		<Sound Type="Select">play_cov_jackal_select</Sound>
+		<Sound Type="Work">play_cov_jackal_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_jackal_attack</Sound>
+		<Sound Type="Pain">play_cov_jackal_vo_hit</Sound>
+		<ExtendedSoundBank>xtnd_ui_jackal.bnk</ExtendedSoundBank>
+		<DamageType direction="FrontHalf">Shielded</DamageType>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<SurfaceType>EliteFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+	</Object>
+	<Object name="fld_inf_infectedGrunt_01" id="0" dbid="3796">
+		<PhysicsReplacementInfo>grunt</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\Infantry\InfectedGrunt\InfectedGrunt_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>24634</DisplayNameID>
+		<RolloverTextID>24635</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>270</TurnRate>
+		<Hitpoints>394</Hitpoints>
+		<AttackGradeDPS>9.9</AttackGradeDPS>
+		<CombatValue>0.5</CombatValue>
+		<Pop Type="Unit">0.125</Pop>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Bounty>0.5</Bounty>
+		<Veterancy Level="1" XP="0.5" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="1.5" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="3" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>fld_inf_infectedGrunt_01.tactics</Tactics>
+		<RepairPoints>20</RepairPoints>
+		<ObstructionRadiusX>1</ObstructionRadiusX>
+		<ObstructionRadiusY>1.6</ObstructionRadiusY>
+		<ObstructionRadiusZ>1</ObstructionRadiusZ>
+		<PickRadius>2</PickRadius>
+		<PickOffset>1.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>4000</SubSelectSort>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_grunt_birth</Sound>
+		<Sound Type="Death">play_death_infected_marine</Sound>
+		<Sound Type="Select">play_cov_grunt_select</Sound>
+		<Sound Type="Work">play_cov_grunt_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_grunt_attack</Sound>
+		<Sound Type="RocketStart">play_grunt_methane_burst</Sound>
+		<Sound Type="RocketEnd">stop_grunt_methane_burst</Sound>
+		<Sound Type="ImpactDeath">play_impact_death_grunt</Sound>
+		<Sound Type="Pain">play_cov_grunt_vo_hit</Sound>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<DamageType direction="Full" mode="Cover">LightInCover</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<SurfaceType>gruntFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>CovGruntGrenade</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>RocketOnDeath</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="fld_Inf_flameMarine_01" is="0" id="1565" dbid="2569">
+		<ObjectClass>Squad</ObjectClass>
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<Visual>flood\Infantry\infectedflame_01\infectedflame_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>22674</DisplayNameID>
+		<RolloverTextID>22675</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>10</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>646</Hitpoints>
+		<AttackGradeDPS>39</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<Pop Type="Unit">0.5</Pop>
+		<LOS>55</LOS>
+		<Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="180" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+		<SingleBoneIK>Bip01 Spine</SingleBoneIK>
+		<Bounty>4</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>fld_inf_flameMarine_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>1</ObstructionRadiusX>
+		<ObstructionRadiusY>2</ObstructionRadiusY>
+		<ObstructionRadiusZ>1</ObstructionRadiusZ>
+		<PickRadius>2.4</PickRadius>
+		<PickOffset>1.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>3100</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
+		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
+		<Sound Type="Create">play_unsc_flame_marine_birth</Sound>
+		<Sound Type="Death">play_death_infected_marine</Sound>
+		<Sound Type="Select">play_unsc_flame_marine_select</Sound>
+		<Sound Type="Work">play_unsc_flame_marine_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_flame_marine_attack</Sound>
+		<Sound Type="Pain">play_unsc_flame_marine_vo_hit</Sound>
+		<ExtendedSoundBank>xtnd_ui_flame_ma.bnk</ExtendedSoundBank>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>8</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>9</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="fld_inf_infectedCarrier_01" is="0" id="596" dbid="218">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\Infantry\infectedcarrier_01\infectedcarrier_01.vis</Visual>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10166</DisplayNameID>
+		<RolloverTextID>10167</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>7</Velocity>
+		<TurnRate>1080</TurnRate>
+		<Hitpoints>100</Hitpoints>
+		<AttackGradeDPS>96</AttackGradeDPS>
+		<CombatValue>6</CombatValue>
+		<Pop Type="Unit">1</Pop>
+		<LOS>55</LOS>
+		<Bounty>6</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>fld_inf_InfectedCarrier_01.tactics</Tactics>
+		<RepairPoints>20</RepairPoints>
+		<ObstructionRadiusX>2</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>2</ObstructionRadiusZ>
+		<PickRadius>1.5</PickRadius>
+		<PickOffset>0.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Infantry</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<Sound Type="Death">play_death_infected_carrier</Sound>
+		<DeathSpawnSquad>fld_inf_InfectionForm_02</DeathSpawnSquad>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+	</Object>
+	<Object name="fld_egg_dead_01" is="0" id="596" dbid="2570">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>environment\shieldexterior\floodpod_01\floodpod_01.vis</Visual>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10094</DisplayNameID>
+		<RolloverTextID>10095</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>228</Hitpoints>
+		<AttackGradeDPS>96</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Bounty>0</Bounty>
+		<Tactics>fld_obj_egg.tactics</Tactics>
+		<RepairPoints>20</RepairPoints>
+		<ObstructionRadiusX>3.5</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>3.5</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>6</PickRadius>
+		<PickOffset>2</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>DontAutoAttackMe</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Update</Flag>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="fld_egg_infectionForm_01" is="0" id="596" dbid="3473">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>environment\shieldexterior\floodpod_01\floodpod_01.vis</Visual>
+		<PhysicsInfo>fld_egg_infectionform_01</PhysicsInfo>
+		<DeathSpawnSquad>fld_inf_InfectionForm_02</DeathSpawnSquad>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10094</DisplayNameID>
+		<RolloverTextID>10095</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>228</Hitpoints>
+		<AttackGradeDPS>96</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Bounty>0</Bounty>
+		<Tactics>fld_obj_egg.tactics</Tactics>
+		<RepairPoints>20</RepairPoints>
+		<ObstructionRadiusX>3.5</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>3.5</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>6</PickRadius>
+		<PickOffset>2</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>DontAutoAttackMe</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Update</Flag>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="fld_egg_musicForm_01" is="0" id="596" dbid="4013">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>environment\shieldexterior\floodpod_01\floodpod_01.vis</Visual>
+		<PhysicsInfo>fld_egg_infectionform_01</PhysicsInfo>
+		<DeathSpawnSquad>fld_inf_InfectionForm_02</DeathSpawnSquad>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10094</DisplayNameID>
+		<RolloverTextID>10095</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>228</Hitpoints>
+		<AttackGradeDPS>96</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Bounty>0</Bounty>
+		<Tactics>fld_obj_egg.tactics</Tactics>
+		<RepairPoints>20</RepairPoints>
+		<ObstructionRadiusX>3.5</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>3.5</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>6</PickRadius>
+		<PickOffset>2</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>DontAutoAttackMe</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>TriggersBattleMusicWhenAttacked</Flag>
+		<Flag>Update</Flag>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="fld_air_bomber_01" id="0" dbid="3666">
+		<PhysicsInfo>banshee</PhysicsInfo>
+		<PhysicsReplacementInfo>fld_bomber</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\air\bomber_01\bomber_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>24385</DisplayNameID>
+		<RolloverTextID>24386</RolloverTextID>
+		<RoleTextID>24386</RoleTextID>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>6</Velocity>
+		<TurnRate>60</TurnRate>
+		<Hitpoints>5000</Hitpoints>
+		<NumStasisFieldsToStop>0</NumStasisFieldsToStop>
+		<FlightLevel>-1</FlightLevel>
+		<AttackGradeDPS>0</AttackGradeDPS>
+		<CombatValue>10</CombatValue>
+		<Pop Type="Unit">2</Pop>
+		<LOS>55</LOS>
+		<Bounty>5</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Tactics>fld_air_bomber_01.tactics</Tactics>
+		<RepairPoints>20</RepairPoints>
+		<ObstructionRadiusX>8</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>8</ObstructionRadiusZ>
+		<PickRadius>2</PickRadius>
+		<PickOffset>3</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>4000</SubSelectSort>
+		<SelectedRadiusX>8</SelectedRadiusX>
+		<SelectedRadiusZ>8</SelectedRadiusZ>
+		<DamageType direction="Full">Flood</DamageType>
+		<Sound Type="Death">play_death_infected_carrier</Sound>
+		<Sound Type="Pain">play_tentacle_attack</Sound>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Aircraft</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<SurfaceType>gruntFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>RocketOnDeath</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>UNSC_Health</HPBar>
+		<Flag>AirMovement</Flag>
+	</Object>
+	<Object name="fld_egg_sporeCloud_01" is="0" id="596" dbid="3474">
+		<ObjectClass>Building</ObjectClass>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<Visual>environment\shieldexterior\floodpod_01\floodpod_01.vis</Visual>
+		<DeathSpawnSquad>fld_air_sporecloud_01</DeathSpawnSquad>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10094</DisplayNameID>
+		<RolloverTextID>10095</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>228</Hitpoints>
+		<AttackGradeDPS>96</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Bounty>0</Bounty>
+		<Tactics>fld_obj_egg.tactics</Tactics>
+		<RepairPoints>20</RepairPoints>
+		<ObstructionRadiusX>3.5</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>3.5</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>6</PickRadius>
+		<PickOffset>2</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<DamageType direction="Full">Flood</DamageType>
+		<Sound Type="Exist">play_flood_pod_exist</Sound>
+		<Sound Type="StopExist">stop_flood_pod_exist</Sound>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>DontAutoAttackMe</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Update</Flag>
+	</Object>
+	<Object name="fld_egg_supplyCrate_01" is="0" id="596" dbid="3475">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>environment\shieldexterior\floodpod_01\floodpod_01.vis</Visual>
+		<PhysicsInfo>fld_egg_infectionform_01</PhysicsInfo>
+		<DeathSpawnSquad>rsrc_supplies_crate_01</DeathSpawnSquad>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10094</DisplayNameID>
+		<RolloverTextID>10095</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>228</Hitpoints>
+		<AttackGradeDPS>96</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Bounty>0</Bounty>
+		<Tactics>fld_obj_egg.tactics</Tactics>
+		<RepairPoints>20</RepairPoints>
+		<ObstructionRadiusX>3.5</ObstructionRadiusX>
+		<ObstructionRadiusY>5</ObstructionRadiusY>
+		<ObstructionRadiusZ>3.5</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>6</PickRadius>
+		<PickOffset>2</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<DamageType direction="Full">Flood</DamageType>
+		<Sound Type="Exist">play_flood_pod_exist</Sound>
+		<Sound Type="StopExist">stop_flood_pod_exist</Sound>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>DontAutoAttackMe</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Update</Flag>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="fld_egg_stalkBase_01" is="0" id="596" dbid="3686">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>flood\building\FloodEggStalk_01\FloodEggStalk_01.vis</Visual>
+		<PhysicsInfo>fld_egg_stalkbase_01</PhysicsInfo>
+		<ChildObjects>
+			<Object Type="Unit" AttachBone="bone_egg01">fld_egg_stalkEgg_01</Object>
+			<Object Type="Unit" AttachBone="bone_egg02">fld_egg_stalkEgg_01</Object>
+			<Object Type="Unit" AttachBone="bone_egg03">fld_egg_stalkEgg_01</Object>
+		</ChildObjects>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10094</DisplayNameID>
+		<RolloverTextID>10095</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>228</Hitpoints>
+		<AttackGradeDPS>96</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Bounty>5</Bounty>
+		<RepairPoints>20</RepairPoints>
+		<ObstructionRadiusX>2.5</ObstructionRadiusX>
+		<ObstructionRadiusY>3.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>2.5</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>3.5</PickRadius>
+		<PickOffset>1.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>DontAutoAttackMe</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+	</Object>
+	<Object name="fld_egg_stalkBase_02" is="0" id="596" dbid="4187">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>flood\building\FloodEggStalk_02\FloodEggStalk_02.vis</Visual>
+		<PhysicsInfo>fld_egg_stalkbase_01</PhysicsInfo>
+		<ChildObjects>
+			<Object Type="Unit" AttachBone="bone_egg01">fld_egg_stalkEgg_01</Object>
+			<Object Type="Unit" AttachBone="bone_egg02">fld_egg_stalkEgg_01</Object>
+			<Object Type="Unit" AttachBone="bone_egg03">fld_egg_stalkEgg_01</Object>
+		</ChildObjects>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10094</DisplayNameID>
+		<RolloverTextID>10095</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>228</Hitpoints>
+		<AttackGradeDPS>96</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Bounty>5</Bounty>
+		<RepairPoints>20</RepairPoints>
+		<ObstructionRadiusX>2.5</ObstructionRadiusX>
+		<ObstructionRadiusY>3.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>2.5</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>3.5</PickRadius>
+		<PickOffset>1.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>DontAutoAttackMe</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+	</Object>
+	<Object name="fld_egg_stalkBase_03" is="0" id="596" dbid="4188">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>flood\building\FloodEggStalk_03\FloodEggStalk_03.vis</Visual>
+		<PhysicsInfo>fld_egg_stalkbase_01</PhysicsInfo>
+		<ChildObjects>
+			<Object Type="Unit" AttachBone="bone_egg01">fld_egg_stalkEgg_01</Object>
+			<Object Type="Unit" AttachBone="bone_egg02">fld_egg_stalkEgg_01</Object>
+			<Object Type="Unit" AttachBone="bone_egg03">fld_egg_stalkEgg_01</Object>
+		</ChildObjects>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10094</DisplayNameID>
+		<RolloverTextID>10095</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>228</Hitpoints>
+		<AttackGradeDPS>96</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Bounty>5</Bounty>
+		<RepairPoints>20</RepairPoints>
+		<ObstructionRadiusX>2.5</ObstructionRadiusX>
+		<ObstructionRadiusY>3.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>2.5</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>3.5</PickRadius>
+		<PickOffset>1.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>DontAutoAttackMe</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+	</Object>
+	<Object name="fld_egg_stalkEgg_01" is="0" id="596" dbid="3562">
+		<PhysicsInfo>rock</PhysicsInfo>
+		<ObjectClass>Building</ObjectClass>
+		<Visual>flood\building\FloodEggStalk_01\FloodEggStalkEgg_01.vis</Visual>
+		<DeathSpawnSquad>fld_inf_InfectionForm_02</DeathSpawnSquad>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10094</DisplayNameID>
+		<RolloverTextID>10095</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>2280</Hitpoints>
+		<AttackGradeDPS>96</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<LOS>55</LOS>
+		<Bounty>0</Bounty>
+		<Tactics>fld_obj_eggPhysics.tactics</Tactics>
+		<RepairPoints>20</RepairPoints>
+		<ObstructionRadiusX>1.5</ObstructionRadiusX>
+		<ObstructionRadiusY>1</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.5</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>2</PickRadius>
+		<PickOffset>0.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<Flag>KBAware</Flag>
+		<Flag>DontAutoAttackMe</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>NotSelectableWhenChildObject</Flag>
+	</Object>
+	<Object name="fld_inf_InfectedElite_01" id="0" dbid="221">
+		<PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry\InfectedElite_01\InfectedElite_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10164</DisplayNameID>
+		<RolloverTextID>10165</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>16</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>660</Hitpoints>
+		<AttackGradeDPS>41.3</AttackGradeDPS>
+		<CombatValue>2</CombatValue>
+		<Pop Type="Unit">0.5</Pop>
+		<LOS>55</LOS>
+		<Bounty>4</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<AmmoMax>1</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>fld_inf_infectedElite_01.tactics</Tactics>
+		<RepairPoints>33</RepairPoints>
+		<ObstructionRadiusX>1.4</ObstructionRadiusX>
+		<ObstructionRadiusY>2.2</ObstructionRadiusY>
+		<ObstructionRadiusZ>1.4</ObstructionRadiusZ>
+		<PickRadius>1.9</PickRadius>
+		<PickOffset>1.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1</SelectedRadiusZ>
+		<Sound Type="Create">play_cov_elite_birth</Sound>
+		<Sound Type="Death">play_death_infected_marine</Sound>
+		<Sound Type="Pain">play_cov_elite_vo_hit</Sound>
+		<Sound Type="Select">play_cov_elite_select</Sound>
+		<Sound Type="Work">play_cov_elite_acknowledge</Sound>
+		<Sound Type="Attack">play_cov_elite_attack</Sound>
+		<Sound Type="Ability">play_cov_elite_ability</Sound>
+		<ExtendedSoundBank>xtnd_ui_elite.bnk</ExtendedSoundBank>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<SurfaceType>EliteFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<HPBar>COV_Health</HPBar>
+	</Object>
+	<Object name="fld_inf_InfectedMarine_01" id="0" dbid="230">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry\InfectedMarine_01\InfectedMarine_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10162</DisplayNameID>
+		<RolloverTextID>10163</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>12</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>360</Hitpoints>
+		<AttackGradeDPS>15</AttackGradeDPS>
+		<CombatValue>1</CombatValue>
+		<Pop Type="Unit">0.25</Pop>
+		<LOS>55</LOS>
+		<Bounty>2</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<AmmoMax>130</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>fld_inf_InfectedMarine_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>0.9</ObstructionRadiusX>
+		<ObstructionRadiusY>2</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.9</ObstructionRadiusZ>
+		<PickRadius>2</PickRadius>
+		<PickOffset>1.5</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>3000</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
+		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
+		<Sound Type="Create">play_unsc_marine_birth</Sound>
+		<Sound Type="Death">play_death_infected_marine</Sound>
+		<Sound Type="Select">play_unsc_marine_select</Sound>
+		<Sound Type="Work">play_unsc_marine_acknowledge</Sound>
+		<Sound Type="Attack">play_unsc_marine_attack</Sound>
+		<Sound Type="Ability">play_unsc_marine_ability</Sound>
+		<Sound Type="Ability" Action="RocketAttackAction">play_unsc_marine_ability2</Sound>
+		<Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
+		<ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
+		<DamageType direction="Full" mode="Normal">Light</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>infantry</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>CanBeFlashBanged</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<SurfaceType>Flesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>HasTrackMask</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Obscurable</Flag>
+		<HPBar>UNSC_Health</HPBar>
+		<Flag>StartAtMaxAmmo</Flag>
+	</Object>
+	<Object name="fld_inf_tentacleDormant_01" id="0" dbid="3463">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>flood\Infantry\tentacleDormant_01\tentacleDormant_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>24258</DisplayNameID>
+		<RolloverTextID>24259</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>0</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>1000000</Hitpoints>
+		<AttackGradeDPS>90</AttackGradeDPS>
+		<CombatValue>10</CombatValue>
+		<Pop Type="Unit">3</Pop>
+		<LOS>55</LOS>
+		<Bounty>10</Bounty>
+		<AmmoMax>0</AmmoMax>
+		<AmmoRegenRate>0</AmmoRegenRate>
+		<Tactics>fld_inf_tentacleDormant_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>2</ObstructionRadiusX>
+		<ObstructionRadiusY>3</ObstructionRadiusY>
+		<ObstructionRadiusZ>2</ObstructionRadiusZ>
+		<PickRadius>3</PickRadius>
+		<PickOffset>2</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>3200</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
+		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>TurretBuilding</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasTrackMask</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>RegularAttacksMeleeOnly</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>KillOnDetach</Flag>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<DeathSpawnSquad>fld_inf_tentacle_01</DeathSpawnSquad>
+	</Object>
+	<Object name="fld_inf_tentacle_01" id="0" dbid="3464">
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\Infantry\tentacle_01\tentacle_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>24258</DisplayNameID>
+		<RolloverTextID>24259</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>0</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>10000</Hitpoints>
+		<AttackGradeDPS>90</AttackGradeDPS>
+		<CombatValue>10</CombatValue>
+		<Pop Type="Unit">3</Pop>
+		<LOS>55</LOS>
+		<Bounty>1</Bounty>
+		<AmmoMax>0</AmmoMax>
+		<AmmoRegenRate>0</AmmoRegenRate>
+		<Tactics>fld_inf_tentacle_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<PickRadius>3</PickRadius>
+		<PickOffset>2</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>3200</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
+		<SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
+		<SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
+		<DamageType direction="Full">Flood</DamageType>
+		<DeathReplacement>fld_inf_tentacle_shatterdeath_01</DeathReplacement>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>TurretBuilding</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscCyclopsThrow</AbilityCommand>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>HasTrackMask</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>RegularAttacksMeleeOnly</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>ShatterDeathReplacement</Flag>
+		<Flag>KillOnDetach</Flag>
+		<SquadModeAnim Mode="CarryingObject">PickUpItem</SquadModeAnim>
+		<FlashUI>
+			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
+			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>
+		</FlashUI>
+		<HPBar>UNSC_Health</HPBar>
+		<SweetSpotIK linkCount="8">BoneTentacleA_08</SweetSpotIK>
+	</Object>
+	<Object name="fld_inf_tentacle_shatterdeath_01" id="0" dbid="4272">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>flood\Infantry\tentacle_01\tentacleCryo_01.vis</Visual>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<ObjectType>CanCryo</ObjectType>
+	</Object>
+	<Object name="fld_bldg_nest_01" is="0" id="8952" dbid="3855">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>flood\building\nest_01\nest_01.vis</Visual>
+		<PhysicsInfo>fld_bldg_nest_01</PhysicsInfo>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>24678</DisplayNameID>
+		<RolloverTextID>24679</RolloverTextID>
+		<RoleTextID>24679</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>8000</Hitpoints>
+		<LOS>80</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Bounty>10</Bounty>
+		<Tactics>fld_bldg_spawner_01.tactics</Tactics>
+		<ObstructionRadiusX>5</ObstructionRadiusX>
+		<ObstructionRadiusY>2</ObstructionRadiusY>
+		<ObstructionRadiusZ>5</ObstructionRadiusZ>
+		<PickRadius>5</PickRadius>
+		<PickOffset>0</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>5.9</SelectedRadiusX>
+		<SelectedRadiusZ>5.6</SelectedRadiusZ>
+		<Command Type="TrainSquad" Position="1">fld_air_swarm_01</Command>
+		<Command Type="TrainSquad" Position="2">fld_inf_infectedCarrier_01</Command>
+		<Command Type="TrainSquad" Position="3">fld_inf_infectionForm_01</Command>
+		<Command Type="TrainSquad" Position="5">fld_inf_infectionForm_02</Command>
+		<Command Type="TrainSquad" Position="6">fld_inf_rhinodillo_01</Command>
+		<Command Type="Unload" Position="0" />
+		<Command Type="Kill" Position="4" />
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<ObjectType>FloodTrainer</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<Sound Type="Death">play_tentacle_attack</Sound>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>ManualBuild</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>DamageGarrisoned</Flag>
+		<HPBar>UNSC_Bldg_Health</HPBar>
+	</Object>
+	<Object name="fld_bldg_FloodLiver_01" is="0" id="8900" dbid="3718">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>flood\building\FloodLiver_01\FloodLiver_01.vis</Visual>
+		<PhysicsInfo>fld_bldg_floodliver_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>10038</DisplayNameID>
+		<RolloverTextID>24679</RolloverTextID>
+		<RoleTextID>24679</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>25000</Hitpoints>
+		<LOS>80</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Bounty>10</Bounty>
+		<Tactics>fld_bldg_floodliver_01.tactics</Tactics>
+		<ObstructionRadiusX>18</ObstructionRadiusX>
+		<ObstructionRadiusY>8</ObstructionRadiusY>
+		<ObstructionRadiusZ>22</ObstructionRadiusZ>
+		<PickRadius>16</PickRadius>
+		<PickOffset>0.1</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>5.9</SelectedRadiusX>
+		<SelectedRadiusZ>5.6</SelectedRadiusZ>
+		<Command Type="TrainSquad" Position="0">fld_air_swarm_01</Command>
+		<Command Type="TrainSquad" Position="1">fld_inf_infectedCarrier_01</Command>
+		<Command Type="TrainSquad" Position="2">fld_inf_infectionForm_01</Command>
+		<Command Type="TrainSquad" Position="3">fld_inf_infectionForm_02</Command>
+		<Command Type="TrainSquad" Position="4">fld_inf_rhinodillo_01</Command>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<ObjectType>FloodTrainer</ObjectType>
+		<Sound Type="Death">play_death_infected_carrier</Sound>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>ManualBuild</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>DamageGarrisoned</Flag>
+		<HPBar>UNSC_Bldg_Health</HPBar>
+	</Object>
+	<Object name="fld_bldg_spawner_01" id="0" dbid="2571">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>flood\building\spawner_01\spawner_01.vis</Visual>
+		<PhysicsInfo>fld_bldg_spawner_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>24806</DisplayNameID>
+		<RolloverTextID>24679</RolloverTextID>
+		<RoleTextID>24679</RoleTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>15000</Hitpoints>
+		<LOS>80</LOS>
+		<BuildPoints>30</BuildPoints>
+		<Bounty>10</Bounty>
+		<Tactics>fld_bldg_spawner_01.tactics</Tactics>
+		<ObstructionRadiusX>12</ObstructionRadiusX>
+		<ObstructionRadiusY>6</ObstructionRadiusY>
+		<ObstructionRadiusZ>10</ObstructionRadiusZ>
+		<PickRadius>14</PickRadius>
+		<PickOffset>-1</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Command</SelectType>
+		<SelectedRadiusX>5.9</SelectedRadiusX>
+		<SelectedRadiusZ>5.6</SelectedRadiusZ>
+		<Command Type="TrainSquad" Position="1">fld_air_swarm_01</Command>
+		<Command Type="TrainSquad" Position="2">fld_inf_infectedCarrier_01</Command>
+		<Command Type="TrainSquad" Position="3">fld_inf_infectionForm_01</Command>
+		<Command Type="TrainSquad" Position="5">fld_inf_infectionForm_02</Command>
+		<Command Type="TrainSquad" Position="6">fld_inf_rhinodillo_01</Command>
+		<Command Type="Unload" Position="0" />
+		<Command Type="Kill" Position="4" />
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Building</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<ObjectType>FloodTrainer</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<Sound Type="Death">play_tentacle_attack</Sound>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>ManualBuild</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>DamageGarrisoned</Flag>
+		<HPBar>UNSC_Bldg_Health</HPBar>
+	</Object>
+	<Object name="fld_bldg_artillery_01" id="0" dbid="1149">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>flood\building\artillery_01\artillery_01.vis</Visual>
+		<PhysicsInfo>fld_bldg_artillery_01</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="5">Building</MinimapIcon>
+		<DisplayNameID>24919</DisplayNameID>
+		<RolloverTextID>24920</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hitpoints>12000</Hitpoints>
+		<AttackGradeDPS>384.2</AttackGradeDPS>
+		<CombatValue>35</CombatValue>
+		<LOS>80</LOS>
+		<BuildPoints>98</BuildPoints>
+		<Bounty>26</Bounty>
+		<Tactics>fld_bldg_artillery_01.tactics</Tactics>
+		<ObstructionRadiusX>11</ObstructionRadiusX>
+		<ObstructionRadiusY>8</ObstructionRadiusY>
+		<ObstructionRadiusZ>10.5</ObstructionRadiusZ>
+		<TerrainHeightTolerance>10</TerrainHeightTolerance>
+		<PickRadius>9</PickRadius>
+		<PickOffset>1.5</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Unit</SelectType>
+		<SelectedRadiusX>5.9</SelectedRadiusX>
+		<SelectedRadiusZ>5.6</SelectedRadiusZ>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>TurretBuilding</ObjectType>
+		<ObjectType>_Building</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<Sound Type="Death">play_death_infected_carrier</Sound>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<DeathFadeTime>5</DeathFadeTime>
+		<DeathFadeDelayTime>10</DeathFadeDelayTime>
+		<Flag>KBAware</Flag>
+		<Flag>KBCreatesBase</Flag>
+		<Flag>SelectedRect</Flag>
+		<Flag>Build</Flag>
+		<Flag>ManualBuild</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>DamageGarrisoned</Flag>
+		<HPBar>UNSC_Bldg_Health</HPBar>
+	</Object>
+	<Object name="fld_inf_Rhinodillo_01" id="0" dbid="1150">
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\vehicle\Rhinodillo_01\Rhinodillo_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10168</DisplayNameID>
+		<RolloverTextID>10169</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>20</Velocity>
+		<Acceleration>26</Acceleration>
+		<TurnRate>540</TurnRate>
+		<Hitpoints>5000</Hitpoints>
+		<AttackGradeDPS>250</AttackGradeDPS>
+		<CombatValue>10</CombatValue>
+		<Pop Type="Unit">2</Pop>
+		<LOS>55</LOS>
+		<Bounty>40</Bounty>
+		<Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+		<Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<AmmoMax>130</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>fld_inf_rhinodillo_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<PickRadius>4</PickRadius>
+		<PickOffset>3</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>3000</SubSelectSort>
+		<SelectedRadiusX>1.3</SelectedRadiusX>
+		<SelectedRadiusZ>1.3</SelectedRadiusZ>
+		<Sound Type="Death">play_death_infected_marine</Sound>
+		<Sound Type="Pain">play_tentacle_attack</Sound>
+		<DamageType direction="Full">Flood</DamageType>
+		<DeathReplacement>fld_inf_Rhinodillo_shatterdeath_01</DeathReplacement>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>ShatterDeathReplacement</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>HasTrackMask</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Obscurable</Flag>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="fld_inf_Rhinodillo_shatterdeath_01" id="0" dbid="4273">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>flood\vehicle\Rhinodillo_01\RhinodilloCryo_01.vis</Visual>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<ObjectType>CanCryo</ObjectType>
+	</Object>
+	<Object name="fld_inf_InfectionForm_01" id="0" dbid="232">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry\InfectionForm_01\InfectionForm_01.vis</Visual>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10108</DisplayNameID>
+		<RolloverTextID>10109</RolloverTextID>
+		<MovementType>Flood</MovementType>
+		<Velocity>8.7</Velocity>
+		<MaxVelocity>18</MaxVelocity>
+		<Acceleration>17</Acceleration>
+		<TurnRate>270</TurnRate>
+		<Hitpoints>60</Hitpoints>
+		<CombatValue>0.4</CombatValue>
+		<Pop Type="Unit">0.1</Pop>
+		<LOS>55</LOS>
+		<Bounty>0.2</Bounty>
+		<Tactics>fld_inf_InfectionForm_01.tactics</Tactics>
+		<RepairPoints>20</RepairPoints>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.9</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
+		<PickRadius>1.5</PickRadius>
+		<PickOffset>0.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Infantry</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<Sound Type="Death">play_death_infection_form</Sound>
+		<SurfaceType>FloodFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>DoNotFilterOrient</Flag>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="fld_inf_InfectionForm_02" id="0" dbid="3757">
+		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\infantry\InfectionForm_01\InfectionForm_01.vis</Visual>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10108</DisplayNameID>
+		<RolloverTextID>10109</RolloverTextID>
+		<MovementType>Flood</MovementType>
+		<Velocity>8.7</Velocity>
+		<MaxVelocity>18</MaxVelocity>
+		<Acceleration>17</Acceleration>
+		<TurnRate>270</TurnRate>
+		<Hitpoints>60</Hitpoints>
+		<CombatValue>0.4</CombatValue>
+		<Pop Type="Unit">0.1</Pop>
+		<LOS>55</LOS>
+		<Bounty>0.2</Bounty>
+		<Tactics>fld_inf_InfectionForm_01.tactics</Tactics>
+		<RepairPoints>20</RepairPoints>
+		<Lifespan>45</Lifespan>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.9</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
+		<PickRadius>1.5</PickRadius>
+		<PickOffset>0.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Infantry</ObjectType>
+		<ObjectType>_Infantry</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<Sound Type="Death">play_death_infection_form</Sound>
+		<SurfaceType>FloodFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>DoNotFilterOrient</Flag>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
+	<Object name="fld_air_swarm_01" id="0" dbid="1151">
+		<ObjectClass>Squad</ObjectClass>
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<Visual>flood\air\swarm_01\swarm_01.vis</Visual>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>22238</DisplayNameID>
+		<MovementType>Air</MovementType>
+		<FlightLevel>0</FlightLevel>
+		<Velocity>10</Velocity>
+		<TurnRate>120</TurnRate>
+		<Hitpoints>450</Hitpoints>
+		<NumStasisFieldsToStop>0</NumStasisFieldsToStop>
+		<LOS>55</LOS>
+		<CombatValue>2</CombatValue>
+		<Pop Type="Unit">0.5</Pop>
+		<Bounty>2</Bounty>
+		<Tactics>fld_air_swarm_01.tactics</Tactics>
+		<ObstructionRadiusX>2</ObstructionRadiusX>
+		<ObstructionRadiusY>1.5</ObstructionRadiusY>
+		<ObstructionRadiusZ>2</ObstructionRadiusZ>
+		<PickRadius>2.5</PickRadius>
+		<PickOffset>0.8</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>1</SelectedRadiusX>
+		<SelectedRadiusZ>0.5</SelectedRadiusZ>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<Sound Type="Death">play_death_flood_swarm</Sound>
+		<SurfaceType>FloodFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>AirMovement</Flag>
+		<Flag>NoStickyCam</Flag>
+		<HPBar>UNSC_Health</HPBar>
+		<RolloverTextID>24386</RolloverTextID>
+	</Object>
+	<Object name="fld_air_sporecloud_01" id="0" dbid="3423">
+		<PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\air\sporecloud_01\sporecloud_01.vis</Visual>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>25673</DisplayNameID>
+		<MovementType>Air</MovementType>
+		<Lifespan>15</Lifespan>
+		<Velocity>20</Velocity>
+		<TurnRate>270</TurnRate>
+		<Hitpoints>1</Hitpoints>
+		<LOS>55</LOS>
+		<CombatValue>20</CombatValue>
+		<Pop Type="Unit">4</Pop>
+		<Bounty>1</Bounty>
+		<FlightLevel>-8</FlightLevel>
+		<Tactics>fld_air_sporecloud_01.tactics</Tactics>
+		<ObstructionRadiusX>2</ObstructionRadiusX>
+		<ObstructionRadiusY>1.2</ObstructionRadiusY>
+		<ObstructionRadiusZ>2</ObstructionRadiusZ>
+		<PickRadius>7.7</PickRadius>
+		<PickOffset>2</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Air</GotoType>
+		<SelectedRadiusX>7.3</SelectedRadiusX>
+		<SelectedRadiusZ>2</SelectedRadiusZ>
+		<DamageType direction="Full">Flood</DamageType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>AirCraft</ObjectType>
+		<ObjectType>Flying</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<SurfaceType>FloodFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>AirMovement</Flag>
+		<Flag>Invulnerable</Flag>
+		<RolloverTextID>24386</RolloverTextID>
+	</Object>
+	<Object name="fld_building_boss_01" is="0" id="1141" dbid="1301">
+		<ObjectClass>Building</ObjectClass>
+		<Visual>flood\building\boss_01\boss_01.vis</Visual>
+		<PhysicsInfo>fld_bldg_boss_01</PhysicsInfo>
+		<DisplayNameID>24655</DisplayNameID>
+		<RoleTextID>24656</RoleTextID>
+		<LOS>20</LOS>
+		<Hitpoints>150000</Hitpoints>
+		<Tactics>fld_building_boss_01.tactics</Tactics>
+		<ObstructionRadiusX>25</ObstructionRadiusX>
+		<ObstructionRadiusY>18</ObstructionRadiusY>
+		<ObstructionRadiusZ>25</ObstructionRadiusZ>
+		<SelectedRadiusX>25</SelectedRadiusX>
+		<SelectedRadiusZ>25</SelectedRadiusZ>
+		<PickRadius>25</PickRadius>
+		<PickOffset>10</PickOffset>
+		<PickPriority>Building</PickPriority>
+		<SelectType>Unit</SelectType>
+		<DamageType direction="Full">Heavy</DamageType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<ObjectType>NonFlying</ObjectType>
+		<Flag>SelectedRect</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>ObstructsAir</Flag>
+		<Flag>HasHPBar</Flag>
+		<HPBar>UNSC_Health</HPBar>
+		<Flag>TriggersBattleMusicWhenAttacked</Flag>
+	</Object>
+	<Object name="fld_building_FloodHiveMind_01" is="0" id="8950" dbid="3851">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>flood\building\FloodHiveMind_01\FloodHiveMind_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="fld_building_FloodEggBase_01" is="0" id="9016" dbid="3961">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>flood\building\FloodEggBase_01\FloodEggBase_01.vis</Visual>
+		<Flag>ForceToGaiaPlayer</Flag>
+		<Flag>GrayMapDoppled</Flag>
+	</Object>
+	<Object name="fld_air_lugee_01" id="0" dbid="4016">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>flood\building\floodlugee_01\floodlugee_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>125</Velocity>
+		<Tactics>fld_air_lugee_01.tactics</Tactics>
+		<Lifespan>2</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Sound Type="Exist">play_odst_airdrop_travel</Sound>
+		<Sound Type="StopExist">stop_odst_airdrop_travel</Sound>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<MaxProjectileHeight>35</MaxProjectileHeight>
+		<ImpactDecal sizeX="30" sizeZ="30" timeFullyOpaque="45" fadeOutTime="10" orientation="random">decals\bigscorch_01</ImpactDecal>
+	</Object>
+	</Objects>
