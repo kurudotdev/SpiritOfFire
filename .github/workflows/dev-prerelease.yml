@@ -43,10 +43,17 @@ jobs:
         run: |
           mkdir -p dist
           zip_name="SpiritOfFire-dev-latest.zip"
+
           cd ModData
-          find . -type f ! -path './.*/*' ! -path './.*' -print |
-            zip "../dist/$zip_name" -@
+
+          # Build a list of files NOT in dot-prefixed directories
+          find . -type f ! -regex '\./\..*' ! -path './.*/*' > ../filelist.txt
+
+          # Use zip with file list
+          zip "../dist/$zip_name" -@ < ../filelist.txt
+
           cd ..
+
 
       - name: Create or Update Dev Prerelease
         uses: softprops/action-gh-release@v1
