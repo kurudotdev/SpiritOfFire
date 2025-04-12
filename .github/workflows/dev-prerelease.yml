@@ -39,21 +39,23 @@ jobs:
       - name: Merge .objects into objects.xml
         run: python scripts/merge_objects.py --data-path ModData/data
         
-      - name: Create ZIP of ModData (excluding dot folders)
+      - name: Create ZIP of ModData (excluding dot folders and files)
         run: |
           mkdir -p dist
           zip_name="SpiritOfFire-dev-latest.zip"
 
           cd ModData
 
-          # List all top-level entries (excluding dotfolders)
-          for path in data/*; do
-            if [[ "$(basename "$path")" != .* ]]; then
-              zip -r "../dist/$zip_name" "$path"
-            fi
-          done
+          # Use rsync to build a clean temp folder without dot-prefixed entries
+          mkdir ../clean_moddata
+          rsync -av --exclude='.*' ./ ../clean_moddata/
+
+          cd ../clean_moddata
+
+          zip -r "../dist/$zip_name" .  # zip from clean copy
 
           cd ..
+
 
       - name: Create or Update Dev Prerelease
         uses: softprops/action-gh-release@v1
