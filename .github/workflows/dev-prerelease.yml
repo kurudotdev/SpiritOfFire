@@ -43,44 +43,8 @@ jobs:
           echo "$changelog" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
-      - name: Merge dot-prefixed folders into single XMLs
-        run: |
-          echo 'import os
-import xml.etree.ElementTree as ET
-
-base_path = "ModData/data"
-
-for folder in os.listdir(base_path):
-    folder_path = os.path.join(base_path, folder)
-    if not os.path.isdir(folder_path):
-        continue
-    if not folder.startswith("."):
-        continue
-
-    prefix = folder[1:]  # remove the dot, e.g., ".objects" -> "objects"
-    output_file = os.path.join(base_path, f"{prefix}.xml")
-    root = ET.Element("Objects")
-
-    for filename in sorted(os.listdir(folder_path)):
-        if not filename.endswith(".xml"):
-            continue
-        if not filename.startswith(prefix + "-"):
-            continue
-
-        file_path = os.path.join(folder_path, filename)
-        try:
-            tree = ET.parse(file_path)
-            for obj in tree.getroot():
-                root.append(obj)
-        except Exception as e:
-            print(f"Error processing {file_path}: {e}")
-
-    tree = ET.ElementTree(root)
-    tree.write(output_file, encoding="utf-8", xml_declaration=True)
-    print(f"Merged into {output_file}")
-' > merge_dotfolders.py
-
-          python3 merge_dotfolders.py
+      - name: Merge .objects into objects.xml
+        run: python scripts/merge_objects.py --data-path ModData/data
 
       - name: Create ZIP of ModData (excluding dot folders)
         run: |
