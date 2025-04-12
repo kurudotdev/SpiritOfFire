@@ -3,7 +3,7 @@ name: Create Dev Prerelease
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   prerelease:
@@ -42,6 +42,9 @@ jobs:
           echo "changelog<<EOF" >> $GITHUB_OUTPUT
           echo "$changelog" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Merge .objects into objects.xml
+        run: python scripts/merge_objects.py --data-path ModData/data
 
       - name: Create ZIP of ModData (excluding dot folders)
         run: |
