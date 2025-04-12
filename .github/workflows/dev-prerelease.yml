@@ -44,17 +44,19 @@ jobs:
           mkdir -p dist
           zip_name="SpiritOfFire-dev-latest.zip"
 
-          cd ModData
+          # Use rsync to build a clean copy of ModData excluding dotfolders/files
+          mkdir -p ModData-clean
+          rsync -av --exclude='.*' ModData/ ModData-clean/
 
-          # Use rsync to build a clean temp folder without dot-prefixed entries
-          mkdir ../clean_moddata
-          rsync -av --exclude='.*' ./ ../clean_moddata/
+          # Rename clean folder to ModData to preserve structure
+          mv ModData-clean ModData-stripped
 
-          cd ../clean_moddata
+          # Zip with ModData/ as the root
+          zip -r "dist/$zip_name" ModData
 
-          zip -r "../dist/$zip_name" .  # zip from clean copy
-
-          cd ..
+          # Optional: rename back or clean up
+          rm -rf ModData-stripped
+      
 
 
       - name: Create or Update Dev Prerelease
