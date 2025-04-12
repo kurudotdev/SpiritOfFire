@@ -39,20 +39,21 @@ jobs:
       - name: Merge .objects into objects.xml
         run: python scripts/merge_objects.py --data-path ModData/data
         
-      - name: Create ZIP of ModData (excluding all dot folders and files, recursively)
+      - name: Create ZIP of ModData (excluding all dot folders and files recursively)
         run: |
           mkdir -p dist
           zip_name="SpiritOfFire-dev-latest.zip"
 
           mkdir -p ModData-clean
-          rsync -av --filter=':- .gitignore' \
-                    --exclude='.*' \
-                    --exclude='*/.*' \
-                    ModData/ ModData-clean/
+          rsync -av --exclude='.*' --exclude='*/.*' ModData/ ModData-clean/
 
+          mv ModData ModData-original
           mv ModData-clean ModData
 
           zip -r "dist/$zip_name" ModData
+
+          rm -rf ModData
+          mv ModData-original ModData
 
       - name: Create or Update Dev Prerelease
         uses: softprops/action-gh-release@v1
