@@ -16,7 +16,7 @@
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">0</Resource>
-		<StartingUnit Offset="0,0,0" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingUnit Offset="0,0,0" DoppleOnStart="true">unsc_bldg_command_02</StartingUnit>
 		<StartingSquad FlyIn="true" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
@@ -39,7 +39,7 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
 		<Resource Type="Power">0</Resource>
-		<StartingUnit Offset="0,0,0" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingUnit Offset="0,0,0" DoppleOnStart="true">cov_bldg_builder_02</StartingUnit>
 		<StartingSquad FlyIn="true" Offset="60,0,-20">cov_veh_ghost_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
