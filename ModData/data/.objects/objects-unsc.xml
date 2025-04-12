@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Objects><Object name="unsc_bldg_command_01" id="0" dbid="128">
+<Objects>
+	<Object name="unsc_bldg_command_01" id="0" dbid="128">
 		<ObjectClass>Building</ObjectClass>
 		<TrainerType>0</TrainerType>
 		<Visual>unsc\building\command_01\command_01.vis</Visual>
@@ -226,7 +227,8 @@
 		<Flag>SelectionDontConformToTerrain</Flag>
 		<FlashUI>
 			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
-			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>.</FlashUI>
+			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>.
+		</FlashUI>
 		<HPBar offset="0,23,0">UNSC_Bldg_HealthCommand</HPBar>
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
@@ -351,7 +353,8 @@
 		<Flag>SelectionDontConformToTerrain</Flag>
 		<FlashUI>
 			<CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
-			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>.</FlashUI>
+			<CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>.
+		</FlashUI>
 		<HPBar offset="0,23,0">UNSC_Bldg_HealthCommand</HPBar>
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
@@ -3356,4 +3359,16 @@
 		<Flag>GrayMapDoppled</Flag>
 		<Flag>Immoveable</Flag>
 	</Object>
-	</Objects>
+	<Object name="unsc_TEST_MERGING_AM_I_MERGED_YET" id="0" dbid="173">
+		<ObjectClass>Object</ObjectClass>
+		<SurfaceType>Metal</SurfaceType>
+		<Visual>unsc\prop\crashedpelican_01\crashedpelican_01.vis</Visual>
+		<PortraitIcon>ui\ingame\resource_solids</PortraitIcon>
+		<Sound Type="Exist">play_scn_01_pelican_fire_01</Sound>
+		<Sound Type="StopExist">stop_scn_01_pelican_fire_01</Sound>
+		<Flag>SoundBehindFOW</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>GrayMapDoppled</Flag>
+		<Flag>Immoveable</Flag>
+	</Object>
+</Objects>
