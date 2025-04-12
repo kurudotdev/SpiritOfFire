@@ -1,0 +1,60 @@
+name: Create Dev Prerelease
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  prerelease:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Generate Changelog
+        id: changelog
+        run: |
+          # Fetch the previous 'dev-latest' tag
+          previous_tag=$(git describe --tags --abbrev=0 --match "dev-latest" 2>/dev/null || echo "")
+          
+          # Determine the range for changelog
+          if [ -n "$previous_tag" ]; then
+            range="$previous_tag..HEAD"
+          else
+            range=""
+          fi
+
+          # Generate changelog from commit messages
+          changelog=$(git log --pretty=format:"- %s (%h)" $range)
+          
+          # Output changelog for use in next steps
+          echo "changelog<<EOF" >> $GITHUB_OUTPUT
+          echo "$changelog" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Create ZIP of ModData (excluding dot folders)
+        run: |
+          mkdir -p dist
+          zip_name="SpiritOfFire-dev-latest.zip"
+          zip -r "dist/$zip_name" ModData -x 'ModData/.*/*' -x 'ModData/.*'
+
+      - name: Create or Update Dev Prerelease
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: dev-latest
+          name: Development Build
+          body: ${{ steps.changelog.outputs.changelog }}
+          prerelease: true
+          files: dist/SpiritOfFire-dev-latest.zip
+          token: ${{ secrets.GITHUB_TOKEN }}
